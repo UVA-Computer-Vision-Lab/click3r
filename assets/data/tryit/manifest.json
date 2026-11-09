@@ -1,0 +1,428 @@
+[
+ {
+  "id": "p232",
+  "dataset": "scannet",
+  "dataset_label": "ScanNet",
+  "scene": "scene0732_00",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    168.79,
+    3.92
+   ],
+   "dust3r": 34.1,
+   "pi3": 96.48
+  },
+  "rte": {
+   "click3r": [
+    24.35,
+    2.59
+   ],
+   "dust3r": 53.86,
+   "pi3": 33.05
+  }
+ },
+ {
+  "id": "p278",
+  "dataset": "ca1m",
+  "dataset_label": "CA-1M",
+  "scene": "42445699",
+  "k_max": 2,
+  "default_k": 2,
+  "rre": {
+   "click3r": [
+    130.07,
+    64.11,
+    4.52
+   ],
+   "dust3r": 79.24,
+   "pi3": 97.06
+  },
+  "rte": {
+   "click3r": [
+    28.76,
+    24.42,
+    1.35
+   ],
+   "dust3r": 18.04,
+   "pi3": 82.04
+  }
+ },
+ {
+  "id": "w117",
+  "dataset": "wildrgbd",
+  "dataset_label": "WildRGB-D",
+  "scene": "bucket/scenes/scene_006",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    137.85,
+    4.23
+   ],
+   "dust3r": 170.48,
+   "pi3": 103.65
+  },
+  "rte": {
+   "click3r": [
+    74.53,
+    2.61
+   ],
+   "dust3r": 80.04,
+   "pi3": 53.5
+  }
+ },
+ {
+  "id": "p061",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "scene": "vase/401_51996_102064",
+  "k_max": 4,
+  "default_k": 3,
+  "rre": {
+   "click3r": [
+    176.2,
+    21.22,
+    8.08,
+    5.91,
+    4.66
+   ],
+   "dust3r": 175.03,
+   "pi3": 18.82
+  },
+  "rte": {
+   "click3r": [
+    82.07,
+    15.69,
+    5.22,
+    5.71,
+    5.32
+   ],
+   "dust3r": 71.66,
+   "pi3": 8.57
+  }
+ },
+ {
+  "id": "w257",
+  "dataset": "nrgbd",
+  "dataset_label": "NRGBD",
+  "scene": "breakfast_room",
+  "k_max": 2,
+  "default_k": 2,
+  "rre": {
+   "click3r": [
+    154.2,
+    64.52,
+    7.87
+   ],
+   "dust3r": 179.69,
+   "pi3": 15.38
+  },
+  "rte": {
+   "click3r": [
+    72.68,
+    20.44,
+    2.62
+   ],
+   "dust3r": 54.31,
+   "pi3": 9.77
+  }
+ },
+ {
+  "id": "w063",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "scene": "umbrella/397_50285_98754",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    35.38,
+    7.48
+   ],
+   "dust3r": 118.53,
+   "pi3": 16.93
+  },
+  "rte": {
+   "click3r": [
+    17.19,
+    5.18
+   ],
+   "dust3r": 70.67,
+   "pi3": 13.25
+  }
+ },
+ {
+  "id": "w282",
+  "dataset": "ca1m",
+  "dataset_label": "CA-1M",
+  "scene": "42445707",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    177.94,
+    5.7
+   ],
+   "dust3r": 104.85,
+   "pi3": 25.33
+  },
+  "rte": {
+   "click3r": [
+    51.98,
+    8.1
+   ],
+   "dust3r": 30.14,
+   "pi3": 34.02
+  }
+ },
+ {
+  "id": "w000",
+  "dataset": "blendedmvs",
+  "dataset_label": "BlendedMVS",
+  "scene": "59acd2f4b891807f439c8992",
+  "k_max": 2,
+  "default_k": 2,
+  "rre": {
+   "click3r": [
+    148.57,
+    22.27,
+    9.62
+   ],
+   "dust3r": 156.63,
+   "pi3": 33.57
+  },
+  "rte": {
+   "click3r": [
+    54.84,
+    10.22,
+    7.1
+   ],
+   "dust3r": 16.45,
+   "pi3": 4.73
+  }
+ },
+ {
+  "id": "w112",
+  "dataset": "habitat",
+  "dataset_label": "Habitat",
+  "scene": "hm3d/train/00798-bpqKLXHnxei/bpqKLXHnxei.basis",
+  "k_max": 3,
+  "default_k": 3,
+  "rre": {
+   "click3r": [
+    43.64,
+    42.42,
+    8.46,
+    7.5
+   ],
+   "dust3r": 22.52,
+   "pi3": 127.08
+  },
+  "rte": {
+   "click3r": [
+    38.92,
+    33.91,
+    10.83,
+    8.35
+   ],
+   "dust3r": 20.55,
+   "pi3": 41.52
+  }
+ },
+ {
+  "id": "w180",
+  "dataset": "dtu",
+  "dataset_label": "DTU",
+  "scene": "scan11",
+  "k_max": 4,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    179.45,
+    1.76,
+    1.73,
+    2.03,
+    1.83
+   ],
+   "dust3r": 176.99,
+   "pi3": 174.6
+  },
+  "rte": {
+   "click3r": [
+    89.9,
+    1.79,
+    1.38,
+    1.28,
+    1.01
+   ],
+   "dust3r": 85.26,
+   "pi3": 89.0
+  }
+ },
+ {
+  "id": "p003",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "scene": "book/209_22184_45215",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    48.53,
+    1.31
+   ],
+   "dust3r": 174.85,
+   "pi3": 170.95
+  },
+  "rte": {
+   "click3r": [
+    40.52,
+    1.14
+   ],
+   "dust3r": 83.43,
+   "pi3": 82.74
+  }
+ },
+ {
+  "id": "p902",
+  "dataset": "scannet",
+  "dataset_label": "ScanNet",
+  "scene": "scene0750_00",
+  "k_max": 2,
+  "default_k": 2,
+  "rre": {
+   "click3r": [
+    83.43,
+    74.74,
+    6.46
+   ],
+   "dust3r": 84.49,
+   "pi3": 25.99
+  },
+  "rte": {
+   "click3r": [
+    88.01,
+    82.27,
+    10.21
+   ],
+   "dust3r": 26.36,
+   "pi3": 9.42
+  }
+ },
+ {
+  "id": "w046",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "scene": "cellphone/506_73107_142421",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    147.8,
+    1.95
+   ],
+   "dust3r": 178.44,
+   "pi3": 179.58
+  },
+  "rte": {
+   "click3r": [
+    69.78,
+    1.76
+   ],
+   "dust3r": 87.77,
+   "pi3": 85.78
+  }
+ },
+ {
+  "id": "p277",
+  "dataset": "ca1m",
+  "dataset_label": "CA-1M",
+  "scene": "44796191",
+  "k_max": 1,
+  "default_k": 1,
+  "rre": {
+   "click3r": [
+    38.75,
+    1.97
+   ],
+   "dust3r": 83.61,
+   "pi3": 93.64
+  },
+  "rte": {
+   "click3r": [
+    9.54,
+    3.6
+   ],
+   "dust3r": 46.5,
+   "pi3": 33.36
+  }
+ },
+ {
+  "id": "p900",
+  "dataset": "dtu",
+  "dataset_label": "DTU",
+  "scene": "scan10",
+  "k_max": 8,
+  "default_k": 8,
+  "rre": {
+   "click3r": [
+    46.13,
+    5.06,
+    4.95,
+    2.64,
+    4.31,
+    3.07,
+    4.77,
+    4.15,
+    4.3
+   ],
+   "dust3r": 82.37,
+   "pi3": 87.61
+  },
+  "rte": {
+   "click3r": [
+    70.06,
+    4.88,
+    14.4,
+    11.06,
+    1.95,
+    0.64,
+    1.74,
+    1.48,
+    1.14
+   ],
+   "dust3r": 54.88,
+   "pi3": 72.29
+  }
+ },
+ {
+  "id": "w049",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "scene": "donut/370_40631_80640",
+  "k_max": 3,
+  "default_k": 3,
+  "rre": {
+   "click3r": [
+    115.51,
+    102.25,
+    14.11,
+    8.51
+   ],
+   "dust3r": 94.71,
+   "pi3": 104.52
+  },
+  "rte": {
+   "click3r": [
+    40.39,
+    81.5,
+    13.21,
+    7.68
+   ],
+   "dust3r": 33.55,
+   "pi3": 59.2
+  }
+ }
+]

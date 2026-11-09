@@ -1,0 +1,186 @@
+[
+ {
+  "id": "dtu_2",
+  "dataset_label": "DTU",
+  "clicks": 3,
+  "rre": [
+   174.43,
+   47.17,
+   17.33,
+   2.61
+  ],
+  "file": "assets/media/hero/dtu_2.mp4",
+  "poster": "assets/media/hero/dtu_2.webp",
+  "file_sq": "assets/media/hero/dtu_2_sq.mp4",
+  "poster_sq": "assets/media/hero/dtu_2_sq.webp",
+  "duration": 9.2
+ },
+ {
+  "id": "7scenes_1",
+  "dataset_label": "7Scenes",
+  "clicks": 3,
+  "rre": [
+   90.06,
+   43.06,
+   4.77,
+   3.54
+  ],
+  "file": "assets/media/hero/7scenes_1.mp4",
+  "poster": "assets/media/hero/7scenes_1.webp",
+  "file_sq": "assets/media/hero/7scenes_1_sq.mp4",
+  "poster_sq": "assets/media/hero/7scenes_1_sq.webp",
+  "duration": 9.2
+ },
+ {
+  "id": "co3d_1",
+  "dataset_label": "CO3D",
+  "clicks": 5,
+  "rre": [
+   80.71,
+   37.37,
+   6.85,
+   6.18,
+   5.29,
+   4.05
+  ],
+  "file": "assets/media/hero/co3d_1.mp4",
+  "poster": "assets/media/hero/co3d_1.webp",
+  "file_sq": "assets/media/hero/co3d_1_sq.mp4",
+  "poster_sq": "assets/media/hero/co3d_1_sq.webp",
+  "duration": 10.067
+ },
+ {
+  "id": "habitat_1",
+  "dataset_label": "Habitat",
+  "clicks": 2,
+  "rre": [
+   81.43,
+   41.91,
+   0.97
+  ],
+  "file": "assets/media/hero/habitat_1.mp4",
+  "poster": "assets/media/hero/habitat_1.webp",
+  "file_sq": "assets/media/hero/habitat_1_sq.mp4",
+  "poster_sq": "assets/media/hero/habitat_1_sq.webp",
+  "duration": 7.967
+ },
+ {
+  "id": "ca1m_1",
+  "dataset_label": "CA-1M",
+  "clicks": 3,
+  "rre": [
+   173.5,
+   21.79,
+   12.09,
+   4.11
+  ],
+  "file": "assets/media/hero/ca1m_1.mp4",
+  "poster": "assets/media/hero/ca1m_1.webp",
+  "file_sq": "assets/media/hero/ca1m_1_sq.mp4",
+  "poster_sq": "assets/media/hero/ca1m_1_sq.webp",
+  "duration": 9.2
+ },
+ {
+  "id": "dtu_1",
+  "dataset_label": "DTU",
+  "clicks": 5,
+  "rre": [
+   176.17,
+   105.46,
+   22.5,
+   12.2,
+   4.06,
+   3.02
+  ],
+  "file": "assets/media/hero/dtu_1.mp4",
+  "poster": "assets/media/hero/dtu_1.webp",
+  "file_sq": "assets/media/hero/dtu_1_sq.mp4",
+  "poster_sq": "assets/media/hero/dtu_1_sq.webp",
+  "duration": 10.067
+ },
+ {
+  "id": "nrgbd_1",
+  "dataset_label": "NRGBD",
+  "clicks": 5,
+  "rre": [
+   125.27,
+   74.39,
+   11.57,
+   5.54,
+   6.1,
+   4.88
+  ],
+  "file": "assets/media/hero/nrgbd_1.mp4",
+  "poster": "assets/media/hero/nrgbd_1.webp",
+  "file_sq": "assets/media/hero/nrgbd_1_sq.mp4",
+  "poster_sq": "assets/media/hero/nrgbd_1_sq.webp",
+  "duration": 10.067
+ },
+ {
+  "id": "co3d_2",
+  "dataset_label": "CO3D",
+  "clicks": 3,
+  "rre": [
+   174.14,
+   23.47,
+   11.07,
+   4.65
+  ],
+  "file": "assets/media/hero/co3d_2.mp4",
+  "poster": "assets/media/hero/co3d_2.webp",
+  "file_sq": "assets/media/hero/co3d_2_sq.mp4",
+  "poster_sq": "assets/media/hero/co3d_2_sq.webp",
+  "duration": 9.2
+ },
+ {
+  "id": "eth3d_1",
+  "dataset_label": "ETH3D",
+  "clicks": 2,
+  "rre": [
+   131.82,
+   22.52,
+   1.84
+  ],
+  "file": "assets/media/hero/eth3d_1.mp4",
+  "poster": "assets/media/hero/eth3d_1.webp",
+  "file_sq": "assets/media/hero/eth3d_1_sq.mp4",
+  "poster_sq": "assets/media/hero/eth3d_1_sq.webp",
+  "duration": 7.967
+ },
+ {
+  "id": "dtu_3",
+  "dataset_label": "DTU",
+  "clicks": 5,
+  "rre": [
+   173.79,
+   136.36,
+   62.82,
+   6.23,
+   2.44,
+   1.52
+  ],
+  "file": "assets/media/hero/dtu_3.mp4",
+  "poster": "assets/media/hero/dtu_3.webp",
+  "file_sq": "assets/media/hero/dtu_3_sq.mp4",
+  "poster_sq": "assets/media/hero/dtu_3_sq.webp",
+  "duration": 10.067
+ },
+ {
+  "id": "dtu_4",
+  "dataset_label": "DTU",
+  "clicks": 5,
+  "rre": [
+   61.69,
+   16.52,
+   10.07,
+   4.2,
+   3.79,
+   3.63
+  ],
+  "file": "assets/media/hero/dtu_4.mp4",
+  "poster": "assets/media/hero/dtu_4.webp",
+  "file_sq": "assets/media/hero/dtu_4_sq.mp4",
+  "poster_sq": "assets/media/hero/dtu_4_sq.webp",
+  "duration": 10.067
+ }
+]

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ===== 00_head.html ===== -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks</title>
+<meta name="description" content="Click3R corrects feed-forward 3D reconstruction with sparse correspondence clicks: click the same point in both photos, and the network takes the clicks as input and returns corrected 3D geometry. NeurIPS 2026.">
+<meta name="theme-color" content="#0d0f13">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/img/favicon.svg?v=20261109114049" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Click3R">
+<meta property="og:title" content="Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks">
+<meta property="og:description" content="A few correspondence clicks correct feed-forward 3D reconstruction in one forward pass. NeurIPS 2026.">
+<meta property="og:image" content="https://uva-computer-vision-lab.github.io/click3r/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Click3R: 3D reconstruction of an umbrella with five correspondence clicks">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks">
+<meta name="twitter:description" content="A few correspondence clicks correct feed-forward 3D reconstruction in one forward pass. NeurIPS 2026.">
+<meta name="twitter:image" content="https://uva-computer-vision-lab.github.io/click3r/assets/img/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:opsz,wght@14..32,300..700&display=swap">
+<script>document.documentElement.classList.add('js');setTimeout(function(){var h=document.documentElement;if(!h.classList.contains('base-ready'))h.classList.remove('js');},3000);</script>
+<link rel="stylesheet" href="assets/css/base.css?v=20261109114049">
+<link rel="stylesheet" href="assets/css/hero.css?v=20261109114049">
+<link rel="stylesheet" href="assets/css/method.css?v=20261109114049">
+<link rel="stylesheet" href="assets/css/tryit.css?v=20261109114049">
+<link rel="stylesheet" href="assets/css/benchmark.css?v=20261109114049">
+<link rel="stylesheet" href="assets/css/clicks.css?v=20261109114049">
+</head>
+<body>
+<!-- ===== 01_nav.html ===== -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav" data-nav>
+  <div class="nav__bar">
+    <a class="nav__brand" href="#top" aria-label="Click3R, back to top">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.5 22.5 22.5 9.5" stroke="#e8590c" stroke-width="3" stroke-linecap="round"/><circle cx="8" cy="24" r="5.5" fill="#e8590c"/><circle cx="24" cy="8" r="4.5" fill="none" stroke="#e8590c" stroke-width="3"/></svg>
+      Click3R
+    </a>
+    <div class="nav__panel" id="nav-panel">
+      <nav class="nav__links" aria-label="Sections">
+        <a class="nav__link" href="#method">Method</a>
+        <a class="nav__link" href="#try">Explore</a>
+        <a class="nav__link" href="#benchmark">Hard3DBench</a>
+        <a class="nav__link" href="#results" data-spy="results clicks">Results</a>
+        <a class="nav__link" href="#bibtex">BibTeX</a>
+      </nav>
+      <div class="nav__res">
+        <span class="btn btn--sm" aria-disabled="true" title="arXiv link coming soon">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 1.75h5.5l2.75 2.75v9.75H4z"/><path d="M9.25 1.75v3h3"/></svg>arXiv <span class="btn__note">soon</span></span>
+        <a class="btn btn--sm" href="https://github.com/UVA-Computer-Vision-Lab/click3r" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 4.5 2 8l3.5 3.5M10.5 4.5 14 8l-3.5 3.5"/></svg>Code</a>
+        <a class="btn btn--sm" href="https://huggingface.co/spaces/uva-cv-lab/Click3R" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.25v9.5L12.75 8z"/></svg>Demo</a>
+        <a class="btn btn--sm" href="https://huggingface.co/uva-cv-lab/Click3R" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 1.75 13.75 5v6L8 14.25 2.25 11V5z"/><path d="M2.25 5 8 8.25 13.75 5M8 8.25v6"/></svg>Weights</a>
+        <a class="btn btn--sm" href="https://huggingface.co/datasets/uva-cv-lab/Hard3DBench" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="8" cy="3.75" rx="5.25" ry="2"/><path d="M2.75 3.75v8.5c0 1.1 2.35 2 5.25 2s5.25-.9 5.25-2v-8.5M2.75 8c0 1.1 2.35 2 5.25 2s5.25-.9 5.25-2"/></svg>Data</a>
+      </div>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-panel" data-nav-toggle>
+      <span class="nav__toggle-icon" aria-hidden="true"></span>Menu
+    </button>
+  </div>
+  <div class="nav__progress" data-progress aria-hidden="true"></div>
+</header>
+<main id="main">
+<!-- ===== 02_hero.html ===== -->
+<section id="top" class="section hero on-dark" aria-label="Click3R">
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="hero__device"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.75" y="2.75" width="12.5" height="8.5" rx="1.25"/><path d="M5.5 13.75h5M8 11.25v2.5"/></svg>Best viewed on a computer</p>
+      <p class="eyebrow hero__venue">NeurIPS 2026</p>
+      <h1 class="hero__title">
+        <span class="hero__name">Click3R</span>
+        <span class="hero__sub">Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks</span>
+      </h1>
+      <p class="hero__claim">A few correspondence clicks correct a feed-forward 3D reconstruction, in a single forward pass.</p>
+      <p class="hero__authors">
+        <span class="hero__author"><a href="https://www.linkedin.com/in/hao--gu/" target="_blank" rel="noopener">Hao Gu</a><sup>*†</sup></span>
+        <span class="hero__author"><a href="https://yaojin17.github.io/" target="_blank" rel="noopener">Jin Yao</a><sup>*</sup></span>
+        <span class="hero__author"><a href="https://www.cs.virginia.edu/~zc3bp/" target="_blank" rel="noopener">Zezhou Cheng</a></span>
+      </p>
+      <p class="hero__affil">University of Virginia</p>
+      <p class="hero__marks"><sup>*</sup> Equal contribution &nbsp;&nbsp;<sup>†</sup> Project lead</p>
+      <div class="hero__buttons">
+        <span class="btn" aria-disabled="true" title="arXiv link coming soon">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 1.75h5.5l2.75 2.75v9.75H4z"/><path d="M9.25 1.75v3h3"/></svg>arXiv <span class="btn__note">soon</span></span>
+        <a class="btn" href="https://github.com/UVA-Computer-Vision-Lab/click3r" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 4.5 2 8l3.5 3.5M10.5 4.5 14 8l-3.5 3.5"/></svg>Code</a>
+        <a class="btn" href="https://huggingface.co/spaces/uva-cv-lab/Click3R" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.25v9.5L12.75 8z"/></svg>Demo</a>
+        <a class="btn" href="https://huggingface.co/uva-cv-lab/Click3R" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 1.75 13.75 5v6L8 14.25 2.25 11V5z"/><path d="M2.25 5 8 8.25 13.75 5M8 8.25v6"/></svg>Weights</a>
+        <a class="btn" href="https://huggingface.co/datasets/uva-cv-lab/Hard3DBench" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="8" cy="3.75" rx="5.25" ry="2"/><path d="M2.75 3.75v8.5c0 1.1 2.35 2 5.25 2s5.25-.9 5.25-2v-8.5M2.75 8c0 1.1 2.35 2 5.25 2s5.25-.9 5.25-2"/></svg>Data</a>
+      </div>
+    </div>
+    <figure class="hero__stage">
+      <div class="hero__frame" data-hero-player data-manifest="assets/media/hero/manifest.json?v=20261109114049" data-v="20261109114049"
+           role="group" aria-label="Click3R point clouds of image pairs, first without clicks, then after each click">
+        <video class="hero__video is-on is-top" muted playsinline preload="none" aria-hidden="true"></video>
+        <video class="hero__video" muted playsinline preload="none" aria-hidden="true"></video>
+        <button class="hero__toggle" type="button" aria-pressed="false" aria-label="Pause video" data-hero-toggle>
+          <svg class="i-pause" viewBox="0 0 12 12" aria-hidden="true"><rect x="2" y="1.5" width="2.6" height="9" rx=".6" fill="currentColor"/><rect x="7.4" y="1.5" width="2.6" height="9" rx=".6" fill="currentColor"/></svg>
+          <svg class="i-play" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 1.6v8.8L10.4 6z" fill="currentColor"/></svg>
+        </button>
+      </div>
+      <figcaption class="hero__caption">Each state shown is Click3R's prediction given the clicks so far; transitions between states are interpolated per pixel.</figcaption>
+    </figure>
+  </div>
+</section>
+<!-- ===== 03_abstract.html ===== -->
+<section id="overview" class="section overview">
+  <div class="wrap">
+    <div class="overview__top">
+      <div>
+        <p class="eyebrow">Overview</p>
+        <h2 data-reveal>Feed-forward 3D reconstruction, made correctable with a few clicks.</h2>
+      </div>
+      <p class="overview__lead" data-reveal>Feed-forward models such as DUSt3R reconstruct a scene from two images in a single network pass, but their prediction is final: when the geometry is wrong, nothing can correct it. <strong>Click3R</strong> takes a few user-provided correspondence clicks as additional input and predicts corrected geometry in the same single pass, with no test-time fine-tuning or optimization. We also release <strong>Hard3DBench</strong>, a benchmark of image pairs and five-view sets selected to expose failures of current models.</p>
+    </div>
+
+    <div class="tiles tiles--3" data-reveal>
+      <div class="tile">
+        <span class="tile__num">+9.8<span class="tile__unit">mAA@30</span></span>
+        <span class="tile__label">With 8 clicks, on unseen hard pairs</span>
+        <span class="tile__note">Click3R with 8 ground-truth clicks scores 62.4, vs 52.6 for DUSt3R retrained on the same data. Tested on Hard3DBench pairs from 5 datasets unseen in training.</span>
+      </div>
+      <div class="tile">
+        <span class="tile__num">+20.5<span class="tile__unit">mAA@30</span></span>
+        <span class="tile__label">With real user clicks, on unseen hard pairs</span>
+        <span class="tile__note">Click3R with a human annotator's clicks (3.8 clicks per image pair on average) scores 56.2, vs 35.7 for DUSt3R retrained on the same data.</span>
+      </div>
+      <div class="tile">
+        <span class="tile__num">+6.4%<span class="tile__unit">parameters</span></span>
+        <span class="tile__label">A lightweight adapter on top of DUSt3R</span>
+        <span class="tile__note">A 34.1M-parameter adapter added to DUSt3R's 532.3M, bypassed when no clicks are supplied.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== 04_method.html ===== -->
+<section id="method" class="section section--band method" aria-labelledby="method-title">
+  <div class="wrap">
+    <header class="section__head">
+      <p class="eyebrow">Method</p>
+      <h2 id="method-title">Correspondence clicks are injected into the decoder through a lightweight adapter.</h2>
+      <p class="lede">Click3R takes an image pair and an optional set of sparse point correspondences, and predicts dense 3D
+        pointmaps for both views in a single forward pass. The base model and adapter are trained jointly end-to-end on
+        correspondences simulated from ground-truth geometry, yielding a single model that supports a flexible number of
+        clicks, from none up to 12.</p>
+    </header>
+
+    <div class="method-scroll">
+      <figure class="method-fig">
+        <div class="method-fig__frame">
+          <div class="method-fig__img">
+            <img class="method-fig__base" src="assets/img/method.webp?v=20261109114049" width="2400" height="900" loading="lazy"
+              decoding="async" alt="Click3R architecture. Two photos with user clicks: a tokenizer turns the clicks into
+              tokens, a shared ViT encoder turns each photo into image tokens, a correspondence adapter per view mixes
+              the two, and DUSt3R's two decoders and heads output a 3D point cloud with both cameras.">
+            <div class="method-fig__veil" aria-hidden="true"></div>
+            <img class="method-fig__lit" src="assets/img/method.webp?v=20261109114049" width="2400" height="900" loading="lazy"
+              decoding="async" alt="" aria-hidden="true">
+          </div>
+        </div>
+        <div class="method-steps" role="group" aria-label="Method stages">
+          <button type="button" class="pill" data-stage="1" aria-pressed="false"><span class="method-steps__n">1</span>Encode</button>
+          <button type="button" class="pill" data-stage="2" aria-pressed="false"><span class="method-steps__n">2</span>Tokenize</button>
+          <button type="button" class="pill" data-stage="3" aria-pressed="false"><span class="method-steps__n">3</span>Adapt</button>
+          <button type="button" class="pill" data-stage="4" aria-pressed="false"><span class="method-steps__n">4</span>Decode</button>
+        </div>
+      </figure>
+
+      <ol class="method-stages">
+        <li class="method-stage" id="method-stage-1" data-stage="1">
+          <span class="method-stage__n">01</span>
+          <h3 class="method-stage__title">Shared ViT encoder</h3>
+          <p class="method-stage__text">A shared ViT-Large encoder processes each image independently into patch tokens.</p>
+          <img class="method-stage__crop media" src="assets/img/method_stage1.jpg?v=20261109114049" width="800" height="325"
+            loading="lazy" decoding="async" alt="Detail: the two photos, the shared ViT encoders and the image-token grids.">
+        </li>
+        <li class="method-stage" id="method-stage-2" data-stage="2">
+          <span class="method-stage__n">02</span>
+          <h3 class="method-stage__title">Correspondence tokenizer</h3>
+          <p class="method-stage__text">Each correspondence point is tokenized as a Fourier positional encoding of its 2D
+            location, plus learnable image ID and pair ID embeddings that mark its view and link it to its matching
+            point.</p>
+          <img class="method-stage__crop method-stage__crop--tall media" src="assets/img/method_stage2.jpg?v=20261109114049" width="800"
+            height="1053" loading="lazy" decoding="async"
+            alt="Detail: the four clicks in each photo and their tokens; photo 2's tokens are hatched.">
+        </li>
+        <li class="method-stage" id="method-stage-3" data-stage="3">
+          <span class="method-stage__n">03</span>
+          <h3 class="method-stage__title">Point correspondence adapter</h3>
+          <p class="method-stage__text">A two-way attention adapter, one per view, exchanges information between
+            correspondence tokens and image tokens and updates the image features before decoding.</p>
+          <img class="method-stage__crop method-stage__crop--tall media" src="assets/img/method_stage3.jpg?v=20261109114049" width="800"
+            height="874" loading="lazy" decoding="async"
+            alt="Detail: the two correspondence adapters, each feeding back into its view's image tokens.">
+        </li>
+        <li class="method-stage" id="method-stage-4" data-stage="4">
+          <span class="method-stage__n">04</span>
+          <h3 class="method-stage__title">Asymmetric decoder and prediction heads</h3>
+          <p class="method-stage__text">The asymmetric decoder processes the updated features with cross-attention between
+            the two views, and the prediction heads output 3D pointmaps and confidence maps.</p>
+          <img class="method-stage__crop media" src="assets/img/method_stage4.jpg?v=20261109114049" width="800" height="594"
+            loading="lazy" decoding="async" alt="Detail: the two transformer decoders, the heads and the 3D point cloud.">
+        </li>
+      </ol>
+    </div>
+
+    <p class="method-full caption"><a href="assets/img/method.webp?v=20261109114049">Open the full architecture figure</a></p>
+  </div>
+</section>
+<!-- ===== 05_tryit.html ===== -->
+<section id="try" class="section tryit" data-tryit-root="assets/data/tryit/" aria-labelledby="tryit-title">
+  <div class="wrap">
+    <header class="section__head tryit-head" data-reveal>
+      <p class="eyebrow">Explore</p>
+      <h2 id="tryit-title">See how each click changes the reconstruction</h2>
+      <p class="lede">Select a pair and add clicks one at a time; compare Click3R with DUSt3R, Pi3 and the ground truth.</p>
+    </header>
+
+    <div class="tryit-gallery" data-gallery="assets/media/gallery/manifest.json?v=20261109114049">
+      <div class="tryit-grid" role="group" aria-label="Choose an image pair"></div>
+    </div>
+
+    <div class="tryit-stage">
+      <div class="tryit-inputs">
+        <div class="tryit-photos">
+          <figure class="tryit-photo"><img alt="Image 1" width="448" height="448" decoding="async"><figcaption>Image 1</figcaption></figure>
+          <figure class="tryit-photo"><img alt="Image 2" width="448" height="448" decoding="async"><figcaption>Image 2</figcaption></figure>
+          <svg class="tryit-overlay" aria-hidden="true"></svg>
+          <button class="tryit-marks" type="button" aria-pressed="false">Hide clicks</button>
+        </div>
+        <div class="tryit-controls">
+          <button class="btn tryit-remove" type="button" disabled><span aria-hidden="true">&minus;</span> Remove</button>
+          <p class="tryit-count" aria-live="polite"><b>0</b> of <b>0</b></p>
+          <button class="btn btn--solid tryit-add" type="button" disabled><span aria-hidden="true">+</span> Add click</button>
+        </div>
+        <p class="tryit-hint caption">Add a click with the button or the pulsing ring.</p>
+      </div>
+
+      <div class="tryit-view">
+        <div class="tryit-viewer" tabindex="-1">
+          <canvas class="tryit-canvas" role="img" aria-label="3D points of both photos"></canvas>
+          <div class="tryit-progress" aria-hidden="true"><i></i></div>
+          <span class="tryit-cam" aria-hidden="true">camera 1</span>
+          <span class="tryit-cam" aria-hidden="true">camera 2</span>
+          <p class="tryit-state">Click3R &middot; no clicks</p>
+          <div class="tryit-views" role="group" aria-label="Reset the 3D view to a camera"><button class="tryit-reset" type="button" data-view="cam1" aria-label="View from camera 1">Camera 1</button><button class="tryit-reset" type="button" data-view="cam2" aria-label="View from camera 2">Camera 2</button></div>
+          <div class="tryit-readout" aria-live="polite">
+            <div class="tryit-err"><span class="tryit-err-label">Rotation error</span><span class="tryit-err-value">&ndash;</span></div>
+            <svg class="tryit-spark" viewBox="0 0 132 44" aria-hidden="true"></svg>
+          </div>
+          <p class="tryit-gesture"><span class="tryit-gesture-mouse">Drag to rotate &middot; scroll to zoom</span><span class="tryit-gesture-touch">Swipe sideways to rotate &middot; pinch to zoom</span></p>
+          <p class="tryit-fallback">The 3D viewer needs WebGL 2. The photos and clicks still work.</p>
+        </div>
+        <div class="tryit-modes" role="group" aria-label="Show the prediction of">
+          <button class="pill pill--accent tryit-mode" type="button" data-mode="click3r" aria-pressed="true">Click3R</button>
+          <button class="pill tryit-mode" type="button" data-mode="dust3r" aria-pressed="false">DUSt3R</button>
+          <button class="pill tryit-mode" type="button" data-mode="pi3" aria-pressed="false">Pi3 (224)</button>
+          <button class="pill tryit-mode" type="button" data-mode="gt" aria-pressed="false">Ground truth</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="tryit-demo">
+      <button class="tryit-demo-thumb" type="button" aria-haspopup="dialog" aria-label="Play the screen recording of the Click3R demo">
+        <img src="assets/media/demo_poster.jpg?v=20261109114049" alt="" width="1024" height="576" loading="lazy" decoding="async">
+        <span class="tryit-demo-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+      </button>
+      <div class="tryit-demo-text">
+        <p class="eyebrow">Live demo</p>
+        <h3>Try Click3R on your own images</h3>
+        <p>Upload any two images, click matching points, and get the 3D reconstruction.</p>
+        <a class="btn btn--solid" href="https://huggingface.co/spaces/uva-cv-lab/Click3R" target="_blank" rel="noopener">Run the live demo <span aria-hidden="true">&#8599;</span></a>
+      </div>
+      <dialog class="tryit-modal" aria-label="Screen recording of the Click3R demo">
+        <button class="tryit-modal-close" type="button" aria-label="Close">&times;</button>
+        <video class="tryit-modal-video" controls muted playsinline preload="none" width="1024" height="576" data-poster="assets/media/demo_poster.jpg?v=20261109114049" data-src="assets/media/demo.mp4?v=20261109114049"></video>
+      </dialog>
+    </div>
+  </div>
+</section>
+<!-- ===== 06_benchmark.html ===== -->
+<section id="benchmark" class="section section--band bench" aria-labelledby="bench-title">
+  <div class="wrap">
+    <header class="section__head bench-head" data-reveal>
+      <p class="eyebrow">Hard3DBench</p>
+      <h2 id="bench-title">A benchmark that exposes the failure modes of <span class="nobr">feed-forward</span> 3D reconstruction</h2>
+      <p class="lede">Hard3DBench includes 2-view and 5-view settings, with challenging samples from held-out splits of the
+        training datasets and from datasets unseen in training. Each image pair is labeled with its failure modes.</p>
+    </header>
+
+    <figure class="card bench-fig" data-reveal>
+      <a class="bench-zoom" href="assets/img/bench_figure.png?v=20261109114049" data-zoom="assets/img/bench_figure.png?v=20261109114049"
+        aria-label="Enlarge the Hard3DBench figure"><img src="assets/img/bench_figure.webp?v=20261109114049"
+        width="2400" height="1189" loading="lazy" decoding="async"
+        alt="Hard3DBench, 2-view subset: (a) cumulative rotation error of pretrained DUSt3R, median 12.0 degrees on Hard3DBench vs 1.1 degrees on a regular benchmark; (b) number of in-distribution and out-of-distribution pairs per failure category; (c) one example pair per category"></a>
+    </figure>
+  </div>
+</section>
+<!-- ===== 07_qualitative.html ===== -->
+<section id="results" class="section qual">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Results</p>
+      <h2 data-reveal>Qualitative comparison on hard image pairs</h2>
+      <p class="lede" data-reveal>Only Click3R takes the clicks (colored dots) as input; DUSt3R, VGGT and Pi3 reconstruct from the images alone. VGGT and Pi3 are larger models trained on much more data and are shown for reference.</p>
+    </div>
+    <figure class="qual__figure" data-reveal>
+      <a class="qual__zoom" href="assets/img/qualitative.png" data-zoom="assets/img/qualitative.png?v=20261109114049" aria-label="Enlarge the qualitative comparison">
+        <img class="media" src="assets/img/qualitative.webp?v=20261109114049" width="1716" height="1408" loading="lazy" decoding="async"
+             alt="Four hard image pairs (an aerial round building, a stadium roof, a hotel room, an umbrella and a chair). For each: the input pair with clicks, then the 3D reconstructions of DUSt3R, VGGT, Pi3 and Click3R.">
+        <span class="badge qual__hint" aria-hidden="true">⤢ Enlarge</span>
+      </a>
+      <figcaption class="caption">The pairs involve challenging geometry such as large baselines, limited co-visibility or substantial viewpoint changes. Click3R produces more accurate and consistent reconstructions, with the clicked correspondences aligning more closely in 3D.</figcaption>
+    </figure>
+  </div>
+</section>
+<!-- ===== 08_clicks.html ===== -->
+<section id="clicks" class="section section--band clicks" aria-labelledby="clicks-title">
+  <div class="wrap">
+    <header class="section__head">
+      <p class="eyebrow">Number of clicks</p>
+      <h2 id="clicks-title">More clicks, better poses</h2>
+      <p class="lede">From one click onward, Click3R outperforms DUSt3R (retrained), which has the same architecture and training data. VGGT and Pi3, larger models trained on much more data, are shown for reference.</p>
+    </header>
+
+    <div class="clicks-bar">
+      <ul class="clicks-legend" aria-label="Legend">
+        <li><svg class="clicks-sw" viewBox="0 0 28 12" aria-hidden="true"><line class="clicks-l clicks-l--ours" x1="2" y1="6" x2="26" y2="6"/><circle class="clicks-m" cx="14" cy="6" r="4"/></svg>Click3R (ours)</li>
+        <li><svg class="clicks-sw" viewBox="0 0 28 12" aria-hidden="true"><line class="clicks-l clicks-l--retrained" x1="2" y1="6" x2="26" y2="6"/></svg>DUSt3R (retrained)</li>
+        <li class="clicks-legend-ref"><svg class="clicks-sw" viewBox="0 0 28 12" aria-hidden="true"><line class="clicks-l clicks-l--ref" x1="2" y1="6" x2="26" y2="6"/></svg>Pi3 (224) and VGGT (224)</li>
+        <li><svg class="clicks-sw" viewBox="0 0 28 12" aria-hidden="true"><line class="clicks-l clicks-l--pretrained" x1="2" y1="6" x2="26" y2="6"/></svg>DUSt3R</li>
+      </ul>
+      <button type="button" class="pill clicks-replay" data-clicks-replay hidden>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.2 8a5.2 5.2 0 1 1-1.6-3.75" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12.4 1.6v3.1H9.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Replay
+      </button>
+    </div>
+
+    <div class="clicks-grid" data-clicks-grid></div>
+
+    <p class="caption clicks-caption">
+      Results on the 2-view subset of Hard3DBench, with clicks sampled at random from ground-truth correspondences.
+    </p>
+  </div>
+</section>
+<!-- ===== 09_bibtex.html ===== -->
+<section id="bibtex" class="section bibsec">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Citation</p>
+      <h2>BibTeX</h2>
+    </div>
+    <div class="bib">
+      <pre class="bib__code" id="bibtex-code"><code>@inproceedings{gu2026click3r,
+  title={Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks},
+  author={Gu, Hao and Yao, Jin and Cheng, Zezhou},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026}
+}</code></pre>
+      <button class="btn btn--sm bib__copy" type="button" data-copy="#bibtex-code">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5.25" y="5.25" width="8.5" height="8.5" rx="1.5"/><path d="M10.75 5.25V3.75a1.5 1.5 0 0 0-1.5-1.5h-5.5a1.5 1.5 0 0 0-1.5 1.5v5.5a1.5 1.5 0 0 0 1.5 1.5h1.5"/></svg>
+        <span data-copy-label>Copy</span>
+      </button>
+    </div>
+  </div>
+</section>
+</main>
+<!-- ===== 10_footer.html ===== -->
+<footer class="foot on-dark">
+  <div class="wrap foot__inner">
+    <div class="foot__brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.5 22.5 22.5 9.5" stroke="#e8590c" stroke-width="3" stroke-linecap="round"/><circle cx="8" cy="24" r="5.5" fill="#e8590c"/><circle cx="24" cy="8" r="4.5" fill="none" stroke="#e8590c" stroke-width="3"/></svg>
+      Click3R <span>NeurIPS 2026</span>
+    </div>
+    <ul class="foot__links">
+      <li><a href="https://github.com/UVA-Computer-Vision-Lab/click3r" target="_blank" rel="noopener">Code</a></li>
+      <li><a href="https://huggingface.co/spaces/uva-cv-lab/Click3R" target="_blank" rel="noopener">Demo</a></li>
+      <li><a href="https://huggingface.co/uva-cv-lab/Click3R" target="_blank" rel="noopener">Weights</a></li>
+      <li><a href="https://huggingface.co/datasets/uva-cv-lab/Hard3DBench" target="_blank" rel="noopener">Hard3DBench</a></li>
+      <li><a href="#top">Back to top ↑</a></li>
+    </ul>
+    <div class="foot__note">
+      <span>Hao Gu, Jin Yao, Zezhou Cheng · University of Virginia</span>
+    </div>
+  </div>
+</footer>
+<script type="module" defer src="assets/js/base.js?v=20261109114049"></script>
+<script type="module" defer src="assets/js/hero.js?v=20261109114049"></script>
+<script type="module" defer src="assets/js/method.js?v=20261109114049"></script>
+<script type="module" defer src="assets/js/tryit.js?v=20261109114049"></script>
+<script type="module" defer src="assets/js/clicks.js?v=20261109114049"></script>
+</body>
+</html>

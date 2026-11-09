@@ -1,0 +1,6 @@
+/* Click3R hero playlist (behaviour in assets/js/hero.js). Two stacked clips: the incoming
+   one fades in on top while the outgoing one stays opaque underneath, so the frame placeholder never shows through. */
+.hero__frame[data-hero-player] .hero__video { opacity: 0; z-index: 0; transition: opacity .4s linear; }
+.hero__frame[data-hero-player] .hero__video.is-on { opacity: 1; }
+.hero__frame[data-hero-player] .hero__video.is-top { z-index: 1; }
+.hero__frame[data-hero-player] .hero__toggle { z-index: 2; }

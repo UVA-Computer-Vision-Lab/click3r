@@ -1,0 +1,130 @@
+[
+ {
+  "id": "p232",
+  "file": "assets/media/gallery/p232.mp4",
+  "poster": "assets/media/gallery/p232.jpg",
+  "dataset": "scannet",
+  "dataset_label": "ScanNet",
+  "clicks": 1
+ },
+ {
+  "id": "p278",
+  "file": "assets/media/gallery/p278.mp4",
+  "poster": "assets/media/gallery/p278.jpg",
+  "dataset": "ca1m",
+  "dataset_label": "CA-1M",
+  "clicks": 2
+ },
+ {
+  "id": "w117",
+  "file": "assets/media/gallery/w117.mp4",
+  "poster": "assets/media/gallery/w117.jpg",
+  "dataset": "wildrgbd",
+  "dataset_label": "WildRGB-D",
+  "clicks": 1
+ },
+ {
+  "id": "p061",
+  "file": "assets/media/gallery/p061.mp4",
+  "poster": "assets/media/gallery/p061.jpg",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "clicks": 3
+ },
+ {
+  "id": "w257",
+  "file": "assets/media/gallery/w257.mp4",
+  "poster": "assets/media/gallery/w257.jpg",
+  "dataset": "nrgbd",
+  "dataset_label": "NRGBD",
+  "clicks": 2
+ },
+ {
+  "id": "w063",
+  "file": "assets/media/gallery/w063.mp4",
+  "poster": "assets/media/gallery/w063.jpg",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "clicks": 1
+ },
+ {
+  "id": "w282",
+  "file": "assets/media/gallery/w282.mp4",
+  "poster": "assets/media/gallery/w282.jpg",
+  "dataset": "ca1m",
+  "dataset_label": "CA-1M",
+  "clicks": 1
+ },
+ {
+  "id": "w000",
+  "file": "assets/media/gallery/w000.mp4",
+  "poster": "assets/media/gallery/w000.jpg",
+  "dataset": "blendedmvs",
+  "dataset_label": "BlendedMVS",
+  "clicks": 2
+ },
+ {
+  "id": "w112",
+  "file": "assets/media/gallery/w112.mp4",
+  "poster": "assets/media/gallery/w112.jpg",
+  "dataset": "habitat",
+  "dataset_label": "Habitat",
+  "clicks": 3
+ },
+ {
+  "id": "w180",
+  "file": "assets/media/gallery/w180.mp4",
+  "poster": "assets/media/gallery/w180.jpg",
+  "dataset": "dtu",
+  "dataset_label": "DTU",
+  "clicks": 1
+ },
+ {
+  "id": "p003",
+  "file": "assets/media/gallery/p003.mp4",
+  "poster": "assets/media/gallery/p003.jpg",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "clicks": 1
+ },
+ {
+  "id": "p902",
+  "file": "assets/media/gallery/p902.mp4",
+  "poster": "assets/media/gallery/p902.jpg",
+  "dataset": "scannet",
+  "dataset_label": "ScanNet",
+  "clicks": 2
+ },
+ {
+  "id": "w046",
+  "file": "assets/media/gallery/w046.mp4",
+  "poster": "assets/media/gallery/w046.jpg",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "clicks": 1
+ },
+ {
+  "id": "p277",
+  "file": "assets/media/gallery/p277.mp4",
+  "poster": "assets/media/gallery/p277.jpg",
+  "dataset": "ca1m",
+  "dataset_label": "CA-1M",
+  "clicks": 1
+ },
+ {
+  "id": "p900",
+  "file": "assets/media/gallery/p900.mp4",
+  "poster": "assets/media/gallery/p900.jpg",
+  "dataset": "dtu",
+  "dataset_label": "DTU",
+  "clicks": 8
+ },
+ {
+  "id": "w049",
+  "file": "assets/media/gallery/w049.mp4",
+  "poster": "assets/media/gallery/w049.jpg",
+  "dataset": "co3d",
+  "dataset_label": "CO3D",
+  "clicks": 3
+ }
+]

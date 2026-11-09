@@ -1,0 +1,9 @@
+/* #benchmark: Hard3DBench in one screen: heading, lede and the paper's figure
+   (click to enlarge). Only .bench-* selectors on top of the base components (.section__head, .card, .btn). */
+
+#benchmark .section__head h2 { max-width: 40ch; }  /* two lines on desktop */
+#benchmark .nobr { white-space: nowrap; }  /* no line break inside "feed-forward" */
+
+.bench-fig { margin: 0; padding: clamp(10px, 1.6vw, 20px); }
+.bench-zoom { display: block; cursor: zoom-in; }
+.bench-zoom img { display: block; width: 100%; height: auto; }

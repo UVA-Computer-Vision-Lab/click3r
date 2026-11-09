@@ -1,0 +1,166 @@
+/* #method: sticky architecture figure (wide screens) with stage blocks scrolling past; crops per stage on phones. */
+
+.method-scroll {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(0, 2fr);
+  column-gap: clamp(32px, 4vw, 64px);
+}
+
+/* Figure column (right), pinned in mid-screen while the stages scroll past. */
+.method-fig {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  position: sticky;
+  top: max(calc(var(--nav-h, 60px) + 16px), calc(50vh - 200px));
+  margin: 0;
+}
+.method-fig__frame {
+  background: #fff;
+  border: 1px solid var(--line, #e4e6ea);
+  border-radius: 8px;
+  padding: clamp(8px, 1vw, 14px);
+}
+.method-fig__img {
+  position: relative;
+  aspect-ratio: 8 / 3;
+}
+.method-fig__img img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.method-fig__veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.74);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.method[data-active] .method-fig__veil { opacity: 1; }
+.method-fig__lit {
+  pointer-events: none;
+  transition: clip-path 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Invisible hit areas over each stage region (placed by method.js). */
+.method-fig__hit {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+.method-fig__hit:hover { outline: 1.5px solid rgba(232, 89, 12, 0.45); outline-offset: -1px; }
+.method-fig__hit:focus-visible { outline: 2px solid var(--accent, #e8590c); outline-offset: -1px; }
+
+.method-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.method-steps .pill { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; }
+.method-steps__n {
+  font-family: var(--font-mono, "IBM Plex Mono", monospace);
+  font-size: 12px;
+  color: var(--muted, #7a808a);
+}
+.method-steps .pill[aria-pressed="true"] .method-steps__n { color: inherit; }
+.method-fig .caption { margin-top: 10px; }
+
+/* Stage column (left). */
+.method-stages {
+  grid-column: 1;
+  grid-row: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.method-stage {
+  min-height: 62vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 0 24px 22px;
+  border-left: 1px solid var(--line, #e4e6ea);
+  transition: opacity 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.method[data-active] .method-stage { opacity: 0.38; cursor: pointer; }
+.method[data-active] .method-stage.is-active { opacity: 1; cursor: auto; border-left-color: var(--accent, #e8590c); }
+.method-stage__n {
+  font-family: var(--font-mono, "IBM Plex Mono", monospace);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--muted, #7a808a);
+}
+.method-stage.is-active .method-stage__n { color: var(--accent-ink, #b8460a); }
+.method-stage__title {
+  margin: 6px 0 10px;
+  font-size: clamp(1.2rem, 1.7vw, 1.45rem);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--ink, #15171a);
+  text-wrap: balance;
+}
+.method-stage__text { margin: 0; color: var(--ink-2, #4b5058); }
+.method-stage__term {
+  margin: 12px 0 0;
+  font-family: var(--font-mono, "IBM Plex Mono", monospace);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted, #7a808a);
+}
+.method-stage__crop { display: none; }
+
+/* Training and size facts under the scroll area. */
+.method-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 clamp(24px, 3vw, 48px);
+  margin: clamp(40px, 6vw, 72px) 0 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--line, #e4e6ea);
+}
+.method-facts dt {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted, #7a808a);
+}
+.method-facts dd { margin: 6px 0 0; font-size: 15px; line-height: 1.55; color: var(--ink-2, #4b5058); }
+.method-num { font-family: var(--font-mono, "IBM Plex Mono", monospace); color: var(--ink, #15171a); }
+.method-full { display: none; }
+
+/* Phones and narrow tablets: no pinned figure, each stage shows its own crop. */
+@media (max-width: 959.98px) {
+  .method-scroll { display: block; }
+  .method-fig { display: none; }
+  .method-stage {
+    min-height: 0;
+    padding: 28px 0 0;
+    border-left: 0;
+  }
+  .method[data-active] .method-stage { opacity: 1; cursor: auto; }
+  .method-stage__crop { display: block; max-width: 520px; margin-top: 16px; background: #fff; }
+  .method-stage__crop--tall { max-width: 320px; }
+  .method-facts { grid-template-columns: 1fr; gap: 20px; }
+  .method-full { display: block; margin-top: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .method-fig__veil,
+  .method-fig__lit,
+  .method-stage { transition: none; }
+}
+
+/* Section heading: as wide as the lede, so the longer method heading takes two lines */
+#method .section__head h2 { max-width: 40ch; }
