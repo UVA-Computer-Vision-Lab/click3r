@@ -225,6 +225,9 @@ video.media, canvas.media { background: var(--band); }
   --nav-fg: var(--hero-ink); --nav-dim: rgba(242, 243, 245, 0.7); --nav-bg: rgba(13, 15, 19, 0.86);
   --nav-line: rgba(242, 243, 245, 0); --nav-btn-bg: var(--hero-bg); --nav-btn-line: rgba(242, 243, 245, 0.28);
   position: fixed; inset: 0 0 auto 0; z-index: 50; height: var(--nav-h);
+  /* nav type, icons and buttons grow twice as fast as the page on large screens (1, 1.24, 1.5): at --k they stayed
+     small next to the scaled-up hero */
+  --kn: calc(1 + (var(--k) - 1) * 2);
   color: var(--nav-fg); background: var(--nav-bg);
   -webkit-backdrop-filter: saturate(1.4) blur(calc(10px * var(--k))); backdrop-filter: saturate(1.4) blur(calc(10px * var(--k)));
   border-bottom: 1px solid var(--nav-line);
@@ -236,31 +239,33 @@ video.media, canvas.media { background: var(--band); }
   -webkit-backdrop-filter: saturate(1.6) blur(calc(12px * var(--k))); backdrop-filter: saturate(1.6) blur(calc(12px * var(--k)));
 }
 .nav__bar {
-  display: flex; align-items: center; gap: calc(28px * var(--k)); height: 100%;
+  display: flex; align-items: center; gap: calc(28px * var(--kn)); height: 100%;
   width: min(var(--hero-w), 100% - 2 * var(--gutter)); margin-inline: auto;
 }
 .nav__brand {
-  display: inline-flex; align-items: center; gap: calc(9px * var(--k)); margin-right: auto;
-  font-size: calc(15px * var(--k)); font-weight: 600; letter-spacing: -0.01em; color: var(--nav-fg); text-decoration: none;
+  display: inline-flex; align-items: center; gap: calc(9px * var(--kn)); margin-right: auto;
+  font-size: calc(16px * var(--kn)); font-weight: 600; letter-spacing: -0.01em; color: var(--nav-fg); text-decoration: none;
   opacity: 0; transform: translateY(calc(4px * var(--k))); pointer-events: none;
   transition: opacity .3s var(--ease), transform .3s var(--ease);
 }
 .nav--solid .nav__brand, .nav--open .nav__brand, .nav__brand:focus-visible { opacity: 1; transform: none; pointer-events: auto; }
-.nav__brand svg { width: calc(20px * var(--k)); height: calc(20px * var(--k)); }
+.nav__brand svg { width: calc(21px * var(--kn)); height: calc(21px * var(--kn)); }
 .nav__brand:hover { color: var(--nav-fg); }
-.nav__panel { display: flex; align-items: center; gap: calc(28px * var(--k)); }
-.nav__links { display: flex; align-items: center; gap: calc(4px * var(--k)); }
+.nav__panel { display: flex; align-items: center; gap: calc(28px * var(--kn)); }
+.nav__links { display: flex; align-items: center; gap: calc(4px * var(--kn)); }
 .nav__link {
-  position: relative; padding: calc(8px * var(--k)) calc(10px * var(--k)); font-size: calc(14px * var(--k)); font-weight: 500; color: var(--nav-dim);
+  position: relative; padding: calc(8px * var(--kn)) calc(10px * var(--kn)); font-size: calc(15px * var(--kn)); font-weight: 500; color: var(--nav-dim);
   text-decoration: none; transition: color .2s var(--ease);
 }
 .nav__link:hover, .nav__link[aria-current="true"] { color: var(--nav-fg); }
 .nav__link::after {
-  content: ""; position: absolute; left: calc(10px * var(--k)); right: calc(10px * var(--k)); bottom: 2px; height: 1.5px; background: var(--accent);
+  content: ""; position: absolute; left: calc(10px * var(--kn)); right: calc(10px * var(--kn)); bottom: 2px; height: 1.5px; background: var(--accent);
   transform: scaleX(0); transform-origin: 0 50%; transition: transform .35s var(--ease);
 }
 .nav__link[aria-current="true"]::after { transform: scaleX(1); }
-.nav__res { display: flex; align-items: center; gap: calc(6px * var(--k)); }
+.nav__res { display: flex; align-items: center; gap: calc(6px * var(--kn)); }
+.nav .btn--sm { height: calc(34px * var(--kn)); padding: 0 calc(12px * var(--kn)); gap: calc(6px * var(--kn)); font-size: calc(14px * var(--kn)); }
+.nav .btn--sm svg { width: calc(15px * var(--kn)); height: calc(15px * var(--kn)); }
 /* desktop: over the hero the hero shows the same five buttons, so the nav shows them only once it turns solid */
 @media (min-width: 1100px) {
   .nav__res { transition: opacity .3s var(--ease), visibility .3s; }
