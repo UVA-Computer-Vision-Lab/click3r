@@ -8,7 +8,7 @@
 <meta name="description" content="Click3R corrects feed-forward 3D reconstruction with sparse correspondence clicks: click the same point in both photos, and the network takes the clicks as input and returns corrected 3D geometry. NeurIPS 2026.">
 <meta name="theme-color" content="#0d0f13">
 <meta name="color-scheme" content="light">
-<link rel="icon" href="assets/img/favicon.svg?v=20261109114049" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon.svg?v=20261109132508" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Click3R">
 <meta property="og:title" content="Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks">
@@ -25,12 +25,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:opsz,wght@14..32,300..700&display=swap">
 <script>document.documentElement.classList.add('js');setTimeout(function(){var h=document.documentElement;if(!h.classList.contains('base-ready'))h.classList.remove('js');},3000);</script>
-<link rel="stylesheet" href="assets/css/base.css?v=20261109114049">
-<link rel="stylesheet" href="assets/css/hero.css?v=20261109114049">
-<link rel="stylesheet" href="assets/css/method.css?v=20261109114049">
-<link rel="stylesheet" href="assets/css/tryit.css?v=20261109114049">
-<link rel="stylesheet" href="assets/css/benchmark.css?v=20261109114049">
-<link rel="stylesheet" href="assets/css/clicks.css?v=20261109114049">
+<link rel="stylesheet" href="assets/css/base.css?v=20261109132508">
+<link rel="stylesheet" href="assets/css/hero.css?v=20261109132508">
+<link rel="stylesheet" href="assets/css/method.css?v=20261109132508">
+<link rel="stylesheet" href="assets/css/tryit.css?v=20261109132508">
+<link rel="stylesheet" href="assets/css/benchmark.css?v=20261109132508">
+<link rel="stylesheet" href="assets/css/clicks.css?v=20261109132508">
 </head>
 <body>
 <!-- ===== 01_nav.html ===== -->
@@ -101,7 +101,7 @@
       </div>
     </div>
     <figure class="hero__stage">
-      <div class="hero__frame" data-hero-player data-manifest="assets/media/hero/manifest.json?v=20261109114049" data-v="20261109114049"
+      <div class="hero__frame" data-hero-player data-manifest="assets/media/hero/manifest.json?v=20261109132508" data-v="20261109132508"
            role="group" aria-label="Click3R point clouds of image pairs, first without clicks, then after each click">
         <video class="hero__video is-on is-top" muted playsinline preload="none" aria-hidden="true"></video>
         <video class="hero__video" muted playsinline preload="none" aria-hidden="true"></video>
@@ -160,12 +160,12 @@
       <figure class="method-fig">
         <div class="method-fig__frame">
           <div class="method-fig__img">
-            <img class="method-fig__base" src="assets/img/method.webp?v=20261109114049" width="2400" height="900" loading="lazy"
+            <img class="method-fig__base" src="assets/img/method.webp?v=20261109132508" width="2400" height="900" loading="lazy"
               decoding="async" alt="Click3R architecture. Two photos with user clicks: a tokenizer turns the clicks into
               tokens, a shared ViT encoder turns each photo into image tokens, a correspondence adapter per view mixes
               the two, and DUSt3R's two decoders and heads output a 3D point cloud with both cameras.">
             <div class="method-fig__veil" aria-hidden="true"></div>
-            <img class="method-fig__lit" src="assets/img/method.webp?v=20261109114049" width="2400" height="900" loading="lazy"
+            <img class="method-fig__lit" src="assets/img/method.webp?v=20261109132508" width="2400" height="900" loading="lazy"
               decoding="async" alt="" aria-hidden="true">
           </div>
         </div>
@@ -182,7 +182,7 @@
           <span class="method-stage__n">01</span>
           <h3 class="method-stage__title">Shared ViT encoder</h3>
           <p class="method-stage__text">A shared ViT-Large encoder processes each image independently into patch tokens.</p>
-          <img class="method-stage__crop media" src="assets/img/method_stage1.jpg?v=20261109114049" width="800" height="325"
+          <img class="method-stage__crop media" src="assets/img/method_stage1.jpg?v=20261109132508" width="800" height="325"
             loading="lazy" decoding="async" alt="Detail: the two photos, the shared ViT encoders and the image-token grids.">
         </li>
         <li class="method-stage" id="method-stage-2" data-stage="2">
@@ -191,7 +191,7 @@
           <p class="method-stage__text">Each correspondence point is tokenized as a Fourier positional encoding of its 2D
             location, plus learnable image ID and pair ID embeddings that mark its view and link it to its matching
             point.</p>
-          <img class="method-stage__crop method-stage__crop--tall media" src="assets/img/method_stage2.jpg?v=20261109114049" width="800"
+          <img class="method-stage__crop method-stage__crop--tall media" src="assets/img/method_stage2.jpg?v=20261109132508" width="800"
             height="1053" loading="lazy" decoding="async"
             alt="Detail: the four clicks in each photo and their tokens; photo 2's tokens are hatched.">
         </li>
@@ -200,7 +200,7 @@
           <h3 class="method-stage__title">Point correspondence adapter</h3>
           <p class="method-stage__text">A two-way attention adapter, one per view, exchanges information between
             correspondence tokens and image tokens and updates the image features before decoding.</p>
-          <img class="method-stage__crop method-stage__crop--tall media" src="assets/img/method_stage3.jpg?v=20261109114049" width="800"
+          <img class="method-stage__crop method-stage__crop--tall media" src="assets/img/method_stage3.jpg?v=20261109132508" width="800"
             height="874" loading="lazy" decoding="async"
             alt="Detail: the two correspondence adapters, each feeding back into its view's image tokens.">
         </li>
@@ -209,13 +209,13 @@
           <h3 class="method-stage__title">Asymmetric decoder and prediction heads</h3>
           <p class="method-stage__text">The asymmetric decoder processes the updated features with cross-attention between
             the two views, and the prediction heads output 3D pointmaps and confidence maps.</p>
-          <img class="method-stage__crop media" src="assets/img/method_stage4.jpg?v=20261109114049" width="800" height="594"
+          <img class="method-stage__crop media" src="assets/img/method_stage4.jpg?v=20261109132508" width="800" height="594"
             loading="lazy" decoding="async" alt="Detail: the two transformer decoders, the heads and the 3D point cloud.">
         </li>
       </ol>
     </div>
 
-    <p class="method-full caption"><a href="assets/img/method.webp?v=20261109114049">Open the full architecture figure</a></p>
+    <p class="method-full caption"><a href="assets/img/method.webp?v=20261109132508">Open the full architecture figure</a></p>
   </div>
 </section>
 <!-- ===== 05_tryit.html ===== -->
@@ -227,7 +227,7 @@
       <p class="lede">Select a pair and add clicks one at a time; compare Click3R with DUSt3R, Pi3 and the ground truth.</p>
     </header>
 
-    <div class="tryit-gallery" data-gallery="assets/media/gallery/manifest.json?v=20261109114049">
+    <div class="tryit-gallery" data-gallery="assets/media/gallery/manifest.json?v=20261109132508">
       <div class="tryit-grid" role="group" aria-label="Choose an image pair"></div>
     </div>
 
@@ -273,7 +273,7 @@
 
     <div class="tryit-demo">
       <button class="tryit-demo-thumb" type="button" aria-haspopup="dialog" aria-label="Play the screen recording of the Click3R demo">
-        <img src="assets/media/demo_poster.jpg?v=20261109114049" alt="" width="1024" height="576" loading="lazy" decoding="async">
+        <img src="assets/media/demo_poster.jpg?v=20261109132508" alt="" width="1024" height="576" loading="lazy" decoding="async">
         <span class="tryit-demo-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
       </button>
       <div class="tryit-demo-text">
@@ -284,7 +284,7 @@
       </div>
       <dialog class="tryit-modal" aria-label="Screen recording of the Click3R demo">
         <button class="tryit-modal-close" type="button" aria-label="Close">&times;</button>
-        <video class="tryit-modal-video" controls muted playsinline preload="none" width="1024" height="576" data-poster="assets/media/demo_poster.jpg?v=20261109114049" data-src="assets/media/demo.mp4?v=20261109114049"></video>
+        <video class="tryit-modal-video" controls muted playsinline preload="none" width="1024" height="576" data-poster="assets/media/demo_poster.jpg?v=20261109132508" data-src="assets/media/demo.mp4?v=20261109132508"></video>
       </dialog>
     </div>
   </div>
@@ -300,8 +300,8 @@
     </header>
 
     <figure class="card bench-fig" data-reveal>
-      <a class="bench-zoom" href="assets/img/bench_figure.png?v=20261109114049" data-zoom="assets/img/bench_figure.png?v=20261109114049"
-        aria-label="Enlarge the Hard3DBench figure"><img src="assets/img/bench_figure.webp?v=20261109114049"
+      <a class="bench-zoom" href="assets/img/bench_figure.png?v=20261109132508" data-zoom="assets/img/bench_figure.png?v=20261109132508"
+        aria-label="Enlarge the Hard3DBench figure"><img src="assets/img/bench_figure.webp?v=20261109132508"
         width="2400" height="1189" loading="lazy" decoding="async"
         alt="Hard3DBench, 2-view subset: (a) cumulative rotation error of pretrained DUSt3R, median 12.0 degrees on Hard3DBench vs 1.1 degrees on a regular benchmark; (b) number of in-distribution and out-of-distribution pairs per failure category; (c) one example pair per category"></a>
     </figure>
@@ -316,8 +316,8 @@
       <p class="lede" data-reveal>Only Click3R takes the clicks (colored dots) as input; DUSt3R, VGGT and Pi3 reconstruct from the images alone. VGGT and Pi3 are larger models trained on much more data and are shown for reference.</p>
     </div>
     <figure class="qual__figure" data-reveal>
-      <a class="qual__zoom" href="assets/img/qualitative.png" data-zoom="assets/img/qualitative.png?v=20261109114049" aria-label="Enlarge the qualitative comparison">
-        <img class="media" src="assets/img/qualitative.webp?v=20261109114049" width="1716" height="1408" loading="lazy" decoding="async"
+      <a class="qual__zoom" href="assets/img/qualitative.png" data-zoom="assets/img/qualitative.png?v=20261109132508" aria-label="Enlarge the qualitative comparison">
+        <img class="media" src="assets/img/qualitative.webp?v=20261109132508" width="1716" height="1408" loading="lazy" decoding="async"
              alt="Four hard image pairs (an aerial round building, a stadium roof, a hotel room, an umbrella and a chair). For each: the input pair with clicks, then the 3D reconstructions of DUSt3R, VGGT, Pi3 and Click3R.">
         <span class="badge qual__hint" aria-hidden="true">⤢ Enlarge</span>
       </a>
@@ -395,10 +395,10 @@
     </div>
   </div>
 </footer>
-<script type="module" defer src="assets/js/base.js?v=20261109114049"></script>
-<script type="module" defer src="assets/js/hero.js?v=20261109114049"></script>
-<script type="module" defer src="assets/js/method.js?v=20261109114049"></script>
-<script type="module" defer src="assets/js/tryit.js?v=20261109114049"></script>
-<script type="module" defer src="assets/js/clicks.js?v=20261109114049"></script>
+<script type="module" defer src="assets/js/base.js?v=20261109132508"></script>
+<script type="module" defer src="assets/js/hero.js?v=20261109132508"></script>
+<script type="module" defer src="assets/js/method.js?v=20261109132508"></script>
+<script type="module" defer src="assets/js/tryit.js?v=20261109132508"></script>
+<script type="module" defer src="assets/js/clicks.js?v=20261109132508"></script>
 </body>
 </html>

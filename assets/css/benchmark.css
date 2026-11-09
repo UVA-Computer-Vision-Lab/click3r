@@ -4,6 +4,6 @@
 #benchmark .section__head h2 { max-width: 40ch; }  /* two lines on desktop */
 #benchmark .nobr { white-space: nowrap; }  /* no line break inside "feed-forward" */
 
-.bench-fig { margin: 0; padding: clamp(10px, 1.6vw, 20px); }
+.bench-fig { margin: 0; padding: clamp(calc(10px * var(--k)), 1.6vw, calc(20px * var(--k))); }
 .bench-zoom { display: block; cursor: zoom-in; }
 .bench-zoom img { display: block; width: 100%; height: auto; }
