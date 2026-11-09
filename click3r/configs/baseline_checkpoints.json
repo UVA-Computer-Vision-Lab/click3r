@@ -1,0 +1,54 @@
+{
+  "naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric": {
+    "revision": "06e7259f34c3060f322df5cb0c7b9094f57e41fc",
+    "files": {
+      "config.json": {
+        "bytes": 546,
+        "sha256": "718eb93dc4f9e4332b60cc0041af962d712cbd346d7770ce35c5b22cff68eae4"
+      },
+      "model.safetensors": {
+        "bytes": 2754661648,
+        "sha256": "0a615eb05fa9db654050aa655945ee5696e7c6c1b7f93f1ee8c37249010f6feb"
+      }
+    }
+  },
+  "facebook/VGGT-1B": {
+    "revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+    "files": {
+      "config.json": {
+        "bytes": 62,
+        "sha256": "a73e929a168b900546a84fe88cd70dfaaf2f8e39cf77355b12984eaa686f3855"
+      },
+      "model.safetensors": {
+        "bytes": 5026367224,
+        "sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e"
+      }
+    }
+  },
+  "yyfz233/Pi3": {
+    "revision": "ae722e7039287d0c8fde9f11f197f804f44b510c",
+    "files": {
+      "config.json": {
+        "bytes": 54,
+        "sha256": "afc2626e3e7b25d27d08701ab9ff8a91a98fcd68441a86287803f3a73566c865"
+      },
+      "model.safetensors": {
+        "bytes": 3834909248,
+        "sha256": "33580e4702ac671558aedeab1148fd08118f7ce45bdbeb99f3e3cf340062875d"
+      }
+    }
+  },
+  "yyfz233/Pi3X": {
+    "revision": "bb1deea4d7423de5b30691739cb451a3f57dc1d5",
+    "files": {
+      "config.json": {
+        "bytes": 44,
+        "sha256": "0e7d23382f8dc98b6eb15c546a5cb6bfe0021e290d43d72adb0842d57b031967"
+      },
+      "model.safetensors": {
+        "bytes": 5440325620,
+        "sha256": "69972d6e1c4492cb4d737a84fe940e357087d81c52f5c9b7c160b49c1f41669a"
+      }
+    }
+  }
+}

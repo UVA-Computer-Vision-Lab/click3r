@@ -1,0 +1,5214 @@
+{
+ "metadata": {
+  "benchmark": "Hard3DBench",
+  "subset": "5-view",
+  "split": "In-Distribution",
+  "num_samples": 400,
+  "selection": "Per dataset, candidate 5-view tuples have a connected co-visibility graph (edges with at least 5% overlap). Pretrained DUSt3R (224) predicted all ten pairs and DUSt3R global alignment (300 iterations, msp initialization) recovered the poses. Tuples were ranked by mean pairwise rotation error and the top 100 per dataset were kept. No tuple shares a sequence, scene, image, room or building with the Click3R training data. CO3D: the tuples come from the 499 held-out CO3D v2 test sequences of Table 1; the tuple search drew 994 loader indices, the same number per loader item as 5,000 on the larger training set. Habitat: the top 100 tuples whose scene shares no room or building with the training scenes. BlendedMVS and WildRGB-D: the top 100 tuples.",
+  "fields": {
+   "dust3r_mean_rre": "mean pairwise rotation error (degrees) of pretrained DUSt3R after global alignment, the selection statistic"
+  }
+ },
+ "samples": [
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000005:00000007:00000008:00000009:00000013",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000005",
+    "00000007",
+    "00000008",
+    "00000009",
+    "00000013"
+   ],
+   "dust3r_mean_rre": 120.9609186053276
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000056:00000058:00000066:00000084:00000147",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000056",
+    "00000058",
+    "00000066",
+    "00000084",
+    "00000147"
+   ],
+   "dust3r_mean_rre": 113.4863883972168
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000010:00000123:00000054:00000082:00000139",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000010",
+    "00000123",
+    "00000054",
+    "00000082",
+    "00000139"
+   ],
+   "dust3r_mean_rre": 112.66071166992188
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000105:00000020:00000078:00000092:00000113",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000105",
+    "00000020",
+    "00000078",
+    "00000092",
+    "00000113"
+   ],
+   "dust3r_mean_rre": 110.16388306617736
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000024:00000025:00000029:00000041:00000036",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000024",
+    "00000025",
+    "00000029",
+    "00000041",
+    "00000036"
+   ],
+   "dust3r_mean_rre": 109.91810126304627
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000008:00000027:00000009:00000018:00000013",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000008",
+    "00000027",
+    "00000009",
+    "00000018",
+    "00000013"
+   ],
+   "dust3r_mean_rre": 109.14326083660126
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000068:00000166:00000071:00000008:00000076",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000068",
+    "00000166",
+    "00000071",
+    "00000008",
+    "00000076"
+   ],
+   "dust3r_mean_rre": 108.69873972535133
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000014:00000016:00000038:00000000:00000011",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000014",
+    "00000016",
+    "00000038",
+    "00000000",
+    "00000011"
+   ],
+   "dust3r_mean_rre": 108.54428386688232
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000209:00000013:00000143:00000014:00000144",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000209",
+    "00000013",
+    "00000143",
+    "00000014",
+    "00000144"
+   ],
+   "dust3r_mean_rre": 107.98087252378464
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000005:00000027:00000009:00000003:00000029",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000005",
+    "00000027",
+    "00000009",
+    "00000003",
+    "00000029"
+   ],
+   "dust3r_mean_rre": 107.76858022809029
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000106:00000049:00000043:00000054:00000160",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000106",
+    "00000049",
+    "00000043",
+    "00000054",
+    "00000160"
+   ],
+   "dust3r_mean_rre": 107.50267333984375
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000158:00000002:00000016:00000006:00000187",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000158",
+    "00000002",
+    "00000016",
+    "00000006",
+    "00000187"
+   ],
+   "dust3r_mean_rre": 107.48321245312691
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000024:00000042:00000025:00000021:00000029",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000024",
+    "00000042",
+    "00000025",
+    "00000021",
+    "00000029"
+   ],
+   "dust3r_mean_rre": 107.11178433895111
+  },
+  {
+   "sample_id": "BlendedMVS_val:5aa0f478a9efce63548c1cb4:00000008:00000115:00000024:00000009:00000235",
+   "dataset": "BlendedMVS_val",
+   "scene": "5aa0f478a9efce63548c1cb4",
+   "frames": [
+    "00000008",
+    "00000115",
+    "00000024",
+    "00000009",
+    "00000235"
+   ],
+   "dust3r_mean_rre": 106.05318010449409
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000000:00000022:00000042:00000021:00000030",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000000",
+    "00000022",
+    "00000042",
+    "00000021",
+    "00000030"
+   ],
+   "dust3r_mean_rre": 105.69512630701065
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000013:00000000:00000025:00000034:00000049",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000013",
+    "00000000",
+    "00000025",
+    "00000034",
+    "00000049"
+   ],
+   "dust3r_mean_rre": 105.07283113002777
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000043:00000062:00000045:00000123:00000051",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000043",
+    "00000062",
+    "00000045",
+    "00000123",
+    "00000051"
+   ],
+   "dust3r_mean_rre": 104.54974727630615
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000000:00000032:00000037:00000002:00000061",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000000",
+    "00000032",
+    "00000037",
+    "00000002",
+    "00000061"
+   ],
+   "dust3r_mean_rre": 104.4568419456482
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000007:00000018:00000038:00000042:00000041",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000007",
+    "00000018",
+    "00000038",
+    "00000042",
+    "00000041"
+   ],
+   "dust3r_mean_rre": 104.20401628017426
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000005:00000044:00000021:00000029:00000030",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000005",
+    "00000044",
+    "00000021",
+    "00000029",
+    "00000030"
+   ],
+   "dust3r_mean_rre": 103.86433160305023
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000018:00000019:00000035:00000020:00000060",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000018",
+    "00000019",
+    "00000035",
+    "00000020",
+    "00000060"
+   ],
+   "dust3r_mean_rre": 103.00343341827393
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000062:00000045:00000123:00000051:00000053",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000062",
+    "00000045",
+    "00000123",
+    "00000051",
+    "00000053"
+   ],
+   "dust3r_mean_rre": 100.48485794067383
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000012:00000019:00000020:00000023:00000021",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000012",
+    "00000019",
+    "00000020",
+    "00000023",
+    "00000021"
+   ],
+   "dust3r_mean_rre": 99.7479685306549
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000158:00000184:00000002:00000244:00000256",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000158",
+    "00000184",
+    "00000002",
+    "00000244",
+    "00000256"
+   ],
+   "dust3r_mean_rre": 99.34397764205933
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000061:00000088:00000067:00000012:00000068",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000061",
+    "00000088",
+    "00000067",
+    "00000012",
+    "00000068"
+   ],
+   "dust3r_mean_rre": 99.02363973855972
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000016:00000029:00000103:00000122:00000150",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000016",
+    "00000029",
+    "00000103",
+    "00000122",
+    "00000150"
+   ],
+   "dust3r_mean_rre": 96.9683693408966
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000035:00000020:00000060:00000023:00000053",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000035",
+    "00000020",
+    "00000060",
+    "00000023",
+    "00000053"
+   ],
+   "dust3r_mean_rre": 95.75354309082032
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000037:00000053:00000082:00000084:00000149",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000037",
+    "00000053",
+    "00000082",
+    "00000084",
+    "00000149"
+   ],
+   "dust3r_mean_rre": 93.54487400054931
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000046:00000110:00000038:00000033:00000229",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000046",
+    "00000110",
+    "00000038",
+    "00000033",
+    "00000229"
+   ],
+   "dust3r_mean_rre": 89.3094999551773
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000234:00000103:00000080:00000186:00000199",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000234",
+    "00000103",
+    "00000080",
+    "00000186",
+    "00000199"
+   ],
+   "dust3r_mean_rre": 88.77291603088379
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000013:00000125:00000128:00000188:00000237",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000013",
+    "00000125",
+    "00000128",
+    "00000188",
+    "00000237"
+   ],
+   "dust3r_mean_rre": 87.30907808542251
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000136:00000133:00000153:00000042:00000020",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000136",
+    "00000133",
+    "00000153",
+    "00000042",
+    "00000020"
+   ],
+   "dust3r_mean_rre": 84.61051586866378
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000024:00000222:00000058:00000204:00000142",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000024",
+    "00000222",
+    "00000058",
+    "00000204",
+    "00000142"
+   ],
+   "dust3r_mean_rre": 84.48317332267762
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000026:00000048:00000088:00000153:00000102",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000026",
+    "00000048",
+    "00000088",
+    "00000153",
+    "00000102"
+   ],
+   "dust3r_mean_rre": 84.19917957186699
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a588a8193ac3d233f77fbca:00000004:00000012:00000021:00000033:00000043",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a588a8193ac3d233f77fbca",
+   "frames": [
+    "00000004",
+    "00000012",
+    "00000021",
+    "00000033",
+    "00000043"
+   ],
+   "dust3r_mean_rre": 83.6058636188507
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000025:00000047:00000060:00000084:00000083",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000025",
+    "00000047",
+    "00000060",
+    "00000084",
+    "00000083"
+   ],
+   "dust3r_mean_rre": 83.51432957649232
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000032:00000036:00000035:00000040:00000039",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000032",
+    "00000036",
+    "00000035",
+    "00000040",
+    "00000039"
+   ],
+   "dust3r_mean_rre": 82.53732252120972
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000104:00000012:00000051:00000092:00000150",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000104",
+    "00000012",
+    "00000051",
+    "00000092",
+    "00000150"
+   ],
+   "dust3r_mean_rre": 78.88011837005615
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000027:00000014:00000022:00000029:00000031",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000027",
+    "00000014",
+    "00000022",
+    "00000029",
+    "00000031"
+   ],
+   "dust3r_mean_rre": 77.1242267102003
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000001:00000049:00000047:00000039:00000048",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000001",
+    "00000049",
+    "00000047",
+    "00000039",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 77.10847113132476
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000021:00000068:00000116:00000125:00000208",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000021",
+    "00000068",
+    "00000116",
+    "00000125",
+    "00000208"
+   ],
+   "dust3r_mean_rre": 75.59405815601349
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000003:00000024:00000030:00000034:00000017",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000003",
+    "00000024",
+    "00000030",
+    "00000034",
+    "00000017"
+   ],
+   "dust3r_mean_rre": 75.57678231000901
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000032:00000002:00000005:00000020:00000060",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000032",
+    "00000002",
+    "00000005",
+    "00000020",
+    "00000060"
+   ],
+   "dust3r_mean_rre": 74.9478565454483
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000013:00000047:00000052:00000022:00000081",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000013",
+    "00000047",
+    "00000052",
+    "00000022",
+    "00000081"
+   ],
+   "dust3r_mean_rre": 74.86546564102173
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000016:00000024:00000042:00000036:00000017",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000016",
+    "00000024",
+    "00000042",
+    "00000036",
+    "00000017"
+   ],
+   "dust3r_mean_rre": 73.5388147354126
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000013:00000000:00000011:00000037:00000017",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000013",
+    "00000000",
+    "00000011",
+    "00000037",
+    "00000017"
+   ],
+   "dust3r_mean_rre": 73.12143940925598
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000144:00000135:00000146:00000072:00000161",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000144",
+    "00000135",
+    "00000146",
+    "00000072",
+    "00000161"
+   ],
+   "dust3r_mean_rre": 72.86630389690399
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000133:00000197:00000057:00000174:00000099",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000133",
+    "00000197",
+    "00000057",
+    "00000174",
+    "00000099"
+   ],
+   "dust3r_mean_rre": 72.82094965577126
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000030:00000041:00000034:00000036:00000031",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000030",
+    "00000041",
+    "00000034",
+    "00000036",
+    "00000031"
+   ],
+   "dust3r_mean_rre": 71.9158034324646
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000003:00000016:00000000:00000022:00000042",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000003",
+    "00000016",
+    "00000000",
+    "00000022",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 71.13242433071136
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000013:00000048:00000053:00000070:00000074",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000013",
+    "00000048",
+    "00000053",
+    "00000070",
+    "00000074"
+   ],
+   "dust3r_mean_rre": 70.06477303504944
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000060:00000021:00000050:00000049:00000047",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000060",
+    "00000021",
+    "00000050",
+    "00000049",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 69.8451901435852
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000016:00000006:00000187:00000007:00000209",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000016",
+    "00000006",
+    "00000187",
+    "00000007",
+    "00000209"
+   ],
+   "dust3r_mean_rre": 69.41423156261445
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000009:00000060:00000028:00000049:00000047",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000009",
+    "00000060",
+    "00000028",
+    "00000049",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 68.66267156600952
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000025:00000050:00000001:00000049:00000047",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000025",
+    "00000050",
+    "00000001",
+    "00000049",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 68.07881951332092
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000020:00000050:00000001:00000049:00000042",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000020",
+    "00000050",
+    "00000001",
+    "00000049",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 67.83683803081513
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000043:00000042:00000211:00000050:00000068",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000043",
+    "00000042",
+    "00000211",
+    "00000050",
+    "00000068"
+   ],
+   "dust3r_mean_rre": 67.25235582888126
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000023:00000092:00000218:00000252:00000255",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000023",
+    "00000092",
+    "00000218",
+    "00000252",
+    "00000255"
+   ],
+   "dust3r_mean_rre": 64.6255582332611
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000078:00000108:00000130:00000150:00000255",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000078",
+    "00000108",
+    "00000130",
+    "00000150",
+    "00000255"
+   ],
+   "dust3r_mean_rre": 64.10668449401855
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000002:00000012:00000035:00000060:00000042",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000002",
+    "00000012",
+    "00000035",
+    "00000060",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 64.09566521644592
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b21e18c58e2823a67a10dd8:00000034:00000047:00000036:00000039:00000042",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b21e18c58e2823a67a10dd8",
+   "frames": [
+    "00000034",
+    "00000047",
+    "00000036",
+    "00000039",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 63.043080472946166
+  },
+  {
+   "sample_id": "BlendedMVS_val:584c58b77072670e72c03990:00000017:00000026:00000060:00000095:00000119",
+   "dataset": "BlendedMVS_val",
+   "scene": "584c58b77072670e72c03990",
+   "frames": [
+    "00000017",
+    "00000026",
+    "00000060",
+    "00000095",
+    "00000119"
+   ],
+   "dust3r_mean_rre": 61.982544028759
+  },
+  {
+   "sample_id": "BlendedMVS_val:5ae2e9c5fe405c5076abc6b2:00000008:00000027:00000016:00000025:00000029",
+   "dataset": "BlendedMVS_val",
+   "scene": "5ae2e9c5fe405c5076abc6b2",
+   "frames": [
+    "00000008",
+    "00000027",
+    "00000016",
+    "00000025",
+    "00000029"
+   ],
+   "dust3r_mean_rre": 61.857361102104186
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b37189a35304b6f75e7583e:00000083:00000057:00000024:00000099:00000063",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b37189a35304b6f75e7583e",
+   "frames": [
+    "00000083",
+    "00000057",
+    "00000024",
+    "00000099",
+    "00000063"
+   ],
+   "dust3r_mean_rre": 61.624466848373416
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000006:00000055:00000199:00000215:00000260",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000006",
+    "00000055",
+    "00000199",
+    "00000215",
+    "00000260"
+   ],
+   "dust3r_mean_rre": 61.55859416127205
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000053:00000044:00000136:00000054:00000133",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000053",
+    "00000044",
+    "00000136",
+    "00000054",
+    "00000133"
+   ],
+   "dust3r_mean_rre": 61.45523391366005
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a588a8193ac3d233f77fbca:00000014:00000017:00000021:00000033:00000001",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a588a8193ac3d233f77fbca",
+   "frames": [
+    "00000014",
+    "00000017",
+    "00000021",
+    "00000033",
+    "00000001"
+   ],
+   "dust3r_mean_rre": 59.86211206912994
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b37189a35304b6f75e7583e:00000012:00000055:00000083:00000057:00000024",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b37189a35304b6f75e7583e",
+   "frames": [
+    "00000012",
+    "00000055",
+    "00000083",
+    "00000057",
+    "00000024"
+   ],
+   "dust3r_mean_rre": 59.77108633518219
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000030:00000037:00000012:00000062:00000027",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000030",
+    "00000037",
+    "00000012",
+    "00000062",
+    "00000027"
+   ],
+   "dust3r_mean_rre": 56.596228218078615
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000222:00000043:00000143:00000158:00000160",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000222",
+    "00000043",
+    "00000143",
+    "00000158",
+    "00000160"
+   ],
+   "dust3r_mean_rre": 56.30312633514404
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000026:00000058:00000034:00000061:00000065",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000026",
+    "00000058",
+    "00000034",
+    "00000061",
+    "00000065"
+   ],
+   "dust3r_mean_rre": 56.168947505950925
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a588a8193ac3d233f77fbca:00000041:00000015:00000040:00000017:00000033",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a588a8193ac3d233f77fbca",
+   "frames": [
+    "00000041",
+    "00000015",
+    "00000040",
+    "00000017",
+    "00000033"
+   ],
+   "dust3r_mean_rre": 55.39760649800301
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a489fb1c7dab83a7d7b1070:00000011:00000003:00000010:00000004:00000034",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a489fb1c7dab83a7d7b1070",
+   "frames": [
+    "00000011",
+    "00000003",
+    "00000010",
+    "00000004",
+    "00000034"
+   ],
+   "dust3r_mean_rre": 53.893215572834016
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000057:00000021:00000035:00000050:00000070",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000057",
+    "00000021",
+    "00000035",
+    "00000050",
+    "00000070"
+   ],
+   "dust3r_mean_rre": 53.87233594655991
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000018:00000049:00000050:00000022:00000121",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000018",
+    "00000049",
+    "00000050",
+    "00000022",
+    "00000121"
+   ],
+   "dust3r_mean_rre": 53.104257583618164
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a588a8193ac3d233f77fbca:00000041:00000036:00000015:00000040:00000038",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a588a8193ac3d233f77fbca",
+   "frames": [
+    "00000041",
+    "00000036",
+    "00000015",
+    "00000040",
+    "00000038"
+   ],
+   "dust3r_mean_rre": 52.68379320502281
+  },
+  {
+   "sample_id": "BlendedMVS_val:5aa0f478a9efce63548c1cb4:00000280:00000038:00000195:00000179:00000044",
+   "dataset": "BlendedMVS_val",
+   "scene": "5aa0f478a9efce63548c1cb4",
+   "frames": [
+    "00000280",
+    "00000038",
+    "00000195",
+    "00000179",
+    "00000044"
+   ],
+   "dust3r_mean_rre": 52.369076401740315
+  },
+  {
+   "sample_id": "BlendedMVS_val:5aa0f478a9efce63548c1cb4:00000038:00000195:00000179:00000044:00000211",
+   "dataset": "BlendedMVS_val",
+   "scene": "5aa0f478a9efce63548c1cb4",
+   "frames": [
+    "00000038",
+    "00000195",
+    "00000179",
+    "00000044",
+    "00000211"
+   ],
+   "dust3r_mean_rre": 52.31945830136537
+  },
+  {
+   "sample_id": "BlendedMVS_val:5aa0f478a9efce63548c1cb4:00000037:00000280:00000038:00000195:00000179",
+   "dataset": "BlendedMVS_val",
+   "scene": "5aa0f478a9efce63548c1cb4",
+   "frames": [
+    "00000037",
+    "00000280",
+    "00000038",
+    "00000195",
+    "00000179"
+   ],
+   "dust3r_mean_rre": 52.10081415772438
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bf26cbbd43923194854b270:00000075:00000069:00000274:00000070:00000086",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bf26cbbd43923194854b270",
+   "frames": [
+    "00000075",
+    "00000069",
+    "00000274",
+    "00000070",
+    "00000086"
+   ],
+   "dust3r_mean_rre": 51.86924986243248
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a489fb1c7dab83a7d7b1070:00000011:00000010:00000034:00000007:00000030",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a489fb1c7dab83a7d7b1070",
+   "frames": [
+    "00000011",
+    "00000010",
+    "00000034",
+    "00000007",
+    "00000030"
+   ],
+   "dust3r_mean_rre": 51.19973220527172
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a588a8193ac3d233f77fbca:00000041:00000012:00000015:00000021:00000043",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a588a8193ac3d233f77fbca",
+   "frames": [
+    "00000041",
+    "00000012",
+    "00000015",
+    "00000021",
+    "00000043"
+   ],
+   "dust3r_mean_rre": 50.58493039608002
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000055:00000147:00000035:00000041:00000036",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000055",
+    "00000147",
+    "00000035",
+    "00000041",
+    "00000036"
+   ],
+   "dust3r_mean_rre": 50.108136248588565
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000001:00000039:00000013:00000015:00000072",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000001",
+    "00000039",
+    "00000013",
+    "00000015",
+    "00000072"
+   ],
+   "dust3r_mean_rre": 48.423190450668336
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bfc9d5aec61ca1dd69132a2:00000207:00000069:00000183:00000176:00000070",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bfc9d5aec61ca1dd69132a2",
+   "frames": [
+    "00000207",
+    "00000069",
+    "00000183",
+    "00000176",
+    "00000070"
+   ],
+   "dust3r_mean_rre": 47.76027392148971
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000031:00000055:00000147:00000035:00000041",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000031",
+    "00000055",
+    "00000147",
+    "00000035",
+    "00000041"
+   ],
+   "dust3r_mean_rre": 47.243619015812875
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000014:00000144:00000019:00000193:00000021",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000014",
+    "00000144",
+    "00000019",
+    "00000193",
+    "00000021"
+   ],
+   "dust3r_mean_rre": 46.609093783795835
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bff3c5cfe0ea555e6bcbf3a:00000134:00000004:00000199:00000207:00000210",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bff3c5cfe0ea555e6bcbf3a",
+   "frames": [
+    "00000134",
+    "00000004",
+    "00000199",
+    "00000207",
+    "00000210"
+   ],
+   "dust3r_mean_rre": 45.651657700538635
+  },
+  {
+   "sample_id": "BlendedMVS_val:586c48329d1b5e34c2838e80:00000123:00000051:00000053:00000071:00000054",
+   "dataset": "BlendedMVS_val",
+   "scene": "586c48329d1b5e34c2838e80",
+   "frames": [
+    "00000123",
+    "00000051",
+    "00000053",
+    "00000071",
+    "00000054"
+   ],
+   "dust3r_mean_rre": 42.527025890350345
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000001:00000038:00000014:00000044:00000084",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000001",
+    "00000038",
+    "00000014",
+    "00000044",
+    "00000084"
+   ],
+   "dust3r_mean_rre": 42.13822876214981
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b37189a35304b6f75e7583e:00000048:00000028:00000053:00000049:00000074",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b37189a35304b6f75e7583e",
+   "frames": [
+    "00000048",
+    "00000028",
+    "00000053",
+    "00000049",
+    "00000074"
+   ],
+   "dust3r_mean_rre": 40.825060474872586
+  },
+  {
+   "sample_id": "BlendedMVS_val:590f91851225725be9e25d4e:00000008:00000016:00000017:00000039:00000044",
+   "dataset": "BlendedMVS_val",
+   "scene": "590f91851225725be9e25d4e",
+   "frames": [
+    "00000008",
+    "00000016",
+    "00000017",
+    "00000039",
+    "00000044"
+   ],
+   "dust3r_mean_rre": 37.742706610262395
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000032:00000035:00000051:00000040:00000047",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000032",
+    "00000035",
+    "00000051",
+    "00000040",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 36.85043494701385
+  },
+  {
+   "sample_id": "BlendedMVS_val:5a588a8193ac3d233f77fbca:00000036:00000012:00000014:00000038:00000001",
+   "dataset": "BlendedMVS_val",
+   "scene": "5a588a8193ac3d233f77fbca",
+   "frames": [
+    "00000036",
+    "00000012",
+    "00000014",
+    "00000038",
+    "00000001"
+   ],
+   "dust3r_mean_rre": 36.83792164325714
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000012:00000021:00000040:00000047:00000048",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000012",
+    "00000021",
+    "00000040",
+    "00000047",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 36.79205846786499
+  },
+  {
+   "sample_id": "BlendedMVS_val:5b864d850d072a699b32f4ae:00000411:00000047:00000593:00000599:00000048",
+   "dataset": "BlendedMVS_val",
+   "scene": "5b864d850d072a699b32f4ae",
+   "frames": [
+    "00000411",
+    "00000047",
+    "00000593",
+    "00000599",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 36.560286667943004
+  },
+  {
+   "sample_id": "BlendedMVS_val:5bf26cbbd43923194854b270:00000019:00000100:00000232:00000282:00000223",
+   "dataset": "BlendedMVS_val",
+   "scene": "5bf26cbbd43923194854b270",
+   "frames": [
+    "00000019",
+    "00000100",
+    "00000232",
+    "00000282",
+    "00000223"
+   ],
+   "dust3r_mean_rre": 35.83801116943359
+  },
+  {
+   "sample_id": "BlendedMVS_val:5862388b712e2761468f84aa:00000011:00000023:00000080:00000051:00000036",
+   "dataset": "BlendedMVS_val",
+   "scene": "5862388b712e2761468f84aa",
+   "frames": [
+    "00000011",
+    "00000023",
+    "00000080",
+    "00000051",
+    "00000036"
+   ],
+   "dust3r_mean_rre": 35.161433970928194
+  },
+  {
+   "sample_id": "BlendedMVS_val:59acd2f4b891807f439c8992:00000080:00000125:00000177:00000240:00000255",
+   "dataset": "BlendedMVS_val",
+   "scene": "59acd2f4b891807f439c8992",
+   "frames": [
+    "00000080",
+    "00000125",
+    "00000177",
+    "00000240",
+    "00000255"
+   ],
+   "dust3r_mean_rre": 34.72572841644287
+  },
+  {
+   "sample_id": "BlendedMVS_val:5947b62af1b45630bd0c2a02:00000009:00000039:00000057:00000029:00000052",
+   "dataset": "BlendedMVS_val",
+   "scene": "5947b62af1b45630bd0c2a02",
+   "frames": [
+    "00000009",
+    "00000039",
+    "00000057",
+    "00000029",
+    "00000052"
+   ],
+   "dust3r_mean_rre": 34.4555323600769
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000075.jpg:frame000124.jpg:frame000085.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000075.jpg",
+    "frame000124.jpg",
+    "frame000085.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 110.86970443725586
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000075.jpg:frame000124.jpg:frame000102.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000075.jpg",
+    "frame000124.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 108.14390485286712
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000124.jpg:frame000085.jpg:frame000102.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000124.jpg",
+    "frame000085.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 107.2267397403717
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000075.jpg:frame000085.jpg:frame000102.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000075.jpg",
+    "frame000085.jpg",
+    "frame000102.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 106.1774539232254
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000131.jpg:frame000102.jpg:frame000134.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000131.jpg",
+    "frame000102.jpg",
+    "frame000134.jpg"
+   ],
+   "dust3r_mean_rre": 105.95319538116455
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000034.jpg:frame000131.jpg:frame000102.jpg:frame000134.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000034.jpg",
+    "frame000131.jpg",
+    "frame000102.jpg",
+    "frame000134.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 105.24084253311158
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000075.jpg:frame000124.jpg:frame000085.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000075.jpg",
+    "frame000124.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 90.67896219491959
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000063.jpg:frame000075.jpg:frame000102.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000063.jpg",
+    "frame000075.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 88.624746966362
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000075.jpg:frame000085.jpg:frame000102.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000075.jpg",
+    "frame000085.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 86.04934289455414
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000061.jpg:frame000131.jpg:frame000134.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000061.jpg",
+    "frame000131.jpg",
+    "frame000134.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 85.09468491077423
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000007.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 81.45815778374671
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000075.jpg:frame000124.jpg:frame000085.jpg:frame000102.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000075.jpg",
+    "frame000124.jpg",
+    "frame000085.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 79.90789885520935
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000075.jpg:frame000102.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000075.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 77.07170775532722
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000085.jpg:frame000123.jpg:frame000163.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000085.jpg",
+    "frame000123.jpg",
+    "frame000163.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.93289833068847
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000085.jpg:frame000123.jpg:frame000155.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000085.jpg",
+    "frame000123.jpg",
+    "frame000155.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.89262745380401
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000085.jpg:frame000155.jpg:frame000163.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000085.jpg",
+    "frame000155.jpg",
+    "frame000163.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.8471275806427
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000121.jpg:frame000085.jpg:frame000155.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000121.jpg",
+    "frame000085.jpg",
+    "frame000155.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.75623435974121
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000121.jpg:frame000085.jpg:frame000163.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000121.jpg",
+    "frame000085.jpg",
+    "frame000163.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.68621866703033
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000121.jpg:frame000085.jpg:frame000123.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000121.jpg",
+    "frame000085.jpg",
+    "frame000123.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.32009543180466
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000121.jpg:frame000123.jpg:frame000163.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000121.jpg",
+    "frame000123.jpg",
+    "frame000163.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 74.00737073421479
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000121.jpg:frame000123.jpg:frame000155.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000121.jpg",
+    "frame000123.jpg",
+    "frame000155.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 73.58924364447594
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000121.jpg:frame000155.jpg:frame000163.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000121.jpg",
+    "frame000155.jpg",
+    "frame000163.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 73.43905971050262
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000123.jpg:frame000155.jpg:frame000163.jpg:frame000175.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000123.jpg",
+    "frame000155.jpg",
+    "frame000163.jpg",
+    "frame000175.jpg"
+   ],
+   "dust3r_mean_rre": 73.40914741754531
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/193_20800_40805:frame000001.jpg:frame000061.jpg:frame000144.jpg:frame000124.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/193_20800_40805",
+   "frames": [
+    "frame000001.jpg",
+    "frame000061.jpg",
+    "frame000144.jpg",
+    "frame000124.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 73.40908603668213
+  },
+  {
+   "sample_id": "Co3d_test:toyplane/375_42646_85487:frame000112.jpg:frame000083.jpg:frame000123.jpg:frame000161.jpg:frame000172.jpg",
+   "dataset": "Co3d_test",
+   "scene": "toyplane/375_42646_85487",
+   "frames": [
+    "frame000112.jpg",
+    "frame000083.jpg",
+    "frame000123.jpg",
+    "frame000161.jpg",
+    "frame000172.jpg"
+   ],
+   "dust3r_mean_rre": 72.12738988399505
+  },
+  {
+   "sample_id": "Co3d_test:book/209_22171_45188:frame000054.jpg:frame000085.jpg:frame000123.jpg:frame000155.jpg:frame000163.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/209_22171_45188",
+   "frames": [
+    "frame000054.jpg",
+    "frame000085.jpg",
+    "frame000123.jpg",
+    "frame000155.jpg",
+    "frame000163.jpg"
+   ],
+   "dust3r_mean_rre": 72.11302971839905
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000131.jpg:frame000134.jpg:frame000125.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000131.jpg",
+    "frame000134.jpg",
+    "frame000125.jpg"
+   ],
+   "dust3r_mean_rre": 71.0267566204071
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000061.jpg:frame000102.jpg:frame000134.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000061.jpg",
+    "frame000102.jpg",
+    "frame000134.jpg"
+   ],
+   "dust3r_mean_rre": 70.83675928115845
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000085.jpg:frame000102.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000085.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 69.12896549105645
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000102.jpg:frame000134.jpg:frame000125.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000102.jpg",
+    "frame000134.jpg",
+    "frame000125.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 67.99467520713806
+  },
+  {
+   "sample_id": "Co3d_test:motorcycle/570_83062_163182:frame000042.jpg:frame000065.jpg:frame000075.jpg:frame000085.jpg:frame000154.jpg",
+   "dataset": "Co3d_test",
+   "scene": "motorcycle/570_83062_163182",
+   "frames": [
+    "frame000042.jpg",
+    "frame000065.jpg",
+    "frame000075.jpg",
+    "frame000085.jpg",
+    "frame000154.jpg"
+   ],
+   "dust3r_mean_rre": 65.18211847245693
+  },
+  {
+   "sample_id": "Co3d_test:motorcycle/570_83062_163182:frame000042.jpg:frame000065.jpg:frame000053.jpg:frame000085.jpg:frame000154.jpg",
+   "dataset": "Co3d_test",
+   "scene": "motorcycle/570_83062_163182",
+   "frames": [
+    "frame000042.jpg",
+    "frame000065.jpg",
+    "frame000053.jpg",
+    "frame000085.jpg",
+    "frame000154.jpg"
+   ],
+   "dust3r_mean_rre": 65.04673547744751
+  },
+  {
+   "sample_id": "Co3d_test:motorcycle/570_83062_163182:frame000065.jpg:frame000053.jpg:frame000075.jpg:frame000085.jpg:frame000154.jpg",
+   "dataset": "Co3d_test",
+   "scene": "motorcycle/570_83062_163182",
+   "frames": [
+    "frame000065.jpg",
+    "frame000053.jpg",
+    "frame000075.jpg",
+    "frame000085.jpg",
+    "frame000154.jpg"
+   ],
+   "dust3r_mean_rre": 64.58424253463745
+  },
+  {
+   "sample_id": "Co3d_test:motorcycle/570_83062_163182:frame000042.jpg:frame000065.jpg:frame000053.jpg:frame000075.jpg:frame000154.jpg",
+   "dataset": "Co3d_test",
+   "scene": "motorcycle/570_83062_163182",
+   "frames": [
+    "frame000042.jpg",
+    "frame000065.jpg",
+    "frame000053.jpg",
+    "frame000075.jpg",
+    "frame000154.jpg"
+   ],
+   "dust3r_mean_rre": 63.39988062083721
+  },
+  {
+   "sample_id": "Co3d_test:motorcycle/570_83062_163182:frame000042.jpg:frame000053.jpg:frame000075.jpg:frame000085.jpg:frame000154.jpg",
+   "dataset": "Co3d_test",
+   "scene": "motorcycle/570_83062_163182",
+   "frames": [
+    "frame000042.jpg",
+    "frame000053.jpg",
+    "frame000075.jpg",
+    "frame000085.jpg",
+    "frame000154.jpg"
+   ],
+   "dust3r_mean_rre": 62.857005602121355
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000102.jpg:frame000134.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000102.jpg",
+    "frame000134.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 62.18195624351502
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000061.jpg:frame000134.jpg:frame000125.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000061.jpg",
+    "frame000134.jpg",
+    "frame000125.jpg"
+   ],
+   "dust3r_mean_rre": 62.052562189102176
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000124.jpg:frame000152.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg",
+    "frame000152.jpg"
+   ],
+   "dust3r_mean_rre": 56.81419126391411
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/193_20800_40805:frame000001.jpg:frame000061.jpg:frame000123.jpg:frame000124.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/193_20800_40805",
+   "frames": [
+    "frame000001.jpg",
+    "frame000061.jpg",
+    "frame000123.jpg",
+    "frame000124.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 56.57843443751335
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000063.jpg:frame000124.jpg:frame000153.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000063.jpg",
+    "frame000124.jpg",
+    "frame000153.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 55.315091574192046
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000141.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000141.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 55.28948478102684
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000061.jpg:frame000131.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000061.jpg",
+    "frame000131.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 54.73395113945007
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000055.jpg:frame000066.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 54.588171577453615
+  },
+  {
+   "sample_id": "Co3d_test:cake/409_55531_107198:frame000023.jpg:frame000031.jpg:frame000063.jpg:frame000134.jpg:frame000152.jpg",
+   "dataset": "Co3d_test",
+   "scene": "cake/409_55531_107198",
+   "frames": [
+    "frame000023.jpg",
+    "frame000031.jpg",
+    "frame000063.jpg",
+    "frame000134.jpg",
+    "frame000152.jpg"
+   ],
+   "dust3r_mean_rre": 54.301385244727136
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000007.jpg:frame000055.jpg:frame000066.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 54.0768424987793
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000134.jpg:frame000125.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000134.jpg",
+    "frame000125.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 53.18469243049621
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000007.jpg:frame000055.jpg:frame000066.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg"
+   ],
+   "dust3r_mean_rre": 52.51725137233734
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000141.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000141.jpg"
+   ],
+   "dust3r_mean_rre": 52.10494413375854
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 51.91668968200683
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg"
+   ],
+   "dust3r_mean_rre": 51.73352241516113
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000055.jpg:frame000066.jpg:frame000100.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000100.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 51.71048126220703
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000055.jpg:frame000066.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 51.350894165039065
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000007.jpg:frame000066.jpg:frame000101.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 50.99966030120849
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000055.jpg:frame000100.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000100.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 50.951055717468265
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000007.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg"
+   ],
+   "dust3r_mean_rre": 50.661641120910645
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000124.jpg:frame000141.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg",
+    "frame000141.jpg"
+   ],
+   "dust3r_mean_rre": 50.07937340736389
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000007.jpg:frame000055.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 49.753503584861754
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000065.jpg:frame000085.jpg:frame000153.jpg:frame000152.jpg:frame000141.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000065.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000152.jpg",
+    "frame000141.jpg"
+   ],
+   "dust3r_mean_rre": 49.39960989058018
+  },
+  {
+   "sample_id": "Co3d_test:toyplane/375_42646_85487:frame000023.jpg:frame000062.jpg:frame000083.jpg:frame000123.jpg:frame000161.jpg",
+   "dataset": "Co3d_test",
+   "scene": "toyplane/375_42646_85487",
+   "frames": [
+    "frame000023.jpg",
+    "frame000062.jpg",
+    "frame000083.jpg",
+    "frame000123.jpg",
+    "frame000161.jpg"
+   ],
+   "dust3r_mean_rre": 49.32445467710495
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000007.jpg:frame000055.jpg:frame000101.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000101.jpg"
+   ],
+   "dust3r_mean_rre": 48.86256215572357
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000007.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 48.756472969055174
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000007.jpg:frame000055.jpg:frame000066.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 48.407713413238525
+  },
+  {
+   "sample_id": "Co3d_test:toyplane/375_42646_85487:frame000022.jpg:frame000023.jpg:frame000062.jpg:frame000083.jpg:frame000123.jpg",
+   "dataset": "Co3d_test",
+   "scene": "toyplane/375_42646_85487",
+   "frames": [
+    "frame000022.jpg",
+    "frame000023.jpg",
+    "frame000062.jpg",
+    "frame000083.jpg",
+    "frame000123.jpg"
+   ],
+   "dust3r_mean_rre": 48.35836278200149
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 47.8667070388794
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000007.jpg:frame000066.jpg:frame000101.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg"
+   ],
+   "dust3r_mean_rre": 47.645940566062926
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000085.jpg:frame000153.jpg:frame000152.jpg:frame000141.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000152.jpg",
+    "frame000141.jpg"
+   ],
+   "dust3r_mean_rre": 47.171931102871895
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000007.jpg:frame000066.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000066.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 47.16058707237244
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000055.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 46.9393432021141
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 45.98823353052139
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000034.jpg:frame000061.jpg:frame000131.jpg:frame000102.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000034.jpg",
+    "frame000061.jpg",
+    "frame000131.jpg",
+    "frame000102.jpg"
+   ],
+   "dust3r_mean_rre": 45.90225353240967
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000007.jpg:frame000055.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 45.73839694261551
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 45.43527436256409
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000036.jpg:frame000007.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 44.994673657417295
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000007.jpg:frame000055.jpg:frame000066.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 43.91410155296326
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000065.jpg:frame000095.jpg:frame000153.jpg:frame000152.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000065.jpg",
+    "frame000095.jpg",
+    "frame000153.jpg",
+    "frame000152.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 42.83007562160492
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000055.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000055.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 42.692984390258786
+  },
+  {
+   "sample_id": "Co3d_test:stopsign/602_93388_185194:frame000013.jpg:frame000063.jpg:frame000124.jpg:frame000102.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "stopsign/602_93388_185194",
+   "frames": [
+    "frame000013.jpg",
+    "frame000063.jpg",
+    "frame000124.jpg",
+    "frame000102.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 42.08683042526245
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000023.jpg:frame000064.jpg:frame000095.jpg:frame000152.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000023.jpg",
+    "frame000064.jpg",
+    "frame000095.jpg",
+    "frame000152.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 40.57464163303375
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000085.jpg:frame000152.jpg:frame000141.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000085.jpg",
+    "frame000152.jpg",
+    "frame000141.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 40.00146440267563
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000095.jpg:frame000153.jpg:frame000124.jpg:frame000152.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000095.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg",
+    "frame000152.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 39.844044767320156
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000007.jpg:frame000055.jpg:frame000101.jpg:frame000100.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000007.jpg",
+    "frame000055.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 39.34829353094101
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000085.jpg:frame000153.jpg:frame000141.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000141.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 38.775832146406174
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000095.jpg:frame000153.jpg:frame000124.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000095.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 38.51780052781105
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000095.jpg:frame000124.jpg:frame000152.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000095.jpg",
+    "frame000124.jpg",
+    "frame000152.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 37.92702092528343
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000036.jpg:frame000007.jpg:frame000101.jpg:frame000100.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000036.jpg",
+    "frame000007.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg"
+   ],
+   "dust3r_mean_rre": 37.13180826902389
+  },
+  {
+   "sample_id": "Co3d_test:book/346_36036_66110:frame000061.jpg:frame000075.jpg:frame000152.jpg:frame000155.jpg:frame000185.jpg",
+   "dataset": "Co3d_test",
+   "scene": "book/346_36036_66110",
+   "frames": [
+    "frame000061.jpg",
+    "frame000075.jpg",
+    "frame000152.jpg",
+    "frame000155.jpg",
+    "frame000185.jpg"
+   ],
+   "dust3r_mean_rre": 36.716724273562434
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000006.jpg:frame000007.jpg:frame000066.jpg:frame000100.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000006.jpg",
+    "frame000007.jpg",
+    "frame000066.jpg",
+    "frame000100.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 36.45922822952271
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000085.jpg:frame000153.jpg:frame000124.jpg:frame000152.jpg:frame000141.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg",
+    "frame000152.jpg",
+    "frame000141.jpg"
+   ],
+   "dust3r_mean_rre": 36.26188189983368
+  },
+  {
+   "sample_id": "Co3d_test:orange/395_48892_96762:frame000007.jpg:frame000066.jpg:frame000101.jpg:frame000100.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/395_48892_96762",
+   "frames": [
+    "frame000007.jpg",
+    "frame000066.jpg",
+    "frame000101.jpg",
+    "frame000100.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 35.75726528167725
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000023.jpg:frame000085.jpg:frame000153.jpg:frame000141.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000023.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000141.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 35.54491918087005
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000064.jpg:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000124.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000064.jpg",
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg"
+   ],
+   "dust3r_mean_rre": 35.096808803081515
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000065.jpg:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000124.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000065.jpg",
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000124.jpg"
+   ],
+   "dust3r_mean_rre": 34.88145120143891
+  },
+  {
+   "sample_id": "Co3d_test:orange/374_42250_84489:frame000045.jpg:frame000073.jpg:frame000101.jpg:frame000145.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/374_42250_84489",
+   "frames": [
+    "frame000045.jpg",
+    "frame000073.jpg",
+    "frame000101.jpg",
+    "frame000145.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 33.69238104820251
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000023.jpg:frame000095.jpg:frame000085.jpg:frame000153.jpg:frame000141.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000023.jpg",
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000153.jpg",
+    "frame000141.jpg"
+   ],
+   "dust3r_mean_rre": 32.67316403388977
+  },
+  {
+   "sample_id": "Co3d_test:orange/374_42250_84489:frame000045.jpg:frame000073.jpg:frame000145.jpg:frame000134.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/374_42250_84489",
+   "frames": [
+    "frame000045.jpg",
+    "frame000073.jpg",
+    "frame000145.jpg",
+    "frame000134.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 32.16375424861908
+  },
+  {
+   "sample_id": "Co3d_test:orange/374_42250_84489:frame000045.jpg:frame000073.jpg:frame000101.jpg:frame000134.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/374_42250_84489",
+   "frames": [
+    "frame000045.jpg",
+    "frame000073.jpg",
+    "frame000101.jpg",
+    "frame000134.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 30.623326992988588
+  },
+  {
+   "sample_id": "Co3d_test:orange/374_42250_84489:frame000045.jpg:frame000101.jpg:frame000145.jpg:frame000134.jpg:frame000153.jpg",
+   "dataset": "Co3d_test",
+   "scene": "orange/374_42250_84489",
+   "frames": [
+    "frame000045.jpg",
+    "frame000101.jpg",
+    "frame000145.jpg",
+    "frame000134.jpg",
+    "frame000153.jpg"
+   ],
+   "dust3r_mean_rre": 29.824386644363404
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000023.jpg:frame000065.jpg:frame000064.jpg:frame000095.jpg:frame000085.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000023.jpg",
+    "frame000065.jpg",
+    "frame000064.jpg",
+    "frame000095.jpg",
+    "frame000085.jpg"
+   ],
+   "dust3r_mean_rre": 29.443432280421256
+  },
+  {
+   "sample_id": "Co3d_test:car/623_102793_204924:frame000001.jpg:frame000061.jpg:frame000131.jpg:frame000102.jpg:frame000155.jpg",
+   "dataset": "Co3d_test",
+   "scene": "car/623_102793_204924",
+   "frames": [
+    "frame000001.jpg",
+    "frame000061.jpg",
+    "frame000131.jpg",
+    "frame000102.jpg",
+    "frame000155.jpg"
+   ],
+   "dust3r_mean_rre": 28.313333797454835
+  },
+  {
+   "sample_id": "Co3d_test:parkingmeter/431_60881_118388:frame000065.jpg:frame000095.jpg:frame000085.jpg:frame000124.jpg:frame000151.jpg",
+   "dataset": "Co3d_test",
+   "scene": "parkingmeter/431_60881_118388",
+   "frames": [
+    "frame000065.jpg",
+    "frame000095.jpg",
+    "frame000085.jpg",
+    "frame000124.jpg",
+    "frame000151.jpg"
+   ],
+   "dust3r_mean_rre": 26.956652545928954
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00310-WnvnMQh4eEa/WnvnMQh4eEa.basis:485_3:54_0:54_1:273_0:273_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00310-WnvnMQh4eEa/WnvnMQh4eEa.basis",
+   "frames": [
+    "485_3",
+    "54_0",
+    "54_1",
+    "273_0",
+    "273_2"
+   ],
+   "dust3r_mean_rre": 134.74977658390998
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis:184_4:259_1:208_3:393_1:76_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis",
+   "frames": [
+    "184_4",
+    "259_1",
+    "208_3",
+    "393_1",
+    "76_1"
+   ],
+   "dust3r_mean_rre": 133.13128051757812
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00487-erXNfWVjqZ8/erXNfWVjqZ8.basis:143_0:99_0:179_2:233_0:8_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00487-erXNfWVjqZ8/erXNfWVjqZ8.basis",
+   "frames": [
+    "143_0",
+    "99_0",
+    "179_2",
+    "233_0",
+    "8_0"
+   ],
+   "dust3r_mean_rre": 130.25356483459473
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00057-1UnKg1rAb8A/1UnKg1rAb8A.basis:45_3:393_0:279_4:483_0:465_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00057-1UnKg1rAb8A/1UnKg1rAb8A.basis",
+   "frames": [
+    "45_3",
+    "393_0",
+    "279_4",
+    "483_0",
+    "465_0"
+   ],
+   "dust3r_mean_rre": 125.01151809692382
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00088-z9w4aD7JsiQ/z9w4aD7JsiQ.basis:84_1:73_0:73_3:340_0:340_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00088-z9w4aD7JsiQ/z9w4aD7JsiQ.basis",
+   "frames": [
+    "84_1",
+    "73_0",
+    "73_3",
+    "340_0",
+    "340_3"
+   ],
+   "dust3r_mean_rre": 122.85892596244813
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00611-PXAfUkZGMdU/PXAfUkZGMdU.basis:158_2:270_0:270_3:101_0:101_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00611-PXAfUkZGMdU/PXAfUkZGMdU.basis",
+   "frames": [
+    "158_2",
+    "270_0",
+    "270_3",
+    "101_0",
+    "101_4"
+   ],
+   "dust3r_mean_rre": 121.21031585931777
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis:68_3:115_1:364_3:319_4:467_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis",
+   "frames": [
+    "68_3",
+    "115_1",
+    "364_3",
+    "319_4",
+    "467_1"
+   ],
+   "dust3r_mean_rre": 118.81535205841064
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis:68_0:68_3:115_0:115_1:319_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis",
+   "frames": [
+    "68_0",
+    "68_3",
+    "115_0",
+    "115_1",
+    "319_4"
+   ],
+   "dust3r_mean_rre": 117.55754697322845
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00088-z9w4aD7JsiQ/z9w4aD7JsiQ.basis:204_2:207_4:84_1:73_3:340_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00088-z9w4aD7JsiQ/z9w4aD7JsiQ.basis",
+   "frames": [
+    "204_2",
+    "207_4",
+    "84_1",
+    "73_3",
+    "340_3"
+   ],
+   "dust3r_mean_rre": 114.3019027709961
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00071-GCEb4nmNi7j/GCEb4nmNi7j.basis:252_0:252_3:256_0:256_3:237_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00071-GCEb4nmNi7j/GCEb4nmNi7j.basis",
+   "frames": [
+    "252_0",
+    "252_3",
+    "256_0",
+    "256_3",
+    "237_0"
+   ],
+   "dust3r_mean_rre": 113.31006702184678
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis:194_4:456_0:456_1:187_0:187_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis",
+   "frames": [
+    "194_4",
+    "456_0",
+    "456_1",
+    "187_0",
+    "187_2"
+   ],
+   "dust3r_mean_rre": 110.977976334095
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis:116_4:385_1:194_4:456_1:187_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis",
+   "frames": [
+    "116_4",
+    "385_1",
+    "194_4",
+    "456_1",
+    "187_2"
+   ],
+   "dust3r_mean_rre": 110.56059250831603
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis:115_0:364_0:319_0:467_0:496_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis",
+   "frames": [
+    "115_0",
+    "364_0",
+    "319_0",
+    "467_0",
+    "496_0"
+   ],
+   "dust3r_mean_rre": 110.2927618920803
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00737-ZhXWtW1gd6c/ZhXWtW1gd6c.basis:13_2:342_3:168_4:120_1:102_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00737-ZhXWtW1gd6c/ZhXWtW1gd6c.basis",
+   "frames": [
+    "13_2",
+    "342_3",
+    "168_4",
+    "120_1",
+    "102_2"
+   ],
+   "dust3r_mean_rre": 109.76963626146316
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis:482_0:100_3:267_0:59_0:348_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis",
+   "frames": [
+    "482_0",
+    "100_3",
+    "267_0",
+    "59_0",
+    "348_4"
+   ],
+   "dust3r_mean_rre": 109.74401295185089
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis:203_1:449_0:449_3:46_0:46_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis",
+   "frames": [
+    "203_1",
+    "449_0",
+    "449_3",
+    "46_0",
+    "46_1"
+   ],
+   "dust3r_mean_rre": 109.71277252733708
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00604-W4r5JssudHR/W4r5JssudHR.basis:436_0:386_1:281_0:178_4:406_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00604-W4r5JssudHR/W4r5JssudHR.basis",
+   "frames": [
+    "436_0",
+    "386_1",
+    "281_0",
+    "178_4",
+    "406_2"
+   ],
+   "dust3r_mean_rre": 109.46660375595093
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00875-66seV3BWPoX/66seV3BWPoX.basis:469_3:148_0:148_2:58_0:58_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00875-66seV3BWPoX/66seV3BWPoX.basis",
+   "frames": [
+    "469_3",
+    "148_0",
+    "148_2",
+    "58_0",
+    "58_2"
+   ],
+   "dust3r_mean_rre": 109.3620270729065
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis:333_1:96_0:17_1:428_2:332_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis",
+   "frames": [
+    "333_1",
+    "96_0",
+    "17_1",
+    "428_2",
+    "332_3"
+   ],
+   "dust3r_mean_rre": 109.22860374450684
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00648-yCCyNxubYcL/yCCyNxubYcL.basis:83_0:83_2:359_0:359_1:336_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00648-yCCyNxubYcL/yCCyNxubYcL.basis",
+   "frames": [
+    "83_0",
+    "83_2",
+    "359_0",
+    "359_1",
+    "336_0"
+   ],
+   "dust3r_mean_rre": 109.21807587146759
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00576-adgwjGh4NQK/adgwjGh4NQK.basis:284_4:64_0:51_3:265_0:146_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00576-adgwjGh4NQK/adgwjGh4NQK.basis",
+   "frames": [
+    "284_4",
+    "64_0",
+    "51_3",
+    "265_0",
+    "146_4"
+   ],
+   "dust3r_mean_rre": 108.82133140563965
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis:396_0:396_2:475_0:475_2:129_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis",
+   "frames": [
+    "396_0",
+    "396_2",
+    "475_0",
+    "475_2",
+    "129_0"
+   ],
+   "dust3r_mean_rre": 108.2422945857048
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00846-LNg5mXe1BDj/LNg5mXe1BDj.basis:295_0:295_1:465_0:465_1:112_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00846-LNg5mXe1BDj/LNg5mXe1BDj.basis",
+   "frames": [
+    "295_0",
+    "295_1",
+    "465_0",
+    "465_1",
+    "112_0"
+   ],
+   "dust3r_mean_rre": 108.19560824632644
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00424-Hsk3jDzNySy/Hsk3jDzNySy.basis:348_2:81_0:416_2:202_0:434_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00424-Hsk3jDzNySy/Hsk3jDzNySy.basis",
+   "frames": [
+    "348_2",
+    "81_0",
+    "416_2",
+    "202_0",
+    "434_0"
+   ],
+   "dust3r_mean_rre": 108.0244688987732
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00071-GCEb4nmNi7j/GCEb4nmNi7j.basis:135_0:135_1:463_0:463_3:404_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00071-GCEb4nmNi7j/GCEb4nmNi7j.basis",
+   "frames": [
+    "135_0",
+    "135_1",
+    "463_0",
+    "463_3",
+    "404_0"
+   ],
+   "dust3r_mean_rre": 107.9970326423645
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis:35_2:480_0:480_1:367_0:367_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis",
+   "frames": [
+    "35_2",
+    "480_0",
+    "480_1",
+    "367_0",
+    "367_2"
+   ],
+   "dust3r_mean_rre": 107.7959595322609
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00517-jG9pucmJVBZ/jG9pucmJVBZ.basis:405_3:333_0:333_3:412_0:412_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00517-jG9pucmJVBZ/jG9pucmJVBZ.basis",
+   "frames": [
+    "405_3",
+    "333_0",
+    "333_3",
+    "412_0",
+    "412_1"
+   ],
+   "dust3r_mean_rre": 107.65535525083541
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis:29_0:29_4:74_0:95_1:91_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis",
+   "frames": [
+    "29_0",
+    "29_4",
+    "74_0",
+    "95_1",
+    "91_0"
+   ],
+   "dust3r_mean_rre": 107.49054906368255
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00880-Nfvxx8J5NCo/Nfvxx8J5NCo.basis:45_0:45_2:403_0:403_1:43_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00880-Nfvxx8J5NCo/Nfvxx8J5NCo.basis",
+   "frames": [
+    "45_0",
+    "45_2",
+    "403_0",
+    "403_1",
+    "43_0"
+   ],
+   "dust3r_mean_rre": 107.04607173204423
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00705-2XVvKEDd54w/2XVvKEDd54w.basis:276_3:360_0:360_1:417_0:417_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00705-2XVvKEDd54w/2XVvKEDd54w.basis",
+   "frames": [
+    "276_3",
+    "360_0",
+    "360_1",
+    "417_0",
+    "417_2"
+   ],
+   "dust3r_mean_rre": 106.94251998066902
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00100-y3K5dmhuukt/y3K5dmhuukt.basis:370_3:218_1:233_4:139_4:242_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00100-y3K5dmhuukt/y3K5dmhuukt.basis",
+   "frames": [
+    "370_3",
+    "218_1",
+    "233_4",
+    "139_4",
+    "242_3"
+   ],
+   "dust3r_mean_rre": 106.55071334242821
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis:257_0:234_0:203_0:124_2:112_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis",
+   "frames": [
+    "257_0",
+    "234_0",
+    "203_0",
+    "124_2",
+    "112_0"
+   ],
+   "dust3r_mean_rre": 106.54507484436036
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis:123_0:123_4:229_0:229_2:163_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis",
+   "frames": [
+    "123_0",
+    "123_4",
+    "229_0",
+    "229_2",
+    "163_0"
+   ],
+   "dust3r_mean_rre": 105.62659467458725
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis:385_1:187_2:399_2:129_3:433_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis",
+   "frames": [
+    "385_1",
+    "187_2",
+    "399_2",
+    "129_3",
+    "433_1"
+   ],
+   "dust3r_mean_rre": 104.86394709944724
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00778-vj4rZPfVjBQ/vj4rZPfVjBQ.basis:236_4:431_0:431_4:289_0:289_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00778-vj4rZPfVjBQ/vj4rZPfVjBQ.basis",
+   "frames": [
+    "236_4",
+    "431_0",
+    "431_4",
+    "289_0",
+    "289_4"
+   ],
+   "dust3r_mean_rre": 104.58576863408089
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00637-iNpfPhK1sRz/iNpfPhK1sRz.basis:0_4:353_1:134_0:431_4:468_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00637-iNpfPhK1sRz/iNpfPhK1sRz.basis",
+   "frames": [
+    "0_4",
+    "353_1",
+    "134_0",
+    "431_4",
+    "468_0"
+   ],
+   "dust3r_mean_rre": 104.49525763988495
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis:258_1:145_0:145_2:220_0:220_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis",
+   "frames": [
+    "258_1",
+    "145_0",
+    "145_2",
+    "220_0",
+    "220_4"
+   ],
+   "dust3r_mean_rre": 104.41105353236199
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis:365_1:258_0:258_1:145_0:145_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis",
+   "frames": [
+    "365_1",
+    "258_0",
+    "258_1",
+    "145_0",
+    "145_2"
+   ],
+   "dust3r_mean_rre": 104.3451753437519
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis:244_0:157_2:234_0:71_2:112_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis",
+   "frames": [
+    "244_0",
+    "157_2",
+    "234_0",
+    "71_2",
+    "112_0"
+   ],
+   "dust3r_mean_rre": 104.20317025780678
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis:324_0:59_4:71_1:319_4:467_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis",
+   "frames": [
+    "324_0",
+    "59_4",
+    "71_1",
+    "319_4",
+    "467_1"
+   ],
+   "dust3r_mean_rre": 103.92739300727844
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00777-N17ddiDvJr9/N17ddiDvJr9.basis:420_0:420_4:211_0:211_2:437_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00777-N17ddiDvJr9/N17ddiDvJr9.basis",
+   "frames": [
+    "420_0",
+    "420_4",
+    "211_0",
+    "211_2",
+    "437_0"
+   ],
+   "dust3r_mean_rre": 103.79360918998718
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00597-D8aaq3PH6dG/D8aaq3PH6dG.basis:235_1:468_0:468_2:460_0:460_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00597-D8aaq3PH6dG/D8aaq3PH6dG.basis",
+   "frames": [
+    "235_1",
+    "468_0",
+    "468_2",
+    "460_0",
+    "460_4"
+   ],
+   "dust3r_mean_rre": 103.66217531561851
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00576-adgwjGh4NQK/adgwjGh4NQK.basis:198_0:198_4:265_0:265_3:139_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00576-adgwjGh4NQK/adgwjGh4NQK.basis",
+   "frames": [
+    "198_0",
+    "198_4",
+    "265_0",
+    "265_3",
+    "139_0"
+   ],
+   "dust3r_mean_rre": 103.44650743603707
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00611-PXAfUkZGMdU/PXAfUkZGMdU.basis:101_4:316_3:225_3:126_3:248_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00611-PXAfUkZGMdU/PXAfUkZGMdU.basis",
+   "frames": [
+    "101_4",
+    "316_3",
+    "225_3",
+    "126_3",
+    "248_4"
+   ],
+   "dust3r_mean_rre": 103.44500837326049
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis:23_2:184_4:259_1:208_3:393_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis",
+   "frames": [
+    "23_2",
+    "184_4",
+    "259_1",
+    "208_3",
+    "393_1"
+   ],
+   "dust3r_mean_rre": 103.4316562652588
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00778-vj4rZPfVjBQ/vj4rZPfVjBQ.basis:69_0:69_2:191_0:191_3:93_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00778-vj4rZPfVjBQ/vj4rZPfVjBQ.basis",
+   "frames": [
+    "69_0",
+    "69_2",
+    "191_0",
+    "191_3",
+    "93_0"
+   ],
+   "dust3r_mean_rre": 102.90314972996711
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00778-vj4rZPfVjBQ/vj4rZPfVjBQ.basis:236_0:236_4:431_0:431_4:289_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00778-vj4rZPfVjBQ/vj4rZPfVjBQ.basis",
+   "frames": [
+    "236_0",
+    "236_4",
+    "431_0",
+    "431_4",
+    "289_0"
+   ],
+   "dust3r_mean_rre": 102.2422254383564
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis:382_0:382_3:257_0:257_4:452_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis",
+   "frames": [
+    "382_0",
+    "382_3",
+    "257_0",
+    "257_4",
+    "452_0"
+   ],
+   "dust3r_mean_rre": 101.86730656325817
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis:385_1:456_0:16_1:433_0:163_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00301-JiHGQpwKUvd/JiHGQpwKUvd.basis",
+   "frames": [
+    "385_1",
+    "456_0",
+    "16_1",
+    "433_0",
+    "163_0"
+   ],
+   "dust3r_mean_rre": 101.74837529063225
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00381-pmZMJfFd3Jy/pmZMJfFd3Jy.basis:18_0:53_3:344_4:336_3:484_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00381-pmZMJfFd3Jy/pmZMJfFd3Jy.basis",
+   "frames": [
+    "18_0",
+    "53_3",
+    "344_4",
+    "336_3",
+    "484_3"
+   ],
+   "dust3r_mean_rre": 101.51992874145508
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00129-nd6Vw5SHCoy/nd6Vw5SHCoy.basis:95_0:472_0:97_0:446_0:351_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00129-nd6Vw5SHCoy/nd6Vw5SHCoy.basis",
+   "frames": [
+    "95_0",
+    "472_0",
+    "97_0",
+    "446_0",
+    "351_0"
+   ],
+   "dust3r_mean_rre": 101.39995164871216
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis:29_0:74_0:74_1:95_1:14_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis",
+   "frames": [
+    "29_0",
+    "74_0",
+    "74_1",
+    "95_1",
+    "14_2"
+   ],
+   "dust3r_mean_rre": 101.2108618915081
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00517-jG9pucmJVBZ/jG9pucmJVBZ.basis:85_1:405_0:405_3:333_0:333_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00517-jG9pucmJVBZ/jG9pucmJVBZ.basis",
+   "frames": [
+    "85_1",
+    "405_0",
+    "405_3",
+    "333_0",
+    "333_3"
+   ],
+   "dust3r_mean_rre": 101.20428393185139
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00213-mkvHBa3mEEk/mkvHBa3mEEk.basis:328_2:152_0:152_4:213_0:213_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00213-mkvHBa3mEEk/mkvHBa3mEEk.basis",
+   "frames": [
+    "328_2",
+    "152_0",
+    "152_4",
+    "213_0",
+    "213_3"
+   ],
+   "dust3r_mean_rre": 101.17361513376235
+  },
+  {
+   "sample_id": "Habitat_val:scannet/scene0061_00:180_0:180_4:280_0:280_1:134_0",
+   "dataset": "Habitat_val",
+   "scene": "scannet/scene0061_00",
+   "frames": [
+    "180_0",
+    "180_4",
+    "280_0",
+    "280_1",
+    "134_0"
+   ],
+   "dust3r_mean_rre": 100.74802755117416
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis:42_2:267_0:267_1:229_0:229_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis",
+   "frames": [
+    "42_2",
+    "267_0",
+    "267_1",
+    "229_0",
+    "229_4"
+   ],
+   "dust3r_mean_rre": 100.74117575883865
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00737-ZhXWtW1gd6c/ZhXWtW1gd6c.basis:93_4:303_0:303_4:253_0:253_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00737-ZhXWtW1gd6c/ZhXWtW1gd6c.basis",
+   "frames": [
+    "93_4",
+    "303_0",
+    "303_4",
+    "253_0",
+    "253_3"
+   ],
+   "dust3r_mean_rre": 99.67599267661572
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00390-c9DeZf2fcDf/c9DeZf2fcDf.basis:285_4:293_0:293_1:496_0:496_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00390-c9DeZf2fcDf/c9DeZf2fcDf.basis",
+   "frames": [
+    "285_4",
+    "293_0",
+    "293_1",
+    "496_0",
+    "496_3"
+   ],
+   "dust3r_mean_rre": 99.42813025712967
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00500-fKP4sxcoxpL/fKP4sxcoxpL.basis:319_4:231_0:231_1:404_0:404_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00500-fKP4sxcoxpL/fKP4sxcoxpL.basis",
+   "frames": [
+    "319_4",
+    "231_0",
+    "231_1",
+    "404_0",
+    "404_4"
+   ],
+   "dust3r_mean_rre": 98.91078090667725
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00139-Dj6sJyU7qmd/Dj6sJyU7qmd.basis:84_4:394_0:394_4:67_1:237_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00139-Dj6sJyU7qmd/Dj6sJyU7qmd.basis",
+   "frames": [
+    "84_4",
+    "394_0",
+    "394_4",
+    "67_1",
+    "237_3"
+   ],
+   "dust3r_mean_rre": 98.85941061973571
+  },
+  {
+   "sample_id": "Habitat_val:scannet/scene0330_00:104_4:71_0:256_0:170_0:342_0",
+   "dataset": "Habitat_val",
+   "scene": "scannet/scene0330_00",
+   "frames": [
+    "104_4",
+    "71_0",
+    "256_0",
+    "170_0",
+    "342_0"
+   ],
+   "dust3r_mean_rre": 98.75279469490052
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis:74_1:44_4:95_1:14_2:91_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis",
+   "frames": [
+    "74_1",
+    "44_4",
+    "95_1",
+    "14_2",
+    "91_3"
+   ],
+   "dust3r_mean_rre": 98.01958658695222
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis:268_0:268_2:406_0:406_1:332_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis",
+   "frames": [
+    "268_0",
+    "268_2",
+    "406_0",
+    "406_1",
+    "332_0"
+   ],
+   "dust3r_mean_rre": 97.80067849159241
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00576-adgwjGh4NQK/adgwjGh4NQK.basis:310_0:429_0:348_0:265_0:472_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00576-adgwjGh4NQK/adgwjGh4NQK.basis",
+   "frames": [
+    "310_0",
+    "429_0",
+    "348_0",
+    "265_0",
+    "472_1"
+   ],
+   "dust3r_mean_rre": 97.27476062774659
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00651-kQVPtf7ACRw/kQVPtf7ACRw.basis:147_0:217_0:492_0:475_0:18_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00651-kQVPtf7ACRw/kQVPtf7ACRw.basis",
+   "frames": [
+    "147_0",
+    "217_0",
+    "492_0",
+    "475_0",
+    "18_0"
+   ],
+   "dust3r_mean_rre": 97.0833740234375
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00054-6BReaxZUoMg/6BReaxZUoMg.basis:343_3:357_0:357_1:19_0:19_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00054-6BReaxZUoMg/6BReaxZUoMg.basis",
+   "frames": [
+    "343_3",
+    "357_0",
+    "357_1",
+    "19_0",
+    "19_4"
+   ],
+   "dust3r_mean_rre": 96.18373837471009
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis:238_2:303_0:166_0:166_2:145_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis",
+   "frames": [
+    "238_2",
+    "303_0",
+    "166_0",
+    "166_2",
+    "145_2"
+   ],
+   "dust3r_mean_rre": 95.8995048686862
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis:475_0:475_2:129_0:129_2:62_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis",
+   "frames": [
+    "475_0",
+    "475_2",
+    "129_0",
+    "129_2",
+    "62_0"
+   ],
+   "dust3r_mean_rre": 95.88185880184173
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis:267_1:229_0:229_4:20_0:20_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis",
+   "frames": [
+    "267_1",
+    "229_0",
+    "229_4",
+    "20_0",
+    "20_2"
+   ],
+   "dust3r_mean_rre": 94.60120592117309
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis:23_0:184_0:393_0:393_1:63_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis",
+   "frames": [
+    "23_0",
+    "184_0",
+    "393_0",
+    "393_1",
+    "63_0"
+   ],
+   "dust3r_mean_rre": 93.98145772516727
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00777-N17ddiDvJr9/N17ddiDvJr9.basis:420_4:211_0:211_2:437_0:437_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00777-N17ddiDvJr9/N17ddiDvJr9.basis",
+   "frames": [
+    "420_4",
+    "211_0",
+    "211_2",
+    "437_0",
+    "437_1"
+   ],
+   "dust3r_mean_rre": 93.73062205314636
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00857-L53DsRRk4Ch/L53DsRRk4Ch.basis:251_0:439_0:266_3:328_0:288_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00857-L53DsRRk4Ch/L53DsRRk4Ch.basis",
+   "frames": [
+    "251_0",
+    "439_0",
+    "266_3",
+    "328_0",
+    "288_1"
+   ],
+   "dust3r_mean_rre": 93.6915766954422
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00487-erXNfWVjqZ8/erXNfWVjqZ8.basis:142_2:179_2:233_1:188_1:334_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00487-erXNfWVjqZ8/erXNfWVjqZ8.basis",
+   "frames": [
+    "142_2",
+    "179_2",
+    "233_1",
+    "188_1",
+    "334_1"
+   ],
+   "dust3r_mean_rre": 93.56457936763763
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00777-N17ddiDvJr9/N17ddiDvJr9.basis:211_2:437_0:437_1:58_0:58_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00777-N17ddiDvJr9/N17ddiDvJr9.basis",
+   "frames": [
+    "211_2",
+    "437_0",
+    "437_1",
+    "58_0",
+    "58_1"
+   ],
+   "dust3r_mean_rre": 93.35352087914944
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis:72_3:373_1:203_1:449_3:46_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis",
+   "frames": [
+    "72_3",
+    "373_1",
+    "203_1",
+    "449_3",
+    "46_1"
+   ],
+   "dust3r_mean_rre": 93.33342785835266
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00190-NkvRYHk72vA/NkvRYHk72vA.basis:18_1:390_0:390_1:388_0:388_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00190-NkvRYHk72vA/NkvRYHk72vA.basis",
+   "frames": [
+    "18_1",
+    "390_0",
+    "390_1",
+    "388_0",
+    "388_4"
+   ],
+   "dust3r_mean_rre": 93.1814837038517
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis:200_0:200_4:101_0:241_0:112_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis",
+   "frames": [
+    "200_0",
+    "200_4",
+    "101_0",
+    "241_0",
+    "112_0"
+   ],
+   "dust3r_mean_rre": 92.64358501434326
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis:219_2:15_0:15_1:23_0:23_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00423-bEdki9cbHDG/bEdki9cbHDG.basis",
+   "frames": [
+    "219_2",
+    "15_0",
+    "15_1",
+    "23_0",
+    "23_2"
+   ],
+   "dust3r_mean_rre": 92.41921581327915
+  },
+  {
+   "sample_id": "Habitat_val:scannet/scene0701_00:135_3:453_4:181_0:325_1:72_0",
+   "dataset": "Habitat_val",
+   "scene": "scannet/scene0701_00",
+   "frames": [
+    "135_3",
+    "453_4",
+    "181_0",
+    "325_1",
+    "72_0"
+   ],
+   "dust3r_mean_rre": 92.14571914672851
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis:200_0:234_0:203_0:203_1:112_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00520-LpFSk2s7me6/LpFSk2s7me6.basis",
+   "frames": [
+    "200_0",
+    "234_0",
+    "203_0",
+    "203_1",
+    "112_0"
+   ],
+   "dust3r_mean_rre": 91.9225592970848
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00478-QDvRVeWFCjM/QDvRVeWFCjM.basis:132_0:133_0:177_3:208_2:135_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00478-QDvRVeWFCjM/QDvRVeWFCjM.basis",
+   "frames": [
+    "132_0",
+    "133_0",
+    "177_3",
+    "208_2",
+    "135_0"
+   ],
+   "dust3r_mean_rre": 91.62773314714431
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis:29_0:29_4:74_0:44_4:91_3",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis",
+   "frames": [
+    "29_0",
+    "29_4",
+    "74_0",
+    "44_4",
+    "91_3"
+   ],
+   "dust3r_mean_rre": 91.46223684549332
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis:274_0:274_3:373_0:203_0:46_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00602-XRHpoTZjtj7/XRHpoTZjtj7.basis",
+   "frames": [
+    "274_0",
+    "274_3",
+    "373_0",
+    "203_0",
+    "46_1"
+   ],
+   "dust3r_mean_rre": 91.2834930896759
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00500-fKP4sxcoxpL/fKP4sxcoxpL.basis:167_4:352_0:352_3:301_0:301_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00500-fKP4sxcoxpL/fKP4sxcoxpL.basis",
+   "frames": [
+    "167_4",
+    "352_0",
+    "352_3",
+    "301_0",
+    "301_1"
+   ],
+   "dust3r_mean_rre": 90.96865620613099
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis:5_0:340_2:80_0:486_0:96_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00865-fsQtJ8t3nTf/fsQtJ8t3nTf.basis",
+   "frames": [
+    "5_0",
+    "340_2",
+    "80_0",
+    "486_0",
+    "96_0"
+   ],
+   "dust3r_mean_rre": 90.24045763015747
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00057-1UnKg1rAb8A/1UnKg1rAb8A.basis:279_0:279_4:183_0:183_3:469_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00057-1UnKg1rAb8A/1UnKg1rAb8A.basis",
+   "frames": [
+    "279_0",
+    "279_4",
+    "183_0",
+    "183_3",
+    "469_0"
+   ],
+   "dust3r_mean_rre": 89.99385496377946
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis:53_4:172_4:472_4:443_1:96_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00058-1hovphK64XQ/1hovphK64XQ.basis",
+   "frames": [
+    "53_4",
+    "172_4",
+    "472_4",
+    "443_1",
+    "96_2"
+   ],
+   "dust3r_mean_rre": 89.75898306369781
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00280-FgswoxWb3uN/FgswoxWb3uN.basis:84_0:84_4:49_0:49_2:134_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00280-FgswoxWb3uN/FgswoxWb3uN.basis",
+   "frames": [
+    "84_0",
+    "84_4",
+    "49_0",
+    "49_2",
+    "134_0"
+   ],
+   "dust3r_mean_rre": 89.75154300332069
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis:74_1:44_0:44_4:95_0:95_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis",
+   "frames": [
+    "74_1",
+    "44_0",
+    "44_4",
+    "95_0",
+    "95_1"
+   ],
+   "dust3r_mean_rre": 89.60701563954353
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis:322_2:101_0:101_2:444_0:444_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis",
+   "frames": [
+    "322_2",
+    "101_0",
+    "101_2",
+    "444_0",
+    "444_2"
+   ],
+   "dust3r_mean_rre": 89.50556168854237
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00862-LT9Jq6dN3Ea/LT9Jq6dN3Ea.basis:468_4:497_2:281_1:13_0:429_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00862-LT9Jq6dN3Ea/LT9Jq6dN3Ea.basis",
+   "frames": [
+    "468_4",
+    "497_2",
+    "281_1",
+    "13_0",
+    "429_0"
+   ],
+   "dust3r_mean_rre": 89.45208940505981
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis:29_4:74_1:44_4:95_1:14_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00655-q33GehreMrX/q33GehreMrX.basis",
+   "frames": [
+    "29_4",
+    "74_1",
+    "44_4",
+    "95_1",
+    "14_2"
+   ],
+   "dust3r_mean_rre": 89.36295096874237
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00190-NkvRYHk72vA/NkvRYHk72vA.basis:20_1:365_0:365_2:404_0:404_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00190-NkvRYHk72vA/NkvRYHk72vA.basis",
+   "frames": [
+    "20_1",
+    "365_0",
+    "365_2",
+    "404_0",
+    "404_2"
+   ],
+   "dust3r_mean_rre": 89.13481412827969
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00325-bMvM1KL4WsR/bMvM1KL4WsR.basis:219_4:130_2:289_4:264_1:0_4",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00325-bMvM1KL4WsR/bMvM1KL4WsR.basis",
+   "frames": [
+    "219_4",
+    "130_2",
+    "289_4",
+    "264_1",
+    "0_4"
+   ],
+   "dust3r_mean_rre": 89.00888366699219
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis:100_0:114_0:70_0:80_0:267_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis",
+   "frames": [
+    "100_0",
+    "114_0",
+    "70_0",
+    "80_0",
+    "267_0"
+   ],
+   "dust3r_mean_rre": 89.00254982709885
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00424-Hsk3jDzNySy/Hsk3jDzNySy.basis:105_1:42_0:42_1:398_0:398_1",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00424-Hsk3jDzNySy/Hsk3jDzNySy.basis",
+   "frames": [
+    "105_1",
+    "42_0",
+    "42_1",
+    "398_0",
+    "398_1"
+   ],
+   "dust3r_mean_rre": 88.85693991184235
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis:115_1:364_3:319_4:467_1:496_2",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00776-qxwfVS8MQ67/qxwfVS8MQ67.basis",
+   "frames": [
+    "115_1",
+    "364_3",
+    "319_4",
+    "467_1",
+    "496_2"
+   ],
+   "dust3r_mean_rre": 88.28669887185097
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00611-PXAfUkZGMdU/PXAfUkZGMdU.basis:347_0:347_3:158_0:158_2:270_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00611-PXAfUkZGMdU/PXAfUkZGMdU.basis",
+   "frames": [
+    "347_0",
+    "347_3",
+    "158_0",
+    "158_2",
+    "270_0"
+   ],
+   "dust3r_mean_rre": 88.20683703422546
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00528-BCWtGkh8CHv/BCWtGkh8CHv.basis:132_0:132_2:382_0:382_3:82_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00528-BCWtGkh8CHv/BCWtGkh8CHv.basis",
+   "frames": [
+    "132_0",
+    "132_2",
+    "382_0",
+    "382_3",
+    "82_0"
+   ],
+   "dust3r_mean_rre": 87.8162250995636
+  },
+  {
+   "sample_id": "Habitat_val:hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis:301_0:166_0:365_0:258_0:145_0",
+   "dataset": "Habitat_val",
+   "scene": "hm3d/train/00580-xcTV5UHYHFV/xcTV5UHYHFV.basis",
+   "frames": [
+    "301_0",
+    "166_0",
+    "365_0",
+    "258_0",
+    "145_0"
+   ],
+   "dust3r_mean_rre": 87.7838171005249
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00030.jpg:00050.jpg:00182.jpg:00215.jpg:00245.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00030.jpg",
+    "00050.jpg",
+    "00182.jpg",
+    "00215.jpg",
+    "00245.jpg"
+   ],
+   "dust3r_mean_rre": 109.46453182697296
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00182.jpg:00086.jpg:00218.jpg:00455.jpg:00294.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00182.jpg",
+    "00086.jpg",
+    "00218.jpg",
+    "00455.jpg",
+    "00294.jpg"
+   ],
+   "dust3r_mean_rre": 108.38074756860733
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_435:00149.jpg:00165.jpg:00253.jpg:00276.jpg:00368.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_435",
+   "frames": [
+    "00149.jpg",
+    "00165.jpg",
+    "00253.jpg",
+    "00276.jpg",
+    "00368.jpg"
+   ],
+   "dust3r_mean_rre": 108.31797577142716
+  },
+  {
+   "sample_id": "WildRGBD_test:TV/scenes/scene_006:00049.jpg:00074.jpg:00130.jpg:00162.jpg:00208.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "TV/scenes/scene_006",
+   "frames": [
+    "00049.jpg",
+    "00074.jpg",
+    "00130.jpg",
+    "00162.jpg",
+    "00208.jpg"
+   ],
+   "dust3r_mean_rre": 107.98732079267502
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00061.jpg:00056.jpg:00182.jpg:00218.jpg:00455.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00061.jpg",
+    "00056.jpg",
+    "00182.jpg",
+    "00218.jpg",
+    "00455.jpg"
+   ],
+   "dust3r_mean_rre": 107.94323363304139
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00061.jpg:00056.jpg:00218.jpg:00283.jpg:00455.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00061.jpg",
+    "00056.jpg",
+    "00218.jpg",
+    "00283.jpg",
+    "00455.jpg"
+   ],
+   "dust3r_mean_rre": 107.83537650108337
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00169.jpg:00147.jpg:00256.jpg:00173.jpg:00267.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00169.jpg",
+    "00147.jpg",
+    "00256.jpg",
+    "00173.jpg",
+    "00267.jpg"
+   ],
+   "dust3r_mean_rre": 107.83143091201782
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00184.jpg:00225.jpg:00214.jpg:00312.jpg:00357.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00184.jpg",
+    "00225.jpg",
+    "00214.jpg",
+    "00312.jpg",
+    "00357.jpg"
+   ],
+   "dust3r_mean_rre": 107.69905316829681
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00147.jpg:00256.jpg:00173.jpg:00267.jpg:00184.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00147.jpg",
+    "00256.jpg",
+    "00173.jpg",
+    "00267.jpg",
+    "00184.jpg"
+   ],
+   "dust3r_mean_rre": 107.44773915112019
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00060.jpg:00182.jpg:00176.jpg:00268.jpg:00288.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00060.jpg",
+    "00182.jpg",
+    "00176.jpg",
+    "00268.jpg",
+    "00288.jpg"
+   ],
+   "dust3r_mean_rre": 107.3410936832428
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00004.jpg:00038.jpg:00123.jpg:00187.jpg:00416.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00004.jpg",
+    "00038.jpg",
+    "00123.jpg",
+    "00187.jpg",
+    "00416.jpg"
+   ],
+   "dust3r_mean_rre": 107.33078699111938
+  },
+  {
+   "sample_id": "WildRGBD_test:bus/scenes/scene_044:00148.jpg:00091.jpg:00238.jpg:00225.jpg:00221.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bus/scenes/scene_044",
+   "frames": [
+    "00148.jpg",
+    "00091.jpg",
+    "00238.jpg",
+    "00225.jpg",
+    "00221.jpg"
+   ],
+   "dust3r_mean_rre": 107.21564245820045
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00256.jpg:00267.jpg:00225.jpg:00323.jpg:00357.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00256.jpg",
+    "00267.jpg",
+    "00225.jpg",
+    "00323.jpg",
+    "00357.jpg"
+   ],
+   "dust3r_mean_rre": 106.89680918753147
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00173.jpg:00267.jpg:00184.jpg:00323.jpg:00312.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00173.jpg",
+    "00267.jpg",
+    "00184.jpg",
+    "00323.jpg",
+    "00312.jpg"
+   ],
+   "dust3r_mean_rre": 106.84764986634255
+  },
+  {
+   "sample_id": "WildRGBD_test:bus/scenes/scene_225:00080.jpg:00095.jpg:00303.jpg:00289.jpg:00311.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bus/scenes/scene_225",
+   "frames": [
+    "00080.jpg",
+    "00095.jpg",
+    "00303.jpg",
+    "00289.jpg",
+    "00311.jpg"
+   ],
+   "dust3r_mean_rre": 106.70676618665456
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00020.jpg:00189.jpg:00177.jpg:00314.jpg:00326.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00020.jpg",
+    "00189.jpg",
+    "00177.jpg",
+    "00314.jpg",
+    "00326.jpg"
+   ],
+   "dust3r_mean_rre": 106.51043190956116
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00225.jpg:00214.jpg:00323.jpg:00312.jpg:00357.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00225.jpg",
+    "00214.jpg",
+    "00323.jpg",
+    "00312.jpg",
+    "00357.jpg"
+   ],
+   "dust3r_mean_rre": 106.15817023962737
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00140.jpg:00202.jpg:00228.jpg:00316.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00140.jpg",
+    "00202.jpg",
+    "00228.jpg",
+    "00316.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 105.67272528409958
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00272.jpg:00148.jpg:00204.jpg:00187.jpg:00221.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00272.jpg",
+    "00148.jpg",
+    "00204.jpg",
+    "00187.jpg",
+    "00221.jpg"
+   ],
+   "dust3r_mean_rre": 105.5517951965332
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00046.jpg:00056.jpg:00116.jpg:00218.jpg:00294.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00046.jpg",
+    "00056.jpg",
+    "00116.jpg",
+    "00218.jpg",
+    "00294.jpg"
+   ],
+   "dust3r_mean_rre": 105.4355247437954
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00046.jpg:00172.jpg:00162.jpg:00157.jpg:00283.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00046.jpg",
+    "00172.jpg",
+    "00162.jpg",
+    "00157.jpg",
+    "00283.jpg"
+   ],
+   "dust3r_mean_rre": 105.34206016659736
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00081.jpg:00096.jpg:00228.jpg:00287.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00081.jpg",
+    "00096.jpg",
+    "00228.jpg",
+    "00287.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 105.08246676623821
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00056.jpg:00172.jpg:00182.jpg:00086.jpg:00192.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00056.jpg",
+    "00172.jpg",
+    "00182.jpg",
+    "00086.jpg",
+    "00192.jpg"
+   ],
+   "dust3r_mean_rre": 104.76692989468575
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00081.jpg:00096.jpg:00228.jpg:00283.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00081.jpg",
+    "00096.jpg",
+    "00228.jpg",
+    "00283.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 104.60990343689919
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00053.jpg:00096.jpg:00182.jpg:00176.jpg:00272.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00053.jpg",
+    "00096.jpg",
+    "00182.jpg",
+    "00176.jpg",
+    "00272.jpg"
+   ],
+   "dust3r_mean_rre": 103.30936033725739
+  },
+  {
+   "sample_id": "WildRGBD_test:bus/scenes/scene_044:00057.jpg:00124.jpg:00050.jpg:00127.jpg:00225.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bus/scenes/scene_044",
+   "frames": [
+    "00057.jpg",
+    "00124.jpg",
+    "00050.jpg",
+    "00127.jpg",
+    "00225.jpg"
+   ],
+   "dust3r_mean_rre": 102.94376540184021
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00066.jpg:00151.jpg:00202.jpg:00283.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00066.jpg",
+    "00151.jpg",
+    "00202.jpg",
+    "00283.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 102.7934398651123
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00044.jpg:00081.jpg:00132.jpg:00202.jpg:00228.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00044.jpg",
+    "00081.jpg",
+    "00132.jpg",
+    "00202.jpg",
+    "00228.jpg"
+   ],
+   "dust3r_mean_rre": 102.24912277460098
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00046.jpg:00056.jpg:00172.jpg:00182.jpg:00086.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00046.jpg",
+    "00056.jpg",
+    "00172.jpg",
+    "00182.jpg",
+    "00086.jpg"
+   ],
+   "dust3r_mean_rre": 101.85965792834759
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00256.jpg:00267.jpg:00323.jpg:00312.jpg:00357.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00256.jpg",
+    "00267.jpg",
+    "00323.jpg",
+    "00312.jpg",
+    "00357.jpg"
+   ],
+   "dust3r_mean_rre": 101.75400889217853
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00081.jpg:00066.jpg:00202.jpg:00287.jpg:00283.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00081.jpg",
+    "00066.jpg",
+    "00202.jpg",
+    "00287.jpg",
+    "00283.jpg"
+   ],
+   "dust3r_mean_rre": 101.65266254395246
+  },
+  {
+   "sample_id": "WildRGBD_test:bus/scenes/scene_225:00011.jpg:00080.jpg:00088.jpg:00289.jpg:00311.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bus/scenes/scene_225",
+   "frames": [
+    "00011.jpg",
+    "00080.jpg",
+    "00088.jpg",
+    "00289.jpg",
+    "00311.jpg"
+   ],
+   "dust3r_mean_rre": 101.19770411252975
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_457:00119.jpg:00147.jpg:00217.jpg:00220.jpg:00315.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_457",
+   "frames": [
+    "00119.jpg",
+    "00147.jpg",
+    "00217.jpg",
+    "00220.jpg",
+    "00315.jpg"
+   ],
+   "dust3r_mean_rre": 101.15161075592042
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00147.jpg:00256.jpg:00267.jpg:00214.jpg:00357.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00147.jpg",
+    "00256.jpg",
+    "00267.jpg",
+    "00214.jpg",
+    "00357.jpg"
+   ],
+   "dust3r_mean_rre": 101.06390020251274
+  },
+  {
+   "sample_id": "WildRGBD_test:detergent/scenes/scene_599:00143.jpg:00146.jpg:00202.jpg:00258.jpg:00230.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "detergent/scenes/scene_599",
+   "frames": [
+    "00143.jpg",
+    "00146.jpg",
+    "00202.jpg",
+    "00258.jpg",
+    "00230.jpg"
+   ],
+   "dust3r_mean_rre": 100.90795739293098
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00053.jpg:00060.jpg:00182.jpg:00176.jpg:00268.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00053.jpg",
+    "00060.jpg",
+    "00182.jpg",
+    "00176.jpg",
+    "00268.jpg"
+   ],
+   "dust3r_mean_rre": 100.2649505496025
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_457:00084.jpg:00143.jpg:00210.jpg:00220.jpg:00332.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_457",
+   "frames": [
+    "00084.jpg",
+    "00143.jpg",
+    "00210.jpg",
+    "00220.jpg",
+    "00332.jpg"
+   ],
+   "dust3r_mean_rre": 99.36834877729416
+  },
+  {
+   "sample_id": "WildRGBD_test:backpack/scenes/scene_817:00038.jpg:00116.jpg:00138.jpg:00266.jpg:00304.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "backpack/scenes/scene_817",
+   "frames": [
+    "00038.jpg",
+    "00116.jpg",
+    "00138.jpg",
+    "00266.jpg",
+    "00304.jpg"
+   ],
+   "dust3r_mean_rre": 97.30383968353271
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_435:00069.jpg:00157.jpg:00241.jpg:00211.jpg:00291.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_435",
+   "frames": [
+    "00069.jpg",
+    "00157.jpg",
+    "00241.jpg",
+    "00211.jpg",
+    "00291.jpg"
+   ],
+   "dust3r_mean_rre": 97.20385761260987
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00053.jpg:00060.jpg:00182.jpg:00215.jpg:00268.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00053.jpg",
+    "00060.jpg",
+    "00182.jpg",
+    "00215.jpg",
+    "00268.jpg"
+   ],
+   "dust3r_mean_rre": 96.9265886247158
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00004.jpg:00038.jpg:00272.jpg:00229.jpg:00416.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00004.jpg",
+    "00038.jpg",
+    "00272.jpg",
+    "00229.jpg",
+    "00416.jpg"
+   ],
+   "dust3r_mean_rre": 96.82016289234161
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00079.jpg:00134.jpg:00189.jpg:00291.jpg:00314.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00079.jpg",
+    "00134.jpg",
+    "00189.jpg",
+    "00291.jpg",
+    "00314.jpg"
+   ],
+   "dust3r_mean_rre": 95.2588975906372
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00132.jpg:00272.jpg:00148.jpg:00204.jpg:00187.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00132.jpg",
+    "00272.jpg",
+    "00148.jpg",
+    "00204.jpg",
+    "00187.jpg"
+   ],
+   "dust3r_mean_rre": 94.84503345489502
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_457:00210.jpg:00147.jpg:00259.jpg:00315.jpg:00332.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_457",
+   "frames": [
+    "00210.jpg",
+    "00147.jpg",
+    "00259.jpg",
+    "00315.jpg",
+    "00332.jpg"
+   ],
+   "dust3r_mean_rre": 92.79880158901214
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00030.jpg:00050.jpg:00176.jpg:00268.jpg:00288.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00030.jpg",
+    "00050.jpg",
+    "00176.jpg",
+    "00268.jpg",
+    "00288.jpg"
+   ],
+   "dust3r_mean_rre": 92.51384278535843
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00020.jpg:00161.jpg:00306.jpg:00279.jpg:00303.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00020.jpg",
+    "00161.jpg",
+    "00306.jpg",
+    "00279.jpg",
+    "00303.jpg"
+   ],
+   "dust3r_mean_rre": 91.74118065834045
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00023.jpg:00050.jpg:00086.jpg:00182.jpg:00245.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00023.jpg",
+    "00050.jpg",
+    "00086.jpg",
+    "00182.jpg",
+    "00245.jpg"
+   ],
+   "dust3r_mean_rre": 90.77763081789017
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00030.jpg:00060.jpg:00182.jpg:00245.jpg:00288.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00030.jpg",
+    "00060.jpg",
+    "00182.jpg",
+    "00245.jpg",
+    "00288.jpg"
+   ],
+   "dust3r_mean_rre": 89.95979055166245
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00233.jpg:00148.jpg:00187.jpg:00195.jpg:00284.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00233.jpg",
+    "00148.jpg",
+    "00187.jpg",
+    "00195.jpg",
+    "00284.jpg"
+   ],
+   "dust3r_mean_rre": 89.84341630935668
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00259.jpg:00177.jpg:00228.jpg:00279.jpg:00314.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00259.jpg",
+    "00177.jpg",
+    "00228.jpg",
+    "00279.jpg",
+    "00314.jpg"
+   ],
+   "dust3r_mean_rre": 89.43450965881348
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00086.jpg:00176.jpg:00245.jpg:00268.jpg:00288.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00086.jpg",
+    "00176.jpg",
+    "00245.jpg",
+    "00268.jpg",
+    "00288.jpg"
+   ],
+   "dust3r_mean_rre": 89.3987006187439
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00030.jpg:00050.jpg:00096.jpg:00182.jpg:00245.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00030.jpg",
+    "00050.jpg",
+    "00096.jpg",
+    "00182.jpg",
+    "00245.jpg"
+   ],
+   "dust3r_mean_rre": 89.13876891732215
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_457:00143.jpg:00147.jpg:00192.jpg:00220.jpg:00315.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_457",
+   "frames": [
+    "00143.jpg",
+    "00147.jpg",
+    "00192.jpg",
+    "00220.jpg",
+    "00315.jpg"
+   ],
+   "dust3r_mean_rre": 88.20216625928879
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00020.jpg:00161.jpg:00173.jpg:00279.jpg:00342.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00020.jpg",
+    "00161.jpg",
+    "00173.jpg",
+    "00279.jpg",
+    "00342.jpg"
+   ],
+   "dust3r_mean_rre": 87.84625942707062
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00177.jpg:00251.jpg:00228.jpg:00306.jpg:00279.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00177.jpg",
+    "00251.jpg",
+    "00228.jpg",
+    "00306.jpg",
+    "00279.jpg"
+   ],
+   "dust3r_mean_rre": 87.75539569854736
+  },
+  {
+   "sample_id": "WildRGBD_test:bottle/scenes/scene_764:00092.jpg:00205.jpg:00129.jpg:00201.jpg:00264.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bottle/scenes/scene_764",
+   "frames": [
+    "00092.jpg",
+    "00205.jpg",
+    "00129.jpg",
+    "00201.jpg",
+    "00264.jpg"
+   ],
+   "dust3r_mean_rre": 87.72597428560258
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00004.jpg:00123.jpg:00195.jpg:00284.jpg:00365.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00004.jpg",
+    "00123.jpg",
+    "00195.jpg",
+    "00284.jpg",
+    "00365.jpg"
+   ],
+   "dust3r_mean_rre": 87.44978294372558
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00096.jpg:00182.jpg:00215.jpg:00176.jpg:00245.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00096.jpg",
+    "00182.jpg",
+    "00215.jpg",
+    "00176.jpg",
+    "00245.jpg"
+   ],
+   "dust3r_mean_rre": 87.34520554542542
+  },
+  {
+   "sample_id": "WildRGBD_test:bowl/scenes/scene_002:00106.jpg:00234.jpg:00140.jpg:00196.jpg:00285.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bowl/scenes/scene_002",
+   "frames": [
+    "00106.jpg",
+    "00234.jpg",
+    "00140.jpg",
+    "00196.jpg",
+    "00285.jpg"
+   ],
+   "dust3r_mean_rre": 86.14440042972565
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00061.jpg:00056.jpg:00116.jpg:00192.jpg:00304.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00061.jpg",
+    "00056.jpg",
+    "00116.jpg",
+    "00192.jpg",
+    "00304.jpg"
+   ],
+   "dust3r_mean_rre": 86.09259324073791
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00056.jpg:00116.jpg:00192.jpg:00218.jpg:00304.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00056.jpg",
+    "00116.jpg",
+    "00192.jpg",
+    "00218.jpg",
+    "00304.jpg"
+   ],
+   "dust3r_mean_rre": 83.96879398226739
+  },
+  {
+   "sample_id": "WildRGBD_test:backpack/scenes/scene_811:00028.jpg:00003.jpg:00050.jpg:00113.jpg:00210.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "backpack/scenes/scene_811",
+   "frames": [
+    "00028.jpg",
+    "00003.jpg",
+    "00050.jpg",
+    "00113.jpg",
+    "00210.jpg"
+   ],
+   "dust3r_mean_rre": 82.36369669437408
+  },
+  {
+   "sample_id": "WildRGBD_test:backpack/scenes/scene_811:00050.jpg:00113.jpg:00173.jpg:00176.jpg:00232.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "backpack/scenes/scene_811",
+   "frames": [
+    "00050.jpg",
+    "00113.jpg",
+    "00173.jpg",
+    "00176.jpg",
+    "00232.jpg"
+   ],
+   "dust3r_mean_rre": 82.19641333818436
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00086.jpg:00060.jpg:00096.jpg:00182.jpg:00215.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00086.jpg",
+    "00060.jpg",
+    "00096.jpg",
+    "00182.jpg",
+    "00215.jpg"
+   ],
+   "dust3r_mean_rre": 80.97642329931259
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00051.jpg:00233.jpg:00132.jpg:00195.jpg:00416.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00051.jpg",
+    "00233.jpg",
+    "00132.jpg",
+    "00195.jpg",
+    "00416.jpg"
+   ],
+   "dust3r_mean_rre": 79.04104385375976
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00004.jpg:00038.jpg:00233.jpg:00272.jpg:00195.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00004.jpg",
+    "00038.jpg",
+    "00233.jpg",
+    "00272.jpg",
+    "00195.jpg"
+   ],
+   "dust3r_mean_rre": 78.79997420310974
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00079.jpg:00216.jpg:00134.jpg:00342.jpg:00389.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00079.jpg",
+    "00216.jpg",
+    "00134.jpg",
+    "00342.jpg",
+    "00389.jpg"
+   ],
+   "dust3r_mean_rre": 76.79800452888011
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00050.jpg:00053.jpg:00060.jpg:00182.jpg:00176.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00050.jpg",
+    "00053.jpg",
+    "00060.jpg",
+    "00182.jpg",
+    "00176.jpg"
+   ],
+   "dust3r_mean_rre": 76.39937885403633
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00079.jpg:00259.jpg:00173.jpg:00177.jpg:00251.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00079.jpg",
+    "00259.jpg",
+    "00173.jpg",
+    "00177.jpg",
+    "00251.jpg"
+   ],
+   "dust3r_mean_rre": 75.6067163825035
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00020.jpg:00079.jpg:00216.jpg:00177.jpg:00306.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00020.jpg",
+    "00079.jpg",
+    "00216.jpg",
+    "00177.jpg",
+    "00306.jpg"
+   ],
+   "dust3r_mean_rre": 74.60407962799073
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00256.jpg:00173.jpg:00267.jpg:00225.jpg:00357.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00256.jpg",
+    "00173.jpg",
+    "00267.jpg",
+    "00225.jpg",
+    "00357.jpg"
+   ],
+   "dust3r_mean_rre": 74.5981112420559
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00044.jpg:00066.jpg:00140.jpg:00202.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00044.jpg",
+    "00066.jpg",
+    "00140.jpg",
+    "00202.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 74.14477076530457
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00051.jpg:00221.jpg:00229.jpg:00284.jpg:00416.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00051.jpg",
+    "00221.jpg",
+    "00229.jpg",
+    "00284.jpg",
+    "00416.jpg"
+   ],
+   "dust3r_mean_rre": 74.08775450587272
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00181.jpg:00161.jpg:00189.jpg:00259.jpg:00177.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00181.jpg",
+    "00161.jpg",
+    "00189.jpg",
+    "00259.jpg",
+    "00177.jpg"
+   ],
+   "dust3r_mean_rre": 74.0720522403717
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00066.jpg:00132.jpg:00202.jpg:00298.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00066.jpg",
+    "00132.jpg",
+    "00202.jpg",
+    "00298.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 73.76731739044189
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00134.jpg:00157.jpg:00173.jpg:00251.jpg:00306.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00134.jpg",
+    "00157.jpg",
+    "00173.jpg",
+    "00251.jpg",
+    "00306.jpg"
+   ],
+   "dust3r_mean_rre": 73.2755744099617
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00038.jpg:00123.jpg:00178.jpg:00272.jpg:00204.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00038.jpg",
+    "00123.jpg",
+    "00178.jpg",
+    "00272.jpg",
+    "00204.jpg"
+   ],
+   "dust3r_mean_rre": 73.20102195739746
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_468:00169.jpg:00173.jpg:00267.jpg:00184.jpg:00214.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_468",
+   "frames": [
+    "00169.jpg",
+    "00173.jpg",
+    "00267.jpg",
+    "00184.jpg",
+    "00214.jpg"
+   ],
+   "dust3r_mean_rre": 72.78368544578552
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00038.jpg:00148.jpg:00204.jpg:00229.jpg:00284.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00038.jpg",
+    "00148.jpg",
+    "00204.jpg",
+    "00229.jpg",
+    "00284.jpg"
+   ],
+   "dust3r_mean_rre": 72.37415289878845
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00192.jpg:00218.jpg:00283.jpg:00455.jpg:00294.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00192.jpg",
+    "00218.jpg",
+    "00283.jpg",
+    "00455.jpg",
+    "00294.jpg"
+   ],
+   "dust3r_mean_rre": 72.30630011856556
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_489:00010.jpg:00003.jpg:00072.jpg:00058.jpg:00258.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_489",
+   "frames": [
+    "00010.jpg",
+    "00003.jpg",
+    "00072.jpg",
+    "00058.jpg",
+    "00258.jpg"
+   ],
+   "dust3r_mean_rre": 72.18560860157012
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00081.jpg:00132.jpg:00140.jpg:00228.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00081.jpg",
+    "00132.jpg",
+    "00140.jpg",
+    "00228.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 71.76706284284592
+  },
+  {
+   "sample_id": "WildRGBD_test:bucket/scenes/scene_006:00123.jpg:00233.jpg:00178.jpg:00132.jpg:00272.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bucket/scenes/scene_006",
+   "frames": [
+    "00123.jpg",
+    "00233.jpg",
+    "00178.jpg",
+    "00132.jpg",
+    "00272.jpg"
+   ],
+   "dust3r_mean_rre": 71.69530057907104
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00182.jpg:00086.jpg:00192.jpg:00283.jpg:00294.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00182.jpg",
+    "00086.jpg",
+    "00192.jpg",
+    "00283.jpg",
+    "00294.jpg"
+   ],
+   "dust3r_mean_rre": 71.55607089102269
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_519:00069.jpg:00050.jpg:00104.jpg:00182.jpg:00292.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_519",
+   "frames": [
+    "00069.jpg",
+    "00050.jpg",
+    "00104.jpg",
+    "00182.jpg",
+    "00292.jpg"
+   ],
+   "dust3r_mean_rre": 71.40496807098388
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_516:00053.jpg:00096.jpg:00215.jpg:00176.jpg:00272.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_516",
+   "frames": [
+    "00053.jpg",
+    "00096.jpg",
+    "00215.jpg",
+    "00176.jpg",
+    "00272.jpg"
+   ],
+   "dust3r_mean_rre": 71.22743213176727
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_435:00054.jpg:00172.jpg:00161.jpg:00241.jpg:00276.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_435",
+   "frames": [
+    "00054.jpg",
+    "00172.jpg",
+    "00161.jpg",
+    "00241.jpg",
+    "00276.jpg"
+   ],
+   "dust3r_mean_rre": 71.12529671192169
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00140.jpg:00202.jpg:00287.jpg:00316.jpg:00360.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00140.jpg",
+    "00202.jpg",
+    "00287.jpg",
+    "00316.jpg",
+    "00360.jpg"
+   ],
+   "dust3r_mean_rre": 71.01638216376304
+  },
+  {
+   "sample_id": "WildRGBD_test:detergent/scenes/scene_599:00101.jpg:00091.jpg:00143.jpg:00146.jpg:00202.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "detergent/scenes/scene_599",
+   "frames": [
+    "00101.jpg",
+    "00091.jpg",
+    "00143.jpg",
+    "00146.jpg",
+    "00202.jpg"
+   ],
+   "dust3r_mean_rre": 70.65761542320251
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00157.jpg:00173.jpg:00177.jpg:00342.jpg:00389.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00157.jpg",
+    "00173.jpg",
+    "00177.jpg",
+    "00342.jpg",
+    "00389.jpg"
+   ],
+   "dust3r_mean_rre": 70.54804311990738
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00172.jpg:00182.jpg:00086.jpg:00192.jpg:00283.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00172.jpg",
+    "00182.jpg",
+    "00086.jpg",
+    "00192.jpg",
+    "00283.jpg"
+   ],
+   "dust3r_mean_rre": 70.50128900408745
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00046.jpg:00061.jpg:00086.jpg:00218.jpg:00329.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00046.jpg",
+    "00061.jpg",
+    "00086.jpg",
+    "00218.jpg",
+    "00329.jpg"
+   ],
+   "dust3r_mean_rre": 70.24991811513901
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00046.jpg:00182.jpg:00162.jpg:00157.jpg:00218.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00046.jpg",
+    "00182.jpg",
+    "00162.jpg",
+    "00157.jpg",
+    "00218.jpg"
+   ],
+   "dust3r_mean_rre": 69.97282531261445
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_577:00079.jpg:00181.jpg:00161.jpg:00189.jpg:00259.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_577",
+   "frames": [
+    "00079.jpg",
+    "00181.jpg",
+    "00161.jpg",
+    "00189.jpg",
+    "00259.jpg"
+   ],
+   "dust3r_mean_rre": 69.93515262603759
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_519:00003.jpg:00075.jpg:00182.jpg:00201.jpg:00292.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_519",
+   "frames": [
+    "00003.jpg",
+    "00075.jpg",
+    "00182.jpg",
+    "00201.jpg",
+    "00292.jpg"
+   ],
+   "dust3r_mean_rre": 69.78653661012649
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_381:00046.jpg:00061.jpg:00066.jpg:00192.jpg:00294.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_381",
+   "frames": [
+    "00046.jpg",
+    "00061.jpg",
+    "00066.jpg",
+    "00192.jpg",
+    "00294.jpg"
+   ],
+   "dust3r_mean_rre": 69.58441699147224
+  },
+  {
+   "sample_id": "WildRGBD_test:bowl/scenes/scene_792:00152.jpg:00239.jpg:00267.jpg:00319.jpg:00323.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "bowl/scenes/scene_792",
+   "frames": [
+    "00152.jpg",
+    "00239.jpg",
+    "00267.jpg",
+    "00319.jpg",
+    "00323.jpg"
+   ],
+   "dust3r_mean_rre": 69.5525503769517
+  },
+  {
+   "sample_id": "WildRGBD_test:keyboard/scenes/scene_388:00132.jpg:00202.jpg:00228.jpg:00287.jpg:00298.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "keyboard/scenes/scene_388",
+   "frames": [
+    "00132.jpg",
+    "00202.jpg",
+    "00228.jpg",
+    "00287.jpg",
+    "00298.jpg"
+   ],
+   "dust3r_mean_rre": 69.20016025304794
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_476:00105.jpg:00173.jpg:00181.jpg:00101.jpg:00250.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_476",
+   "frames": [
+    "00105.jpg",
+    "00173.jpg",
+    "00181.jpg",
+    "00101.jpg",
+    "00250.jpg"
+   ],
+   "dust3r_mean_rre": 69.13281803131103
+  },
+  {
+   "sample_id": "WildRGBD_test:flower_pot/scenes/scene_457:00147.jpg:00234.jpg:00192.jpg:00217.jpg:00220.jpg",
+   "dataset": "WildRGBD_test",
+   "scene": "flower_pot/scenes/scene_457",
+   "frames": [
+    "00147.jpg",
+    "00234.jpg",
+    "00192.jpg",
+    "00217.jpg",
+    "00220.jpg"
+   ],
+   "dust3r_mean_rre": 69.04637616872787
+  }
+ ]
+}

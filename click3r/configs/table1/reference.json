@@ -1,0 +1,226 @@
+{
+  "source": "Held-out runs of all ten rows on the frozen samples in click3r/configs/table1/samples (CO3D, ScanNet++, ARKitScenes; 1,000 pairs each), with the evaluation/reproduce_table1.py --all-methods settings; same-frame pairs excluded; prompts encoded with token offset 0.0, the training convention",
+  "pointmap_aggregation": "median",
+  "rows": [
+    {
+      "label": "VGGT (518)",
+      "model": "vggt_518",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.4975722134113312,
+          "mAA_30": 87.75745257452574,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.26118654012680054,
+          "mAA_30": 59.466666666666676,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.15923362970352173,
+          "mAA_30": 77.91000000000003,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "Pi3X (518)",
+      "model": "pi3x_518",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.4666719138622284,
+          "mAA_30": 87.95054200542005,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.139714814722538,
+          "mAA_30": 80.76666666666668,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.14619028568267822,
+          "mAA_30": 82.16,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "VGGT (224)",
+      "model": "vggt",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 1.9943561553955078,
+          "mAA_30": 62.533875338753376,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 1.3250489830970764,
+          "mAA_30": 24.46666666666667,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.6903776824474335,
+          "mAA_30": 40.89333333333334,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "Pi3X (224)",
+      "model": "pi3x",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.5771716237068176,
+          "mAA_30": 85.01693766937672,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.19602462649345398,
+          "mAA_30": 72.53000000000002,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.16728492081165314,
+          "mAA_30": 76.38666666666667,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "DUSt3R pretrained",
+      "model": "dust3r_pretrained",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.7283861935138702,
+          "mAA_30": 79.20054200542008,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.19042205065488815,
+          "mAA_30": 82.57000000000002,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.14581772685050964,
+          "mAA_30": 86.01666666666668,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "MASt3R (512 weights, 224 inputs)",
+      "model": "mast3r",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.6801539361476898,
+          "mAA_30": 78.4518970189702,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.4586345851421356,
+          "mAA_30": 51.78666666666668,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.271514892578125,
+          "mAA_30": 65.39666666666669,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "DUSt3R retrained",
+      "model": "dust3r_trained",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.6586166024208069,
+          "mAA_30": 84.32926829268294,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.17414768040180206,
+          "mAA_30": 90.80666666666669,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.15450327098369598,
+          "mAA_30": 82.71,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "Click3R without prompts",
+      "model": "click3r",
+      "config": "no_prompts",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.6776928901672363,
+          "mAA_30": 84.41395663956644,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.17493093758821487,
+          "mAA_30": 89.87333333333336,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.15692148357629776,
+          "mAA_30": 84.26666666666668,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "Click3R random oracle (K=1, 5 trials)",
+      "model": "click3r",
+      "config": "1p_best5",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.6514942944049835,
+          "mAA_30": 85.71138211382112,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.16743286699056625,
+          "mAA_30": 91.75,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.14073636382818222,
+          "mAA_30": 85.89666666666668,
+          "num_samples": 1000
+        }
+      }
+    },
+    {
+      "label": "Click3R grid oracle",
+      "model": "click3r",
+      "config": "grid_oracle_1p_pose",
+      "datasets": {
+        "co3d": {
+          "median_loss": 0.658016562461853,
+          "mAA_30": 88.21476964769647,
+          "num_samples": 1000
+        },
+        "scannetpp": {
+          "median_loss": 0.16913846880197525,
+          "mAA_30": 93.93666666666665,
+          "num_samples": 1000
+        },
+        "arkitscenes": {
+          "median_loss": 0.14615216851234436,
+          "mAA_30": 92.74999999999999,
+          "num_samples": 1000
+        }
+      }
+    }
+  ]
+}

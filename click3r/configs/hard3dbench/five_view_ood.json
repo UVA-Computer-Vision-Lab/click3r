@@ -1,0 +1,3914 @@
+{
+ "metadata": {
+  "benchmark": "Hard3DBench",
+  "subset": "5-view",
+  "split": "Out-of-Distribution",
+  "num_samples": 300,
+  "selection": "Candidate 5-view tuples have a connected co-visibility graph (edges with at least 5% overlap). Pretrained DUSt3R (224) predicted all ten pairs and DUSt3R global alignment (300 iterations, msp initialization) recovered the poses. Tuples were ranked by mean pairwise rotation error and the top 60 per dataset were kept.",
+  "fields": {
+   "dust3r_mean_rre": "mean pairwise rotation error (degrees) of pretrained DUSt3R after global alignment, the selection statistic"
+  }
+ },
+ "samples": [
+  {
+   "sample_id": "7scenes:stairs:seq-03/frame-000291:seq-03/frame-000401:seq-05/frame-000159:seq-05/frame-000199:seq-05/frame-000338",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-03/frame-000291",
+    "seq-03/frame-000401",
+    "seq-05/frame-000159",
+    "seq-05/frame-000199",
+    "seq-05/frame-000338"
+   ],
+   "dust3r_mean_rre": 90.3265120267868
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-03/frame-000094:seq-03/frame-000257:seq-04/frame-000055:seq-05/frame-000006:seq-06/frame-000348",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-03/frame-000094",
+    "seq-03/frame-000257",
+    "seq-04/frame-000055",
+    "seq-05/frame-000006",
+    "seq-06/frame-000348"
+   ],
+   "dust3r_mean_rre": 75.13979326486587
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-01/frame-000044:seq-01/frame-000179:seq-01/frame-000187:seq-03/frame-000212:seq-03/frame-000449",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-01/frame-000044",
+    "seq-01/frame-000179",
+    "seq-01/frame-000187",
+    "seq-03/frame-000212",
+    "seq-03/frame-000449"
+   ],
+   "dust3r_mean_rre": 64.49173760414124
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-01/frame-000255:seq-04/frame-000480:seq-05/frame-000434:seq-06/frame-000049:seq-06/frame-000260",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-01/frame-000255",
+    "seq-04/frame-000480",
+    "seq-05/frame-000434",
+    "seq-06/frame-000049",
+    "seq-06/frame-000260"
+   ],
+   "dust3r_mean_rre": 63.91190629005432
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-01/frame-000189:seq-01/frame-000352:seq-04/frame-000055:seq-04/frame-000223:seq-06/frame-000231",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-01/frame-000189",
+    "seq-01/frame-000352",
+    "seq-04/frame-000055",
+    "seq-04/frame-000223",
+    "seq-06/frame-000231"
+   ],
+   "dust3r_mean_rre": 12.787460613250733
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-02/frame-000355:seq-05/frame-000116:seq-05/frame-000283:seq-05/frame-000462:seq-06/frame-000199",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-02/frame-000355",
+    "seq-05/frame-000116",
+    "seq-05/frame-000283",
+    "seq-05/frame-000462",
+    "seq-06/frame-000199"
+   ],
+   "dust3r_mean_rre": 11.937637305259704
+  },
+  {
+   "sample_id": "7scenes:chess:seq-01/frame-000329:seq-03/frame-000705:seq-03/frame-000862:seq-04/frame-000310:seq-04/frame-000496",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-01/frame-000329",
+    "seq-03/frame-000705",
+    "seq-03/frame-000862",
+    "seq-04/frame-000310",
+    "seq-04/frame-000496"
+   ],
+   "dust3r_mean_rre": 8.603038203716277
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-01/frame-000260:seq-04/frame-000305:seq-05/frame-000320:seq-06/frame-000126:seq-06/frame-000131",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-01/frame-000260",
+    "seq-04/frame-000305",
+    "seq-05/frame-000320",
+    "seq-06/frame-000126",
+    "seq-06/frame-000131"
+   ],
+   "dust3r_mean_rre": 8.410246360301972
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-01/frame-000210:seq-04/frame-000079:seq-04/frame-000102:seq-05/frame-000417:seq-06/frame-000310",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-01/frame-000210",
+    "seq-04/frame-000079",
+    "seq-04/frame-000102",
+    "seq-05/frame-000417",
+    "seq-06/frame-000310"
+   ],
+   "dust3r_mean_rre": 6.891768193244934
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-03/frame-000661:seq-04/frame-000134:seq-04/frame-000968:seq-08/frame-000388:seq-11/frame-000983",
+   "dataset": "7scenes",
+   "scene": "redkitchen",
+   "frames": [
+    "seq-03/frame-000661",
+    "seq-04/frame-000134",
+    "seq-04/frame-000968",
+    "seq-08/frame-000388",
+    "seq-11/frame-000983"
+   ],
+   "dust3r_mean_rre": 5.926954841613769
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-02/frame-000280:seq-04/frame-000128:seq-05/frame-000213:seq-06/frame-000463:seq-06/frame-000482",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-02/frame-000280",
+    "seq-04/frame-000128",
+    "seq-05/frame-000213",
+    "seq-06/frame-000463",
+    "seq-06/frame-000482"
+   ],
+   "dust3r_mean_rre": 5.5368977904319765
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-01/frame-000167:seq-04/frame-000168:seq-04/frame-000387:seq-06/frame-000038:seq-06/frame-000438",
+   "dataset": "7scenes",
+   "scene": "stairs",
+   "frames": [
+    "seq-01/frame-000167",
+    "seq-04/frame-000168",
+    "seq-04/frame-000387",
+    "seq-06/frame-000038",
+    "seq-06/frame-000438"
+   ],
+   "dust3r_mean_rre": 5.458910083770752
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-01/frame-000252:seq-01/frame-000738:seq-03/frame-000506:seq-04/frame-000065:seq-04/frame-000408",
+   "dataset": "7scenes",
+   "scene": "redkitchen",
+   "frames": [
+    "seq-01/frame-000252",
+    "seq-01/frame-000738",
+    "seq-03/frame-000506",
+    "seq-04/frame-000065",
+    "seq-04/frame-000408"
+   ],
+   "dust3r_mean_rre": 5.239357829093933
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-02/frame-000567:seq-06/frame-000542:seq-06/frame-000898:seq-07/frame-000435:seq-07/frame-000997",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-02/frame-000567",
+    "seq-06/frame-000542",
+    "seq-06/frame-000898",
+    "seq-07/frame-000435",
+    "seq-07/frame-000997"
+   ],
+   "dust3r_mean_rre": 5.144794702529907
+  },
+  {
+   "sample_id": "7scenes:chess:seq-01/frame-000250:seq-01/frame-000913:seq-02/frame-000101:seq-05/frame-000714:seq-06/frame-000189",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-01/frame-000250",
+    "seq-01/frame-000913",
+    "seq-02/frame-000101",
+    "seq-05/frame-000714",
+    "seq-06/frame-000189"
+   ],
+   "dust3r_mean_rre": 5.02201361656189
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000219:seq-02/frame-000825:seq-03/frame-000268:seq-04/frame-000432:seq-04/frame-000583",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000219",
+    "seq-02/frame-000825",
+    "seq-03/frame-000268",
+    "seq-04/frame-000432",
+    "seq-04/frame-000583"
+   ],
+   "dust3r_mean_rre": 4.8447709560394285
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-05/frame-000113:seq-06/frame-000259:seq-06/frame-000880:seq-06/frame-000919:seq-12/frame-000955",
+   "dataset": "7scenes",
+   "scene": "redkitchen",
+   "frames": [
+    "seq-05/frame-000113",
+    "seq-06/frame-000259",
+    "seq-06/frame-000880",
+    "seq-06/frame-000919",
+    "seq-12/frame-000955"
+   ],
+   "dust3r_mean_rre": 4.8133694410324095
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000973:seq-03/frame-000189:seq-03/frame-000395:seq-04/frame-000630:seq-04/frame-000965",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000973",
+    "seq-03/frame-000189",
+    "seq-03/frame-000395",
+    "seq-04/frame-000630",
+    "seq-04/frame-000965"
+   ],
+   "dust3r_mean_rre": 4.516178131103516
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000069:seq-01/frame-000380:seq-01/frame-000823:seq-02/frame-000463:seq-02/frame-000822",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000069",
+    "seq-01/frame-000380",
+    "seq-01/frame-000823",
+    "seq-02/frame-000463",
+    "seq-02/frame-000822"
+   ],
+   "dust3r_mean_rre": 4.295929479598999
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000660:seq-02/frame-000656:seq-03/frame-000175:seq-04/frame-000483:seq-04/frame-000649",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000660",
+    "seq-02/frame-000656",
+    "seq-03/frame-000175",
+    "seq-04/frame-000483",
+    "seq-04/frame-000649"
+   ],
+   "dust3r_mean_rre": 4.242237138748169
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-02/frame-000931:seq-07/frame-000983:seq-08/frame-000146:seq-14/frame-000207:seq-14/frame-000363",
+   "dataset": "7scenes",
+   "scene": "redkitchen",
+   "frames": [
+    "seq-02/frame-000931",
+    "seq-07/frame-000983",
+    "seq-08/frame-000146",
+    "seq-14/frame-000207",
+    "seq-14/frame-000363"
+   ],
+   "dust3r_mean_rre": 4.222711730003357
+  },
+  {
+   "sample_id": "7scenes:office:seq-02/frame-000360:seq-03/frame-000986:seq-05/frame-000041:seq-05/frame-000896:seq-07/frame-000606",
+   "dataset": "7scenes",
+   "scene": "office",
+   "frames": [
+    "seq-02/frame-000360",
+    "seq-03/frame-000986",
+    "seq-05/frame-000041",
+    "seq-05/frame-000896",
+    "seq-07/frame-000606"
+   ],
+   "dust3r_mean_rre": 4.179742133617401
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-02/frame-000140:seq-02/frame-000834:seq-03/frame-000254:seq-07/frame-000512:seq-08/frame-000869",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-02/frame-000140",
+    "seq-02/frame-000834",
+    "seq-03/frame-000254",
+    "seq-07/frame-000512",
+    "seq-08/frame-000869"
+   ],
+   "dust3r_mean_rre": 3.9998074412345885
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000208:seq-01/frame-000565:seq-01/frame-000606:seq-02/frame-000798:seq-03/frame-000844",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000208",
+    "seq-01/frame-000565",
+    "seq-01/frame-000606",
+    "seq-02/frame-000798",
+    "seq-03/frame-000844"
+   ],
+   "dust3r_mean_rre": 3.9632266402244567
+  },
+  {
+   "sample_id": "7scenes:chess:seq-03/frame-000234:seq-05/frame-000049:seq-05/frame-000129:seq-05/frame-000757:seq-06/frame-000842",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-03/frame-000234",
+    "seq-05/frame-000049",
+    "seq-05/frame-000129",
+    "seq-05/frame-000757",
+    "seq-06/frame-000842"
+   ],
+   "dust3r_mean_rre": 3.946290671825409
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-01/frame-000307:seq-03/frame-000937:seq-06/frame-000332:seq-08/frame-000008:seq-08/frame-000418",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-01/frame-000307",
+    "seq-03/frame-000937",
+    "seq-06/frame-000332",
+    "seq-08/frame-000008",
+    "seq-08/frame-000418"
+   ],
+   "dust3r_mean_rre": 3.9219868659973143
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000102:seq-01/frame-000870:seq-03/frame-000926:seq-04/frame-000412:seq-04/frame-000788",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000102",
+    "seq-01/frame-000870",
+    "seq-03/frame-000926",
+    "seq-04/frame-000412",
+    "seq-04/frame-000788"
+   ],
+   "dust3r_mean_rre": 3.864828276634216
+  },
+  {
+   "sample_id": "7scenes:chess:seq-01/frame-000983:seq-04/frame-000686:seq-05/frame-000988:seq-06/frame-000781:seq-06/frame-000794",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-01/frame-000983",
+    "seq-04/frame-000686",
+    "seq-05/frame-000988",
+    "seq-06/frame-000781",
+    "seq-06/frame-000794"
+   ],
+   "dust3r_mean_rre": 3.6366259336471556
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000460:seq-01/frame-000907:seq-01/frame-000956:seq-02/frame-000108:seq-04/frame-000160",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000460",
+    "seq-01/frame-000907",
+    "seq-01/frame-000956",
+    "seq-02/frame-000108",
+    "seq-04/frame-000160"
+   ],
+   "dust3r_mean_rre": 3.582114613056183
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000907:seq-03/frame-000011:seq-04/frame-000138:seq-04/frame-000366:seq-04/frame-000855",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000907",
+    "seq-03/frame-000011",
+    "seq-04/frame-000138",
+    "seq-04/frame-000366",
+    "seq-04/frame-000855"
+   ],
+   "dust3r_mean_rre": 3.497659146785736
+  },
+  {
+   "sample_id": "7scenes:chess:seq-01/frame-000119:seq-02/frame-000019:seq-02/frame-000104:seq-04/frame-000915:seq-05/frame-000713",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-01/frame-000119",
+    "seq-02/frame-000019",
+    "seq-02/frame-000104",
+    "seq-04/frame-000915",
+    "seq-05/frame-000713"
+   ],
+   "dust3r_mean_rre": 3.483111786842346
+  },
+  {
+   "sample_id": "7scenes:chess:seq-03/frame-000470:seq-05/frame-000795:seq-06/frame-000760:seq-06/frame-000924:seq-06/frame-000952",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-03/frame-000470",
+    "seq-05/frame-000795",
+    "seq-06/frame-000760",
+    "seq-06/frame-000924",
+    "seq-06/frame-000952"
+   ],
+   "dust3r_mean_rre": 3.3684861779212953
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-01/frame-000418:seq-03/frame-000002:seq-03/frame-000099:seq-03/frame-000578:seq-08/frame-000563",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-01/frame-000418",
+    "seq-03/frame-000002",
+    "seq-03/frame-000099",
+    "seq-03/frame-000578",
+    "seq-08/frame-000563"
+   ],
+   "dust3r_mean_rre": 3.3394681930541994
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000184:seq-01/frame-000802:seq-02/frame-000083:seq-02/frame-000704:seq-02/frame-000719",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000184",
+    "seq-01/frame-000802",
+    "seq-02/frame-000083",
+    "seq-02/frame-000704",
+    "seq-02/frame-000719"
+   ],
+   "dust3r_mean_rre": 3.3326091289520265
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-01/frame-000668:seq-06/frame-000790:seq-06/frame-000900:seq-08/frame-000365:seq-08/frame-000647",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-01/frame-000668",
+    "seq-06/frame-000790",
+    "seq-06/frame-000900",
+    "seq-08/frame-000365",
+    "seq-08/frame-000647"
+   ],
+   "dust3r_mean_rre": 3.330383098125458
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000059:seq-01/frame-000060:seq-01/frame-000061:seq-01/frame-000062:seq-01/frame-000063",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000059",
+    "seq-01/frame-000060",
+    "seq-01/frame-000061",
+    "seq-01/frame-000062",
+    "seq-01/frame-000063"
+   ],
+   "dust3r_mean_rre": 3.163764500617981
+  },
+  {
+   "sample_id": "7scenes:chess:seq-01/frame-000560:seq-03/frame-000800:seq-05/frame-000081:seq-06/frame-000347:seq-06/frame-000656",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-01/frame-000560",
+    "seq-03/frame-000800",
+    "seq-05/frame-000081",
+    "seq-06/frame-000347",
+    "seq-06/frame-000656"
+   ],
+   "dust3r_mean_rre": 3.163307774066925
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000176:seq-01/frame-000188:seq-01/frame-000492:seq-02/frame-000497:seq-02/frame-000515",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000176",
+    "seq-01/frame-000188",
+    "seq-01/frame-000492",
+    "seq-02/frame-000497",
+    "seq-02/frame-000515"
+   ],
+   "dust3r_mean_rre": 2.982387399673462
+  },
+  {
+   "sample_id": "7scenes:chess:seq-02/frame-000830:seq-03/frame-000596:seq-04/frame-000419:seq-04/frame-000529:seq-05/frame-000796",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-02/frame-000830",
+    "seq-03/frame-000596",
+    "seq-04/frame-000419",
+    "seq-04/frame-000529",
+    "seq-05/frame-000796"
+   ],
+   "dust3r_mean_rre": 2.9701459884643553
+  },
+  {
+   "sample_id": "7scenes:chess:seq-02/frame-000239:seq-02/frame-000276:seq-03/frame-000293:seq-05/frame-000426:seq-05/frame-000542",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-02/frame-000239",
+    "seq-02/frame-000276",
+    "seq-03/frame-000293",
+    "seq-05/frame-000426",
+    "seq-05/frame-000542"
+   ],
+   "dust3r_mean_rre": 2.9356624603271486
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-01/frame-000577:seq-02/frame-000017:seq-03/frame-000510:seq-06/frame-000779:seq-07/frame-000432",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-01/frame-000577",
+    "seq-02/frame-000017",
+    "seq-03/frame-000510",
+    "seq-06/frame-000779",
+    "seq-07/frame-000432"
+   ],
+   "dust3r_mean_rre": 2.89786012172699
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000505:seq-02/frame-000120:seq-02/frame-000612:seq-03/frame-000399:seq-03/frame-000498",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000505",
+    "seq-02/frame-000120",
+    "seq-02/frame-000612",
+    "seq-03/frame-000399",
+    "seq-03/frame-000498"
+   ],
+   "dust3r_mean_rre": 2.8384278774261475
+  },
+  {
+   "sample_id": "7scenes:office:seq-01/frame-000936:seq-03/frame-000116:seq-06/frame-000989:seq-08/frame-000071:seq-10/frame-000188",
+   "dataset": "7scenes",
+   "scene": "office",
+   "frames": [
+    "seq-01/frame-000936",
+    "seq-03/frame-000116",
+    "seq-06/frame-000989",
+    "seq-08/frame-000071",
+    "seq-10/frame-000188"
+   ],
+   "dust3r_mean_rre": 2.833206331729889
+  },
+  {
+   "sample_id": "7scenes:chess:seq-01/frame-000638:seq-01/frame-000843:seq-03/frame-000799:seq-05/frame-000272:seq-05/frame-000292",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-01/frame-000638",
+    "seq-01/frame-000843",
+    "seq-03/frame-000799",
+    "seq-05/frame-000272",
+    "seq-05/frame-000292"
+   ],
+   "dust3r_mean_rre": 2.7486191034317016
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000051:seq-02/frame-000720:seq-03/frame-000073:seq-03/frame-000784:seq-03/frame-000907",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000051",
+    "seq-02/frame-000720",
+    "seq-03/frame-000073",
+    "seq-03/frame-000784",
+    "seq-03/frame-000907"
+   ],
+   "dust3r_mean_rre": 2.7323566913604735
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000052:seq-01/frame-000053:seq-01/frame-000054:seq-01/frame-000055:seq-01/frame-000056",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000052",
+    "seq-01/frame-000053",
+    "seq-01/frame-000054",
+    "seq-01/frame-000055",
+    "seq-01/frame-000056"
+   ],
+   "dust3r_mean_rre": 2.6462796688079835
+  },
+  {
+   "sample_id": "7scenes:fire:seq-01/frame-000861:seq-02/frame-000091:seq-02/frame-000130:seq-02/frame-000317:seq-02/frame-000675",
+   "dataset": "7scenes",
+   "scene": "fire",
+   "frames": [
+    "seq-01/frame-000861",
+    "seq-02/frame-000091",
+    "seq-02/frame-000130",
+    "seq-02/frame-000317",
+    "seq-02/frame-000675"
+   ],
+   "dust3r_mean_rre": 2.6347397685050966
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-02/frame-000226:seq-03/frame-000307:seq-03/frame-000977:seq-07/frame-000167:seq-08/frame-000593",
+   "dataset": "7scenes",
+   "scene": "pumpkin",
+   "frames": [
+    "seq-02/frame-000226",
+    "seq-03/frame-000307",
+    "seq-03/frame-000977",
+    "seq-07/frame-000167",
+    "seq-08/frame-000593"
+   ],
+   "dust3r_mean_rre": 2.618448460102081
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000046:seq-01/frame-000047:seq-01/frame-000048:seq-01/frame-000049:seq-01/frame-000050",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000046",
+    "seq-01/frame-000047",
+    "seq-01/frame-000048",
+    "seq-01/frame-000049",
+    "seq-01/frame-000050"
+   ],
+   "dust3r_mean_rre": 2.562856340408325
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000038:seq-01/frame-000039:seq-01/frame-000040:seq-01/frame-000041:seq-01/frame-000042",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000038",
+    "seq-01/frame-000039",
+    "seq-01/frame-000040",
+    "seq-01/frame-000041",
+    "seq-01/frame-000042"
+   ],
+   "dust3r_mean_rre": 2.481557273864746
+  },
+  {
+   "sample_id": "7scenes:chess:seq-02/frame-000236:seq-02/frame-000577:seq-03/frame-000297:seq-06/frame-000736:seq-06/frame-000799",
+   "dataset": "7scenes",
+   "scene": "chess",
+   "frames": [
+    "seq-02/frame-000236",
+    "seq-02/frame-000577",
+    "seq-03/frame-000297",
+    "seq-06/frame-000736",
+    "seq-06/frame-000799"
+   ],
+   "dust3r_mean_rre": 2.4553160190582277
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000035:seq-01/frame-000036:seq-01/frame-000037:seq-01/frame-000038:seq-01/frame-000039",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000035",
+    "seq-01/frame-000036",
+    "seq-01/frame-000037",
+    "seq-01/frame-000038",
+    "seq-01/frame-000039"
+   ],
+   "dust3r_mean_rre": 2.4487818241119386
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000020:seq-01/frame-000021:seq-01/frame-000022:seq-01/frame-000023:seq-01/frame-000024",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000020",
+    "seq-01/frame-000021",
+    "seq-01/frame-000022",
+    "seq-01/frame-000023",
+    "seq-01/frame-000024"
+   ],
+   "dust3r_mean_rre": 2.4319011926651
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000045:seq-01/frame-000046:seq-01/frame-000047:seq-01/frame-000048:seq-01/frame-000049",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000045",
+    "seq-01/frame-000046",
+    "seq-01/frame-000047",
+    "seq-01/frame-000048",
+    "seq-01/frame-000049"
+   ],
+   "dust3r_mean_rre": 2.393781900405884
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000024:seq-01/frame-000025:seq-01/frame-000026:seq-01/frame-000027:seq-01/frame-000028",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000024",
+    "seq-01/frame-000025",
+    "seq-01/frame-000026",
+    "seq-01/frame-000027",
+    "seq-01/frame-000028"
+   ],
+   "dust3r_mean_rre": 2.3873074769973757
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000042:seq-01/frame-000043:seq-01/frame-000044:seq-01/frame-000045:seq-01/frame-000046",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000042",
+    "seq-01/frame-000043",
+    "seq-01/frame-000044",
+    "seq-01/frame-000045",
+    "seq-01/frame-000046"
+   ],
+   "dust3r_mean_rre": 2.3551666021347044
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000041:seq-01/frame-000042:seq-01/frame-000043:seq-01/frame-000044:seq-01/frame-000045",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000041",
+    "seq-01/frame-000042",
+    "seq-01/frame-000043",
+    "seq-01/frame-000044",
+    "seq-01/frame-000045"
+   ],
+   "dust3r_mean_rre": 2.326484704017639
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000047:seq-01/frame-000048:seq-01/frame-000049:seq-01/frame-000050:seq-01/frame-000051",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000047",
+    "seq-01/frame-000048",
+    "seq-01/frame-000049",
+    "seq-01/frame-000050",
+    "seq-01/frame-000051"
+   ],
+   "dust3r_mean_rre": 2.316708302497864
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000017:seq-01/frame-000018:seq-01/frame-000019:seq-01/frame-000020:seq-01/frame-000021",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000017",
+    "seq-01/frame-000018",
+    "seq-01/frame-000019",
+    "seq-01/frame-000020",
+    "seq-01/frame-000021"
+   ],
+   "dust3r_mean_rre": 2.295060896873474
+  },
+  {
+   "sample_id": "7scenes:heads:seq-01/frame-000033:seq-01/frame-000034:seq-01/frame-000035:seq-01/frame-000036:seq-01/frame-000037",
+   "dataset": "7scenes",
+   "scene": "heads",
+   "frames": [
+    "seq-01/frame-000033",
+    "seq-01/frame-000034",
+    "seq-01/frame-000035",
+    "seq-01/frame-000036",
+    "seq-01/frame-000037"
+   ],
+   "dust3r_mean_rre": 2.2847289562225344
+  },
+  {
+   "sample_id": "dtu:scan77:00000005:00000015:00000030:00000045:00000047",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000005",
+    "00000015",
+    "00000030",
+    "00000045",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 42.40887303352356
+  },
+  {
+   "sample_id": "dtu:scan77:00000005:00000031:00000032:00000041:00000044",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000005",
+    "00000031",
+    "00000032",
+    "00000041",
+    "00000044"
+   ],
+   "dust3r_mean_rre": 34.502252864837644
+  },
+  {
+   "sample_id": "dtu:scan13:00000011:00000016:00000019:00000028:00000039",
+   "dataset": "dtu",
+   "scene": "scan13",
+   "frames": [
+    "00000011",
+    "00000016",
+    "00000019",
+    "00000028",
+    "00000039"
+   ],
+   "dust3r_mean_rre": 31.10071666240692
+  },
+  {
+   "sample_id": "dtu:scan77:00000004:00000005:00000008:00000030:00000035",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000004",
+    "00000005",
+    "00000008",
+    "00000030",
+    "00000035"
+   ],
+   "dust3r_mean_rre": 20.594747829437257
+  },
+  {
+   "sample_id": "dtu:scan77:00000038:00000039:00000040:00000041:00000042",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000038",
+    "00000039",
+    "00000040",
+    "00000041",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 11.157144117355347
+  },
+  {
+   "sample_id": "dtu:scan77:00000002:00000011:00000015:00000027:00000044",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000002",
+    "00000011",
+    "00000015",
+    "00000027",
+    "00000044"
+   ],
+   "dust3r_mean_rre": 8.750098729133606
+  },
+  {
+   "sample_id": "dtu:scan77:00000020:00000022:00000035:00000037:00000047",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000020",
+    "00000022",
+    "00000035",
+    "00000037",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 8.080971169471741
+  },
+  {
+   "sample_id": "dtu:scan77:00000010:00000012:00000014:00000016:00000018",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000010",
+    "00000012",
+    "00000014",
+    "00000016",
+    "00000018"
+   ],
+   "dust3r_mean_rre": 7.683427566289902
+  },
+  {
+   "sample_id": "dtu:scan77:00000007:00000017:00000021:00000031:00000046",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000007",
+    "00000017",
+    "00000021",
+    "00000031",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 7.309842711687088
+  },
+  {
+   "sample_id": "dtu:scan77:00000028:00000029:00000030:00000031:00000032",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000028",
+    "00000029",
+    "00000030",
+    "00000031",
+    "00000032"
+   ],
+   "dust3r_mean_rre": 6.825614714622498
+  },
+  {
+   "sample_id": "dtu:scan12:00000001:00000004:00000018:00000039:00000046",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000001",
+    "00000004",
+    "00000018",
+    "00000039",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 6.344812989234924
+  },
+  {
+   "sample_id": "dtu:scan118:00000000:00000012:00000038:00000043:00000048",
+   "dataset": "dtu",
+   "scene": "scan118",
+   "frames": [
+    "00000000",
+    "00000012",
+    "00000038",
+    "00000043",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 6.326396942138672
+  },
+  {
+   "sample_id": "dtu:scan49:00000003:00000019:00000021:00000043:00000046",
+   "dataset": "dtu",
+   "scene": "scan49",
+   "frames": [
+    "00000003",
+    "00000019",
+    "00000021",
+    "00000043",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 6.187722909450531
+  },
+  {
+   "sample_id": "dtu:scan12:00000043:00000044:00000045:00000046:00000047",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000043",
+    "00000044",
+    "00000045",
+    "00000046",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 5.942968964576721
+  },
+  {
+   "sample_id": "dtu:scan49:00000008:00000010:00000020:00000034:00000047",
+   "dataset": "dtu",
+   "scene": "scan49",
+   "frames": [
+    "00000008",
+    "00000010",
+    "00000020",
+    "00000034",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 5.500653648376465
+  },
+  {
+   "sample_id": "dtu:scan12:00000005:00000017:00000029:00000037:00000038",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000005",
+    "00000017",
+    "00000029",
+    "00000037",
+    "00000038"
+   ],
+   "dust3r_mean_rre": 5.4241782307624815
+  },
+  {
+   "sample_id": "dtu:scan77:00000006:00000015:00000022:00000033:00000041",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000006",
+    "00000015",
+    "00000022",
+    "00000033",
+    "00000041"
+   ],
+   "dust3r_mean_rre": 5.28439120054245
+  },
+  {
+   "sample_id": "dtu:scan12:00000018:00000026:00000029:00000044:00000048",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000018",
+    "00000026",
+    "00000029",
+    "00000044",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 5.1592761158943174
+  },
+  {
+   "sample_id": "dtu:scan12:00000005:00000007:00000009:00000011:00000013",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000005",
+    "00000007",
+    "00000009",
+    "00000011",
+    "00000013"
+   ],
+   "dust3r_mean_rre": 5.084685105085373
+  },
+  {
+   "sample_id": "dtu:scan12:00000040:00000041:00000042:00000043:00000044",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000040",
+    "00000041",
+    "00000042",
+    "00000043",
+    "00000044"
+   ],
+   "dust3r_mean_rre": 5.0581683844327925
+  },
+  {
+   "sample_id": "dtu:scan33:00000003:00000007:00000018:00000029:00000034",
+   "dataset": "dtu",
+   "scene": "scan33",
+   "frames": [
+    "00000003",
+    "00000007",
+    "00000018",
+    "00000029",
+    "00000034"
+   ],
+   "dust3r_mean_rre": 5.051116555929184
+  },
+  {
+   "sample_id": "dtu:scan77:00000037:00000038:00000039:00000040:00000041",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000037",
+    "00000038",
+    "00000039",
+    "00000040",
+    "00000041"
+   ],
+   "dust3r_mean_rre": 5.01682565510273
+  },
+  {
+   "sample_id": "dtu:scan77:00000009:00000010:00000022:00000033:00000035",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000009",
+    "00000010",
+    "00000022",
+    "00000033",
+    "00000035"
+   ],
+   "dust3r_mean_rre": 5.000780439376831
+  },
+  {
+   "sample_id": "dtu:scan49:00000017:00000034:00000045:00000046:00000047",
+   "dataset": "dtu",
+   "scene": "scan49",
+   "frames": [
+    "00000017",
+    "00000034",
+    "00000045",
+    "00000046",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 4.946475601196289
+  },
+  {
+   "sample_id": "dtu:scan33:00000000:00000008:00000016:00000029:00000042",
+   "dataset": "dtu",
+   "scene": "scan33",
+   "frames": [
+    "00000000",
+    "00000008",
+    "00000016",
+    "00000029",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 4.902069419622421
+  },
+  {
+   "sample_id": "dtu:scan110:00000000:00000001:00000008:00000040:00000048",
+   "dataset": "dtu",
+   "scene": "scan110",
+   "frames": [
+    "00000000",
+    "00000001",
+    "00000008",
+    "00000040",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 4.824162542819977
+  },
+  {
+   "sample_id": "dtu:scan33:00000009:00000011:00000028:00000040:00000045",
+   "dataset": "dtu",
+   "scene": "scan33",
+   "frames": [
+    "00000009",
+    "00000011",
+    "00000028",
+    "00000040",
+    "00000045"
+   ],
+   "dust3r_mean_rre": 4.814717316627503
+  },
+  {
+   "sample_id": "dtu:scan77:00000010:00000015:00000016:00000019:00000024",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000010",
+    "00000015",
+    "00000016",
+    "00000019",
+    "00000024"
+   ],
+   "dust3r_mean_rre": 4.785404026508331
+  },
+  {
+   "sample_id": "dtu:scan77:00000003:00000005:00000007:00000009:00000011",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000003",
+    "00000005",
+    "00000007",
+    "00000009",
+    "00000011"
+   ],
+   "dust3r_mean_rre": 4.70315545797348
+  },
+  {
+   "sample_id": "dtu:scan77:00000002:00000003:00000004:00000005:00000006",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000002",
+    "00000003",
+    "00000004",
+    "00000005",
+    "00000006"
+   ],
+   "dust3r_mean_rre": 4.677345609664917
+  },
+  {
+   "sample_id": "dtu:scan77:00000034:00000035:00000036:00000037:00000038",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000034",
+    "00000035",
+    "00000036",
+    "00000037",
+    "00000038"
+   ],
+   "dust3r_mean_rre": 4.662212121486664
+  },
+  {
+   "sample_id": "dtu:scan12:00000004:00000006:00000008:00000010:00000012",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000004",
+    "00000006",
+    "00000008",
+    "00000010",
+    "00000012"
+   ],
+   "dust3r_mean_rre": 4.6243391036987305
+  },
+  {
+   "sample_id": "dtu:scan11:00000002:00000003:00000004:00000005:00000006",
+   "dataset": "dtu",
+   "scene": "scan11",
+   "frames": [
+    "00000002",
+    "00000003",
+    "00000004",
+    "00000005",
+    "00000006"
+   ],
+   "dust3r_mean_rre": 4.611576390266419
+  },
+  {
+   "sample_id": "dtu:scan48:00000014:00000025:00000026:00000038:00000047",
+   "dataset": "dtu",
+   "scene": "scan48",
+   "frames": [
+    "00000014",
+    "00000025",
+    "00000026",
+    "00000038",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 4.596201753616333
+  },
+  {
+   "sample_id": "dtu:scan33:00000028:00000029:00000030:00000031:00000032",
+   "dataset": "dtu",
+   "scene": "scan33",
+   "frames": [
+    "00000028",
+    "00000029",
+    "00000030",
+    "00000031",
+    "00000032"
+   ],
+   "dust3r_mean_rre": 4.595062017440796
+  },
+  {
+   "sample_id": "dtu:scan32:00000012:00000019:00000021:00000027:00000047",
+   "dataset": "dtu",
+   "scene": "scan32",
+   "frames": [
+    "00000012",
+    "00000019",
+    "00000021",
+    "00000027",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 4.554315757751465
+  },
+  {
+   "sample_id": "dtu:scan12:00000003:00000005:00000007:00000009:00000011",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000003",
+    "00000005",
+    "00000007",
+    "00000009",
+    "00000011"
+   ],
+   "dust3r_mean_rre": 4.544538497924805
+  },
+  {
+   "sample_id": "dtu:scan62:00000001:00000029:00000037:00000041:00000047",
+   "dataset": "dtu",
+   "scene": "scan62",
+   "frames": [
+    "00000001",
+    "00000029",
+    "00000037",
+    "00000041",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 4.535878789424896
+  },
+  {
+   "sample_id": "dtu:scan75:00000005:00000012:00000027:00000034:00000045",
+   "dataset": "dtu",
+   "scene": "scan75",
+   "frames": [
+    "00000005",
+    "00000012",
+    "00000027",
+    "00000034",
+    "00000045"
+   ],
+   "dust3r_mean_rre": 4.434027433395386
+  },
+  {
+   "sample_id": "dtu:scan77:00000000:00000001:00000002:00000003:00000004",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000000",
+    "00000001",
+    "00000002",
+    "00000003",
+    "00000004"
+   ],
+   "dust3r_mean_rre": 4.424801540374756
+  },
+  {
+   "sample_id": "dtu:scan12:00000002:00000006:00000022:00000026:00000046",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000002",
+    "00000006",
+    "00000022",
+    "00000026",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 4.371613264083862
+  },
+  {
+   "sample_id": "dtu:scan62:00000005:00000016:00000035:00000042:00000045",
+   "dataset": "dtu",
+   "scene": "scan62",
+   "frames": [
+    "00000005",
+    "00000016",
+    "00000035",
+    "00000042",
+    "00000045"
+   ],
+   "dust3r_mean_rre": 4.370158565044403
+  },
+  {
+   "sample_id": "dtu:scan10:00000016:00000020:00000027:00000035:00000038",
+   "dataset": "dtu",
+   "scene": "scan10",
+   "frames": [
+    "00000016",
+    "00000020",
+    "00000027",
+    "00000035",
+    "00000038"
+   ],
+   "dust3r_mean_rre": 4.277849173545837
+  },
+  {
+   "sample_id": "dtu:scan118:00000024:00000028:00000030:00000033:00000042",
+   "dataset": "dtu",
+   "scene": "scan118",
+   "frames": [
+    "00000024",
+    "00000028",
+    "00000030",
+    "00000033",
+    "00000042"
+   ],
+   "dust3r_mean_rre": 4.203275203704834
+  },
+  {
+   "sample_id": "dtu:scan49:00000001:00000002:00000003:00000004:00000005",
+   "dataset": "dtu",
+   "scene": "scan49",
+   "frames": [
+    "00000001",
+    "00000002",
+    "00000003",
+    "00000004",
+    "00000005"
+   ],
+   "dust3r_mean_rre": 4.202974110841751
+  },
+  {
+   "sample_id": "dtu:scan33:00000000:00000001:00000002:00000003:00000004",
+   "dataset": "dtu",
+   "scene": "scan33",
+   "frames": [
+    "00000000",
+    "00000001",
+    "00000002",
+    "00000003",
+    "00000004"
+   ],
+   "dust3r_mean_rre": 4.159125578403473
+  },
+  {
+   "sample_id": "dtu:scan110:00000001:00000002:00000003:00000004:00000005",
+   "dataset": "dtu",
+   "scene": "scan110",
+   "frames": [
+    "00000001",
+    "00000002",
+    "00000003",
+    "00000004",
+    "00000005"
+   ],
+   "dust3r_mean_rre": 4.151921260356903
+  },
+  {
+   "sample_id": "dtu:scan77:00000013:00000015:00000017:00000019:00000021",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000013",
+    "00000015",
+    "00000017",
+    "00000019",
+    "00000021"
+   ],
+   "dust3r_mean_rre": 4.103736555576324
+  },
+  {
+   "sample_id": "dtu:scan77:00000001:00000003:00000005:00000007:00000009",
+   "dataset": "dtu",
+   "scene": "scan77",
+   "frames": [
+    "00000001",
+    "00000003",
+    "00000005",
+    "00000007",
+    "00000009"
+   ],
+   "dust3r_mean_rre": 4.044518828392029
+  },
+  {
+   "sample_id": "dtu:scan32:00000000:00000002:00000004:00000006:00000008",
+   "dataset": "dtu",
+   "scene": "scan32",
+   "frames": [
+    "00000000",
+    "00000002",
+    "00000004",
+    "00000006",
+    "00000008"
+   ],
+   "dust3r_mean_rre": 4.0223339080810545
+  },
+  {
+   "sample_id": "dtu:scan49:00000016:00000023:00000035:00000040:00000046",
+   "dataset": "dtu",
+   "scene": "scan49",
+   "frames": [
+    "00000016",
+    "00000023",
+    "00000035",
+    "00000040",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 3.9996039658784865
+  },
+  {
+   "sample_id": "dtu:scan118:00000001:00000003:00000023:00000041:00000047",
+   "dataset": "dtu",
+   "scene": "scan118",
+   "frames": [
+    "00000001",
+    "00000003",
+    "00000023",
+    "00000041",
+    "00000047"
+   ],
+   "dust3r_mean_rre": 3.975636875629425
+  },
+  {
+   "sample_id": "dtu:scan12:00000029:00000030:00000031:00000032:00000033",
+   "dataset": "dtu",
+   "scene": "scan12",
+   "frames": [
+    "00000029",
+    "00000030",
+    "00000031",
+    "00000032",
+    "00000033"
+   ],
+   "dust3r_mean_rre": 3.94970885515213
+  },
+  {
+   "sample_id": "dtu:scan114:00000028:00000041:00000044:00000047:00000048",
+   "dataset": "dtu",
+   "scene": "scan114",
+   "frames": [
+    "00000028",
+    "00000041",
+    "00000044",
+    "00000047",
+    "00000048"
+   ],
+   "dust3r_mean_rre": 3.906283986568451
+  },
+  {
+   "sample_id": "dtu:scan110:00000000:00000001:00000002:00000003:00000004",
+   "dataset": "dtu",
+   "scene": "scan110",
+   "frames": [
+    "00000000",
+    "00000001",
+    "00000002",
+    "00000003",
+    "00000004"
+   ],
+   "dust3r_mean_rre": 3.8931926488876343
+  },
+  {
+   "sample_id": "dtu:scan33:00000001:00000013:00000021:00000027:00000028",
+   "dataset": "dtu",
+   "scene": "scan33",
+   "frames": [
+    "00000001",
+    "00000013",
+    "00000021",
+    "00000027",
+    "00000028"
+   ],
+   "dust3r_mean_rre": 3.877987653017044
+  },
+  {
+   "sample_id": "dtu:scan75:00000002:00000004:00000005:00000022:00000037",
+   "dataset": "dtu",
+   "scene": "scan75",
+   "frames": [
+    "00000002",
+    "00000004",
+    "00000005",
+    "00000022",
+    "00000037"
+   ],
+   "dust3r_mean_rre": 3.8368847012519836
+  },
+  {
+   "sample_id": "dtu:scan24:00000000:00000002:00000003:00000005:00000046",
+   "dataset": "dtu",
+   "scene": "scan24",
+   "frames": [
+    "00000000",
+    "00000002",
+    "00000003",
+    "00000005",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 3.8297342240810393
+  },
+  {
+   "sample_id": "dtu:scan9:00000000:00000009:00000022:00000037:00000038",
+   "dataset": "dtu",
+   "scene": "scan9",
+   "frames": [
+    "00000000",
+    "00000009",
+    "00000022",
+    "00000037",
+    "00000038"
+   ],
+   "dust3r_mean_rre": 3.8195412695407867
+  },
+  {
+   "sample_id": "dtu:scan114:00000013:00000018:00000021:00000038:00000046",
+   "dataset": "dtu",
+   "scene": "scan114",
+   "frames": [
+    "00000013",
+    "00000018",
+    "00000021",
+    "00000038",
+    "00000046"
+   ],
+   "dust3r_mean_rre": 3.810673272609711
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0223:DSC_0228:DSC_0229:DSC_0230:DSC_0231",
+   "dataset": "eth3d",
+   "scene": "office",
+   "frames": [
+    "DSC_0223",
+    "DSC_0228",
+    "DSC_0229",
+    "DSC_0230",
+    "DSC_0231"
+   ],
+   "dust3r_mean_rre": 107.28033106327057
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0459:DSC_0471:DSC_0482:DSC_0485:DSC_0488",
+   "dataset": "eth3d",
+   "scene": "relief_2",
+   "frames": [
+    "DSC_0459",
+    "DSC_0471",
+    "DSC_0482",
+    "DSC_0485",
+    "DSC_0488"
+   ],
+   "dust3r_mean_rre": 84.03664009422064
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0229:DSC_0231:DSC_0236:DSC_0238:DSC_0240",
+   "dataset": "eth3d",
+   "scene": "office",
+   "frames": [
+    "DSC_0229",
+    "DSC_0231",
+    "DSC_0236",
+    "DSC_0238",
+    "DSC_0240"
+   ],
+   "dust3r_mean_rre": 74.07253715991973
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0440:DSC_0448:DSC_0449:DSC_0450:DSC_0457",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0440",
+    "DSC_0448",
+    "DSC_0449",
+    "DSC_0450",
+    "DSC_0457"
+   ],
+   "dust3r_mean_rre": 72.7034066170454
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0229:DSC_0230:DSC_0231:DSC_0235:DSC_0236",
+   "dataset": "eth3d",
+   "scene": "office",
+   "frames": [
+    "DSC_0229",
+    "DSC_0230",
+    "DSC_0231",
+    "DSC_0235",
+    "DSC_0236"
+   ],
+   "dust3r_mean_rre": 72.35355607867241
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0228:DSC_0229:DSC_0230:DSC_0231:DSC_0235",
+   "dataset": "eth3d",
+   "scene": "office",
+   "frames": [
+    "DSC_0228",
+    "DSC_0229",
+    "DSC_0230",
+    "DSC_0231",
+    "DSC_0235"
+   ],
+   "dust3r_mean_rre": 72.22810802459716
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6537:DSC_6540:DSC_6548:DSC_6559:DSC_6560",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6537",
+    "DSC_6540",
+    "DSC_6548",
+    "DSC_6559",
+    "DSC_6560"
+   ],
+   "dust3r_mean_rre": 60.01121437549591
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0458:DSC_0461:DSC_0465:DSC_0467:DSC_0482",
+   "dataset": "eth3d",
+   "scene": "relief_2",
+   "frames": [
+    "DSC_0458",
+    "DSC_0461",
+    "DSC_0465",
+    "DSC_0467",
+    "DSC_0482"
+   ],
+   "dust3r_mean_rre": 55.45736817121506
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0465:DSC_0466:DSC_0468:DSC_0471:DSC_0474",
+   "dataset": "eth3d",
+   "scene": "relief_2",
+   "frames": [
+    "DSC_0465",
+    "DSC_0466",
+    "DSC_0468",
+    "DSC_0471",
+    "DSC_0474"
+   ],
+   "dust3r_mean_rre": 53.828202050924304
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0432:DSC_0437:DSC_0442:DSC_0447:DSC_0452",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0432",
+    "DSC_0437",
+    "DSC_0442",
+    "DSC_0447",
+    "DSC_0452"
+   ],
+   "dust3r_mean_rre": 53.47803509235382
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6553:DSC_6556:DSC_6557:DSC_6558:DSC_6559",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6553",
+    "DSC_6556",
+    "DSC_6557",
+    "DSC_6558",
+    "DSC_6559"
+   ],
+   "dust3r_mean_rre": 48.232142341136935
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0580:DSC_0581:DSC_0582:DSC_0583:DSC_0584",
+   "dataset": "eth3d",
+   "scene": "playground",
+   "frames": [
+    "DSC_0580",
+    "DSC_0581",
+    "DSC_0582",
+    "DSC_0583",
+    "DSC_0584"
+   ],
+   "dust3r_mean_rre": 44.79920623600483
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0328:DSC_0351:DSC_0387:DSC_0394:DSC_0421",
+   "dataset": "eth3d",
+   "scene": "facade",
+   "frames": [
+    "DSC_0328",
+    "DSC_0351",
+    "DSC_0387",
+    "DSC_0394",
+    "DSC_0421"
+   ],
+   "dust3r_mean_rre": 42.377609610557556
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6502:DSC_6504:DSC_6506:DSC_6508:DSC_6510",
+   "dataset": "eth3d",
+   "scene": "kicker",
+   "frames": [
+    "DSC_6502",
+    "DSC_6504",
+    "DSC_6506",
+    "DSC_6508",
+    "DSC_6510"
+   ],
+   "dust3r_mean_rre": 38.61902438998222
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6504:DSC_6506:DSC_6508:DSC_6510:DSC_6512",
+   "dataset": "eth3d",
+   "scene": "kicker",
+   "frames": [
+    "DSC_6504",
+    "DSC_6506",
+    "DSC_6508",
+    "DSC_6510",
+    "DSC_6512"
+   ],
+   "dust3r_mean_rre": 38.49508013129234
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0588:DSC_0589:DSC_0590:DSC_0591:DSC_0592",
+   "dataset": "eth3d",
+   "scene": "playground",
+   "frames": [
+    "DSC_0588",
+    "DSC_0589",
+    "DSC_0590",
+    "DSC_0591",
+    "DSC_0592"
+   ],
+   "dust3r_mean_rre": 28.36957743167877
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9289:DSC_9290:DSC_9291:DSC_9292:DSC_9293",
+   "dataset": "eth3d",
+   "scene": "electro",
+   "frames": [
+    "DSC_9289",
+    "DSC_9290",
+    "DSC_9291",
+    "DSC_9292",
+    "DSC_9293"
+   ],
+   "dust3r_mean_rre": 26.423278534412383
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0589:DSC_0590:DSC_0591:DSC_0592:DSC_0593",
+   "dataset": "eth3d",
+   "scene": "playground",
+   "frames": [
+    "DSC_0589",
+    "DSC_0590",
+    "DSC_0591",
+    "DSC_0592",
+    "DSC_0593"
+   ],
+   "dust3r_mean_rre": 26.22103831768036
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6538:DSC_6539:DSC_6548:DSC_6557:DSC_6558",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6538",
+    "DSC_6539",
+    "DSC_6548",
+    "DSC_6557",
+    "DSC_6558"
+   ],
+   "dust3r_mean_rre": 24.877838706970216
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6537:DSC_6539:DSC_6541:DSC_6548:DSC_6556",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6537",
+    "DSC_6539",
+    "DSC_6541",
+    "DSC_6548",
+    "DSC_6556"
+   ],
+   "dust3r_mean_rre": 18.51494344472885
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0438:DSC_0440:DSC_0442:DSC_0444:DSC_0446",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0438",
+    "DSC_0440",
+    "DSC_0442",
+    "DSC_0444",
+    "DSC_0446"
+   ],
+   "dust3r_mean_rre": 16.54328161776066
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0571:DSC_0573:DSC_0575:DSC_0577:DSC_0579",
+   "dataset": "eth3d",
+   "scene": "playground",
+   "frames": [
+    "DSC_0571",
+    "DSC_0573",
+    "DSC_0575",
+    "DSC_0577",
+    "DSC_0579"
+   ],
+   "dust3r_mean_rre": 15.077413368225098
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6536:DSC_6539:DSC_6540:DSC_6547:DSC_6553",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6536",
+    "DSC_6539",
+    "DSC_6540",
+    "DSC_6547",
+    "DSC_6553"
+   ],
+   "dust3r_mean_rre": 11.941966164112092
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0438:DSC_0441:DSC_0446:DSC_0448:DSC_0450",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0438",
+    "DSC_0441",
+    "DSC_0446",
+    "DSC_0448",
+    "DSC_0450"
+   ],
+   "dust3r_mean_rre": 8.525905111432076
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0437:DSC_0439:DSC_0441:DSC_0443:DSC_0445",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0437",
+    "DSC_0439",
+    "DSC_0441",
+    "DSC_0443",
+    "DSC_0445"
+   ],
+   "dust3r_mean_rre": 8.060744732618332
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0569:DSC_0571:DSC_0573:DSC_0575:DSC_0577",
+   "dataset": "eth3d",
+   "scene": "playground",
+   "frames": [
+    "DSC_0569",
+    "DSC_0571",
+    "DSC_0573",
+    "DSC_0575",
+    "DSC_0577"
+   ],
+   "dust3r_mean_rre": 6.0224562048912045
+  },
+  {
+   "sample_id": "eth3d:courtyard:DSC_0312:DSC_0313:DSC_0314:DSC_0315:DSC_0316",
+   "dataset": "eth3d",
+   "scene": "courtyard",
+   "frames": [
+    "DSC_0312",
+    "DSC_0313",
+    "DSC_0314",
+    "DSC_0315",
+    "DSC_0316"
+   ],
+   "dust3r_mean_rre": 5.40808669924736
+  },
+  {
+   "sample_id": "eth3d:pipes:DSC_0639:DSC_0640:DSC_0641:DSC_0642:DSC_0643",
+   "dataset": "eth3d",
+   "scene": "pipes",
+   "frames": [
+    "DSC_0639",
+    "DSC_0640",
+    "DSC_0641",
+    "DSC_0642",
+    "DSC_0643"
+   ],
+   "dust3r_mean_rre": 5.118321180343628
+  },
+  {
+   "sample_id": "eth3d:pipes:DSC_0640:DSC_0641:DSC_0642:DSC_0643:DSC_0644",
+   "dataset": "eth3d",
+   "scene": "pipes",
+   "frames": [
+    "DSC_0640",
+    "DSC_0641",
+    "DSC_0642",
+    "DSC_0643",
+    "DSC_0644"
+   ],
+   "dust3r_mean_rre": 4.7688722848892215
+  },
+  {
+   "sample_id": "eth3d:pipes:DSC_0636:DSC_0640:DSC_0641:DSC_0642:DSC_0643",
+   "dataset": "eth3d",
+   "scene": "pipes",
+   "frames": [
+    "DSC_0636",
+    "DSC_0640",
+    "DSC_0641",
+    "DSC_0642",
+    "DSC_0643"
+   ],
+   "dust3r_mean_rre": 4.663084071874619
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0435:DSC_0437:DSC_0439:DSC_0441:DSC_0443",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0435",
+    "DSC_0437",
+    "DSC_0439",
+    "DSC_0441",
+    "DSC_0443"
+   ],
+   "dust3r_mean_rre": 4.0788258671760556
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6538:DSC_6539:DSC_6553:DSC_6556:DSC_6559",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6538",
+    "DSC_6539",
+    "DSC_6553",
+    "DSC_6556",
+    "DSC_6559"
+   ],
+   "dust3r_mean_rre": 4.045466709136963
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0571:DSC_0572:DSC_0573:DSC_0574:DSC_0575",
+   "dataset": "eth3d",
+   "scene": "playground",
+   "frames": [
+    "DSC_0571",
+    "DSC_0572",
+    "DSC_0573",
+    "DSC_0574",
+    "DSC_0575"
+   ],
+   "dust3r_mean_rre": 3.9889846444129944
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0328:DSC_0359:DSC_0392:DSC_0402:DSC_0412",
+   "dataset": "eth3d",
+   "scene": "facade",
+   "frames": [
+    "DSC_0328",
+    "DSC_0359",
+    "DSC_0392",
+    "DSC_0402",
+    "DSC_0412"
+   ],
+   "dust3r_mean_rre": 3.9254274308681487
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0623:DSC_0625:DSC_0627:DSC_0629:DSC_0631",
+   "dataset": "eth3d",
+   "scene": "terrains",
+   "frames": [
+    "DSC_0623",
+    "DSC_0625",
+    "DSC_0627",
+    "DSC_0629",
+    "DSC_0631"
+   ],
+   "dust3r_mean_rre": 3.9131506443023683
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9263:DSC_9265:DSC_9267:DSC_9269:DSC_9271",
+   "dataset": "eth3d",
+   "scene": "electro",
+   "frames": [
+    "DSC_9263",
+    "DSC_9265",
+    "DSC_9267",
+    "DSC_9269",
+    "DSC_9271"
+   ],
+   "dust3r_mean_rre": 3.737674188613892
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0429:DSC_0431:DSC_0433:DSC_0435:DSC_0437",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0429",
+    "DSC_0431",
+    "DSC_0433",
+    "DSC_0435",
+    "DSC_0437"
+   ],
+   "dust3r_mean_rre": 3.5064931929111482
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0630:DSC_0632:DSC_0649:DSC_0651:DSC_0653",
+   "dataset": "eth3d",
+   "scene": "terrains",
+   "frames": [
+    "DSC_0630",
+    "DSC_0632",
+    "DSC_0649",
+    "DSC_0651",
+    "DSC_0653"
+   ],
+   "dust3r_mean_rre": 3.4692804619669912
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0434:DSC_0436:DSC_0438:DSC_0440:DSC_0442",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0434",
+    "DSC_0436",
+    "DSC_0438",
+    "DSC_0440",
+    "DSC_0442"
+   ],
+   "dust3r_mean_rre": 3.4558086693286896
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9294:DSC_9295:DSC_9296:DSC_9297:DSC_9298",
+   "dataset": "eth3d",
+   "scene": "electro",
+   "frames": [
+    "DSC_9294",
+    "DSC_9295",
+    "DSC_9296",
+    "DSC_9297",
+    "DSC_9298"
+   ],
+   "dust3r_mean_rre": 3.4025338292121887
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0221:DSC_0223:DSC_0229:DSC_0231:DSC_0236",
+   "dataset": "eth3d",
+   "scene": "office",
+   "frames": [
+    "DSC_0221",
+    "DSC_0223",
+    "DSC_0229",
+    "DSC_0231",
+    "DSC_0236"
+   ],
+   "dust3r_mean_rre": 3.2936999797821045
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0626:DSC_0628:DSC_0630:DSC_0632:DSC_0649",
+   "dataset": "eth3d",
+   "scene": "terrains",
+   "frames": [
+    "DSC_0626",
+    "DSC_0628",
+    "DSC_0630",
+    "DSC_0632",
+    "DSC_0649"
+   ],
+   "dust3r_mean_rre": 3.2910397171974184
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6503:DSC_6505:DSC_6507:DSC_6509:DSC_6511",
+   "dataset": "eth3d",
+   "scene": "kicker",
+   "frames": [
+    "DSC_6503",
+    "DSC_6505",
+    "DSC_6507",
+    "DSC_6509",
+    "DSC_6511"
+   ],
+   "dust3r_mean_rre": 3.2869570672512056
+  },
+  {
+   "sample_id": "eth3d:courtyard:DSC_0295:DSC_0296:DSC_0297:DSC_0298:DSC_0299",
+   "dataset": "eth3d",
+   "scene": "courtyard",
+   "frames": [
+    "DSC_0295",
+    "DSC_0296",
+    "DSC_0297",
+    "DSC_0298",
+    "DSC_0299"
+   ],
+   "dust3r_mean_rre": 3.2395208895206453
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6500:DSC_6503:DSC_6505:DSC_6507:DSC_6509",
+   "dataset": "eth3d",
+   "scene": "kicker",
+   "frames": [
+    "DSC_6500",
+    "DSC_6503",
+    "DSC_6505",
+    "DSC_6507",
+    "DSC_6509"
+   ],
+   "dust3r_mean_rre": 3.2231834530830383
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0433:DSC_0434:DSC_0435:DSC_0436:DSC_0437",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0433",
+    "DSC_0434",
+    "DSC_0435",
+    "DSC_0436",
+    "DSC_0437"
+   ],
+   "dust3r_mean_rre": 2.9774297714233398
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0430:DSC_0432:DSC_0434:DSC_0436:DSC_0438",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0430",
+    "DSC_0432",
+    "DSC_0434",
+    "DSC_0436",
+    "DSC_0438"
+   ],
+   "dust3r_mean_rre": 2.90061297416687
+  },
+  {
+   "sample_id": "eth3d:delivery_area:DSC_0696:DSC_0697:DSC_0700:DSC_0703:DSC_0710",
+   "dataset": "eth3d",
+   "scene": "delivery_area",
+   "frames": [
+    "DSC_0696",
+    "DSC_0697",
+    "DSC_0700",
+    "DSC_0703",
+    "DSC_0710"
+   ],
+   "dust3r_mean_rre": 2.891223633289337
+  },
+  {
+   "sample_id": "eth3d:courtyard:DSC_0296:DSC_0297:DSC_0298:DSC_0299:DSC_0300",
+   "dataset": "eth3d",
+   "scene": "courtyard",
+   "frames": [
+    "DSC_0296",
+    "DSC_0297",
+    "DSC_0298",
+    "DSC_0299",
+    "DSC_0300"
+   ],
+   "dust3r_mean_rre": 2.889395374059677
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0459:DSC_0460:DSC_0461:DSC_0462:DSC_0463",
+   "dataset": "eth3d",
+   "scene": "relief_2",
+   "frames": [
+    "DSC_0459",
+    "DSC_0460",
+    "DSC_0461",
+    "DSC_0462",
+    "DSC_0463"
+   ],
+   "dust3r_mean_rre": 2.840645360946655
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0230:DSC_0237:DSC_0238:DSC_0253:DSC_0254",
+   "dataset": "eth3d",
+   "scene": "office",
+   "frames": [
+    "DSC_0230",
+    "DSC_0237",
+    "DSC_0238",
+    "DSC_0253",
+    "DSC_0254"
+   ],
+   "dust3r_mean_rre": 2.738732749223709
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0631:DSC_0632:DSC_0648:DSC_0649:DSC_0650",
+   "dataset": "eth3d",
+   "scene": "terrains",
+   "frames": [
+    "DSC_0631",
+    "DSC_0632",
+    "DSC_0648",
+    "DSC_0649",
+    "DSC_0650"
+   ],
+   "dust3r_mean_rre": 2.6738604120910168
+  },
+  {
+   "sample_id": "eth3d:pipes:DSC_0634:DSC_0635:DSC_0638:DSC_0640:DSC_0642",
+   "dataset": "eth3d",
+   "scene": "pipes",
+   "frames": [
+    "DSC_0634",
+    "DSC_0635",
+    "DSC_0638",
+    "DSC_0640",
+    "DSC_0642"
+   ],
+   "dust3r_mean_rre": 2.5816099107265473
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6535:DSC_6541:DSC_6548:DSC_6556:DSC_6559",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6535",
+    "DSC_6541",
+    "DSC_6548",
+    "DSC_6556",
+    "DSC_6559"
+   ],
+   "dust3r_mean_rre": 2.539593505859375
+  },
+  {
+   "sample_id": "eth3d:pipes:DSC_0641:DSC_0642:DSC_0643:DSC_0644:DSC_0645",
+   "dataset": "eth3d",
+   "scene": "pipes",
+   "frames": [
+    "DSC_0641",
+    "DSC_0642",
+    "DSC_0643",
+    "DSC_0644",
+    "DSC_0645"
+   ],
+   "dust3r_mean_rre": 2.5210842549800874
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6487:DSC_6503:DSC_6507:DSC_6513:DSC_6518",
+   "dataset": "eth3d",
+   "scene": "kicker",
+   "frames": [
+    "DSC_6487",
+    "DSC_6503",
+    "DSC_6507",
+    "DSC_6513",
+    "DSC_6518"
+   ],
+   "dust3r_mean_rre": 2.5105807214975355
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0458:DSC_0460:DSC_0462:DSC_0464:DSC_0466",
+   "dataset": "eth3d",
+   "scene": "relief_2",
+   "frames": [
+    "DSC_0458",
+    "DSC_0460",
+    "DSC_0462",
+    "DSC_0464",
+    "DSC_0466"
+   ],
+   "dust3r_mean_rre": 2.4789857029914857
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0430:DSC_0431:DSC_0432:DSC_0433:DSC_0434",
+   "dataset": "eth3d",
+   "scene": "relief",
+   "frames": [
+    "DSC_0430",
+    "DSC_0431",
+    "DSC_0432",
+    "DSC_0433",
+    "DSC_0434"
+   ],
+   "dust3r_mean_rre": 2.4419343531131745
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6539:DSC_6541:DSC_6548:DSC_6556:DSC_6558",
+   "dataset": "eth3d",
+   "scene": "meadow",
+   "frames": [
+    "DSC_6539",
+    "DSC_6541",
+    "DSC_6548",
+    "DSC_6556",
+    "DSC_6558"
+   ],
+   "dust3r_mean_rre": 2.431138610839844
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0481:DSC_0482:DSC_0483:DSC_0484:DSC_0485",
+   "dataset": "eth3d",
+   "scene": "relief_2",
+   "frames": [
+    "DSC_0481",
+    "DSC_0482",
+    "DSC_0483",
+    "DSC_0484",
+    "DSC_0485"
+   ],
+   "dust3r_mean_rre": 2.4233656942844393
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img101:img123:img247:img262:img275",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img101",
+    "img123",
+    "img247",
+    "img262",
+    "img275"
+   ],
+   "dust3r_mean_rre": 8.699761130660772
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img15:img35:img232:img254:img306",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img15",
+    "img35",
+    "img232",
+    "img254",
+    "img306"
+   ],
+   "dust3r_mean_rre": 4.513019764423371
+  },
+  {
+   "sample_id": "nrgbd:staircase:img236:img267:img438:img688:img1054",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img236",
+    "img267",
+    "img438",
+    "img688",
+    "img1054"
+   ],
+   "dust3r_mean_rre": 4.263845658302307
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img116:img405:img860:img953:img1023",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img116",
+    "img405",
+    "img860",
+    "img953",
+    "img1023"
+   ],
+   "dust3r_mean_rre": 4.097219979763031
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img233:img350:img411:img427:img879",
+   "dataset": "nrgbd",
+   "scene": "complete_kitchen",
+   "frames": [
+    "img233",
+    "img350",
+    "img411",
+    "img427",
+    "img879"
+   ],
+   "dust3r_mean_rre": 3.431074318289757
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img28:img76:img182:img310:img363",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img28",
+    "img76",
+    "img182",
+    "img310",
+    "img363"
+   ],
+   "dust3r_mean_rre": 3.261131101846695
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img349:img745:img781:img1034:img1155",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img349",
+    "img745",
+    "img781",
+    "img1034",
+    "img1155"
+   ],
+   "dust3r_mean_rre": 3.0368873715400695
+  },
+  {
+   "sample_id": "nrgbd:staircase:img465:img662:img733:img744:img1029",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img465",
+    "img662",
+    "img733",
+    "img744",
+    "img1029"
+   ],
+   "dust3r_mean_rre": 3.035092717409134
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img465:img557:img654:img1027:img1152",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img465",
+    "img557",
+    "img654",
+    "img1027",
+    "img1152"
+   ],
+   "dust3r_mean_rre": 2.971334582567215
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img179:img629:img774:img1045:img1098",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img179",
+    "img629",
+    "img774",
+    "img1045",
+    "img1098"
+   ],
+   "dust3r_mean_rre": 2.56896887421608
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img64:img282:img454:img637:img679",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img64",
+    "img282",
+    "img454",
+    "img637",
+    "img679"
+   ],
+   "dust3r_mean_rre": 2.4880512058734894
+  },
+  {
+   "sample_id": "nrgbd:staircase:img346:img610:img729:img1009:img1124",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img346",
+    "img610",
+    "img729",
+    "img1009",
+    "img1124"
+   ],
+   "dust3r_mean_rre": 2.381278854608536
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img163:img707:img783:img875:img1138",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img163",
+    "img707",
+    "img783",
+    "img875",
+    "img1138"
+   ],
+   "dust3r_mean_rre": 2.3517576575279238
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img632:img891:img964:img1094:img1107",
+   "dataset": "nrgbd",
+   "scene": "complete_kitchen",
+   "frames": [
+    "img632",
+    "img891",
+    "img964",
+    "img1094",
+    "img1107"
+   ],
+   "dust3r_mean_rre": 2.167381775379181
+  },
+  {
+   "sample_id": "nrgbd:morning_apartment:img83:img351:img474:img689:img856",
+   "dataset": "nrgbd",
+   "scene": "morning_apartment",
+   "frames": [
+    "img83",
+    "img351",
+    "img474",
+    "img689",
+    "img856"
+   ],
+   "dust3r_mean_rre": 1.9587337851524353
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img60:img330:img386:img429:img591",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img60",
+    "img330",
+    "img386",
+    "img429",
+    "img591"
+   ],
+   "dust3r_mean_rre": 1.9001936614513397
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img154:img245:img591:img739:img1067",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img154",
+    "img245",
+    "img591",
+    "img739",
+    "img1067"
+   ],
+   "dust3r_mean_rre": 1.8518641352653504
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img168:img338:img408:img451:img684",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img168",
+    "img338",
+    "img408",
+    "img451",
+    "img684"
+   ],
+   "dust3r_mean_rre": 1.819220197200775
+  },
+  {
+   "sample_id": "nrgbd:staircase:img309:img411:img536:img801:img900",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img309",
+    "img411",
+    "img536",
+    "img801",
+    "img900"
+   ],
+   "dust3r_mean_rre": 1.8052701473236084
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img153:img390:img854:img881:img907",
+   "dataset": "nrgbd",
+   "scene": "complete_kitchen",
+   "frames": [
+    "img153",
+    "img390",
+    "img854",
+    "img881",
+    "img907"
+   ],
+   "dust3r_mean_rre": 1.7000975847244262
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img157:img443:img1415:img1452:img1477",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img157",
+    "img443",
+    "img1415",
+    "img1452",
+    "img1477"
+   ],
+   "dust3r_mean_rre": 1.6678482830524444
+  },
+  {
+   "sample_id": "nrgbd:staircase:img270:img476:img502:img742:img1043",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img270",
+    "img476",
+    "img502",
+    "img742",
+    "img1043"
+   ],
+   "dust3r_mean_rre": 1.6431295096874237
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img290:img296:img456:img609:img1055",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img290",
+    "img296",
+    "img456",
+    "img609",
+    "img1055"
+   ],
+   "dust3r_mean_rre": 1.643019013106823
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img436:img550:img1084:img1227:img1533",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img436",
+    "img550",
+    "img1084",
+    "img1227",
+    "img1533"
+   ],
+   "dust3r_mean_rre": 1.6375944927334785
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img398:img574:img768:img815:img934",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img398",
+    "img574",
+    "img768",
+    "img815",
+    "img934"
+   ],
+   "dust3r_mean_rre": 1.5764600947499274
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img57:img180:img433:img674:img739",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img57",
+    "img180",
+    "img433",
+    "img674",
+    "img739"
+   ],
+   "dust3r_mean_rre": 1.5535380631685256
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img119:img205:img423:img582:img1210",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img119",
+    "img205",
+    "img423",
+    "img582",
+    "img1210"
+   ],
+   "dust3r_mean_rre": 1.5423076927661896
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img429:img453:img575:img751:img1495",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img429",
+    "img453",
+    "img575",
+    "img751",
+    "img1495"
+   ],
+   "dust3r_mean_rre": 1.528487965464592
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img16:img406:img1167:img1281:img1453",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img16",
+    "img406",
+    "img1167",
+    "img1281",
+    "img1453"
+   ],
+   "dust3r_mean_rre": 1.5234829366207123
+  },
+  {
+   "sample_id": "nrgbd:staircase:img224:img283:img943:img1076:img1094",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img224",
+    "img283",
+    "img943",
+    "img1076",
+    "img1094"
+   ],
+   "dust3r_mean_rre": 1.518438345193863
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img7:img193:img303:img338:img1156",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img7",
+    "img193",
+    "img303",
+    "img338",
+    "img1156"
+   ],
+   "dust3r_mean_rre": 1.448701873421669
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img81:img295:img527:img676:img681",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img81",
+    "img295",
+    "img527",
+    "img676",
+    "img681"
+   ],
+   "dust3r_mean_rre": 1.4058866262435914
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img11:img12:img13:img14:img15",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img11",
+    "img12",
+    "img13",
+    "img14",
+    "img15"
+   ],
+   "dust3r_mean_rre": 1.3788684993982314
+  },
+  {
+   "sample_id": "nrgbd:staircase:img435:img474:img773:img807:img957",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img435",
+    "img474",
+    "img773",
+    "img807",
+    "img957"
+   ],
+   "dust3r_mean_rre": 1.3653149157762527
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img197:img396:img550:img825:img1343",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img197",
+    "img396",
+    "img550",
+    "img825",
+    "img1343"
+   ],
+   "dust3r_mean_rre": 1.362201637029648
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img22:img182:img252:img969:img1109",
+   "dataset": "nrgbd",
+   "scene": "complete_kitchen",
+   "frames": [
+    "img22",
+    "img182",
+    "img252",
+    "img969",
+    "img1109"
+   ],
+   "dust3r_mean_rre": 1.3357804596424103
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img15:img509:img571:img1140:img1348",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img15",
+    "img509",
+    "img571",
+    "img1140",
+    "img1348"
+   ],
+   "dust3r_mean_rre": 1.327817353606224
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img1:img99:img494:img669:img995",
+   "dataset": "nrgbd",
+   "scene": "complete_kitchen",
+   "frames": [
+    "img1",
+    "img99",
+    "img494",
+    "img669",
+    "img995"
+   ],
+   "dust3r_mean_rre": 1.298875567317009
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img76:img437:img860:img1428:img1655",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img76",
+    "img437",
+    "img860",
+    "img1428",
+    "img1655"
+   ],
+   "dust3r_mean_rre": 1.234074492752552
+  },
+  {
+   "sample_id": "nrgbd:staircase:img82:img289:img393:img808:img959",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img82",
+    "img289",
+    "img393",
+    "img808",
+    "img959"
+   ],
+   "dust3r_mean_rre": 1.230303767323494
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img0:img1:img2:img3:img4",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img0",
+    "img1",
+    "img2",
+    "img3",
+    "img4"
+   ],
+   "dust3r_mean_rre": 1.2223461866378784
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img12:img87:img193:img200:img251",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img12",
+    "img87",
+    "img193",
+    "img200",
+    "img251"
+   ],
+   "dust3r_mean_rre": 1.2213685654103756
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img147:img330:img866:img956:img1668",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img147",
+    "img330",
+    "img866",
+    "img956",
+    "img1668"
+   ],
+   "dust3r_mean_rre": 1.1876125127077102
+  },
+  {
+   "sample_id": "nrgbd:staircase:img199:img601:img769:img925:img1074",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img199",
+    "img601",
+    "img769",
+    "img925",
+    "img1074"
+   ],
+   "dust3r_mean_rre": 1.1772842586040497
+  },
+  {
+   "sample_id": "nrgbd:staircase:img363:img399:img414:img585:img1055",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img363",
+    "img399",
+    "img414",
+    "img585",
+    "img1055"
+   ],
+   "dust3r_mean_rre": 1.143562939763069
+  },
+  {
+   "sample_id": "nrgbd:kitchen:img185:img478:img608:img645:img1362",
+   "dataset": "nrgbd",
+   "scene": "kitchen",
+   "frames": [
+    "img185",
+    "img478",
+    "img608",
+    "img645",
+    "img1362"
+   ],
+   "dust3r_mean_rre": 1.1025355726480484
+  },
+  {
+   "sample_id": "nrgbd:staircase:img356:img383:img573:img955:img1042",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img356",
+    "img383",
+    "img573",
+    "img955",
+    "img1042"
+   ],
+   "dust3r_mean_rre": 1.100712424516678
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img387:img636:img874:img883:img912",
+   "dataset": "nrgbd",
+   "scene": "breakfast_room",
+   "frames": [
+    "img387",
+    "img636",
+    "img874",
+    "img883",
+    "img912"
+   ],
+   "dust3r_mean_rre": 1.0961002707481384
+  },
+  {
+   "sample_id": "nrgbd:staircase:img151:img381:img541:img547:img1148",
+   "dataset": "nrgbd",
+   "scene": "staircase",
+   "frames": [
+    "img151",
+    "img381",
+    "img541",
+    "img547",
+    "img1148"
+   ],
+   "dust3r_mean_rre": 1.0587179630994796
+  },
+  {
+   "sample_id": "nrgbd:green_room:img78:img628:img681:img1360:img1390",
+   "dataset": "nrgbd",
+   "scene": "green_room",
+   "frames": [
+    "img78",
+    "img628",
+    "img681",
+    "img1360",
+    "img1390"
+   ],
+   "dust3r_mean_rre": 1.0334017992019653
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img21:img22:img23:img24:img25",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img21",
+    "img22",
+    "img23",
+    "img24",
+    "img25"
+   ],
+   "dust3r_mean_rre": 1.0187182277441025
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img509:img1046:img1062:img1119:img1176",
+   "dataset": "nrgbd",
+   "scene": "complete_kitchen",
+   "frames": [
+    "img509",
+    "img1046",
+    "img1062",
+    "img1119",
+    "img1176"
+   ],
+   "dust3r_mean_rre": 0.9639769464731216
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img311:img505:img1019:img1159:img1545",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img311",
+    "img505",
+    "img1019",
+    "img1159",
+    "img1545"
+   ],
+   "dust3r_mean_rre": 0.9559837847948074
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img489:img591:img628:img761:img1240",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img489",
+    "img591",
+    "img628",
+    "img761",
+    "img1240"
+   ],
+   "dust3r_mean_rre": 0.9388299077749253
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img22:img23:img24:img25:img26",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img22",
+    "img23",
+    "img24",
+    "img25",
+    "img26"
+   ],
+   "dust3r_mean_rre": 0.9302155122160911
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img601:img900:img1265:img1367:img1419",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img601",
+    "img900",
+    "img1265",
+    "img1367",
+    "img1419"
+   ],
+   "dust3r_mean_rre": 0.9187812425196171
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img8:img9:img10:img11:img12",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img8",
+    "img9",
+    "img10",
+    "img11",
+    "img12"
+   ],
+   "dust3r_mean_rre": 0.8609473690390587
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img824:img950:img1167:img1466:img1640",
+   "dataset": "nrgbd",
+   "scene": "whiteroom",
+   "frames": [
+    "img824",
+    "img950",
+    "img1167",
+    "img1466",
+    "img1640"
+   ],
+   "dust3r_mean_rre": 0.8378486603498458
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img3:img4:img5:img6:img7",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img3",
+    "img4",
+    "img5",
+    "img6",
+    "img7"
+   ],
+   "dust3r_mean_rre": 0.8097414195537567
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img25:img26:img27:img28:img29",
+   "dataset": "nrgbd",
+   "scene": "thin_geometry",
+   "frames": [
+    "img25",
+    "img26",
+    "img27",
+    "img28",
+    "img29"
+   ],
+   "dust3r_mean_rre": 0.7876605600118637
+  },
+  {
+   "sample_id": "scannetv2:scene0729_00:frame_0004:frame_0005:frame_0028:frame_0045:frame_0052",
+   "dataset": "scannetv2",
+   "scene": "scene0729_00",
+   "frames": [
+    "frame_0004",
+    "frame_0005",
+    "frame_0028",
+    "frame_0045",
+    "frame_0052"
+   ],
+   "dust3r_mean_rre": 45.163853803277014
+  },
+  {
+   "sample_id": "scannetv2:scene0750_00:frame_0001:frame_0009:frame_0024:frame_0029:frame_0076",
+   "dataset": "scannetv2",
+   "scene": "scene0750_00",
+   "frames": [
+    "frame_0001",
+    "frame_0009",
+    "frame_0024",
+    "frame_0029",
+    "frame_0076"
+   ],
+   "dust3r_mean_rre": 33.06831565797329
+  },
+  {
+   "sample_id": "scannetv2:scene0740_00:frame_0029:frame_0030:frame_0031:frame_0032:frame_0033",
+   "dataset": "scannetv2",
+   "scene": "scene0740_00",
+   "frames": [
+    "frame_0029",
+    "frame_0030",
+    "frame_0031",
+    "frame_0032",
+    "frame_0033"
+   ],
+   "dust3r_mean_rre": 13.280759730935097
+  },
+  {
+   "sample_id": "scannetv2:scene0731_00:frame_0038:frame_0062:frame_0066:frame_0074:frame_0084",
+   "dataset": "scannetv2",
+   "scene": "scene0731_00",
+   "frames": [
+    "frame_0038",
+    "frame_0062",
+    "frame_0066",
+    "frame_0074",
+    "frame_0084"
+   ],
+   "dust3r_mean_rre": 7.127438378334046
+  },
+  {
+   "sample_id": "scannetv2:scene0710_00:frame_0015:frame_0023:frame_0039:frame_0075:frame_0089",
+   "dataset": "scannetv2",
+   "scene": "scene0710_00",
+   "frames": [
+    "frame_0015",
+    "frame_0023",
+    "frame_0039",
+    "frame_0075",
+    "frame_0089"
+   ],
+   "dust3r_mean_rre": 6.788017937541008
+  },
+  {
+   "sample_id": "scannetv2:scene0775_00:frame_0018:frame_0019:frame_0020:frame_0021:frame_0022",
+   "dataset": "scannetv2",
+   "scene": "scene0775_00",
+   "frames": [
+    "frame_0018",
+    "frame_0019",
+    "frame_0020",
+    "frame_0021",
+    "frame_0022"
+   ],
+   "dust3r_mean_rre": 6.412358355522156
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0032:frame_0040:frame_0049:frame_0058:frame_0078",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0032",
+    "frame_0040",
+    "frame_0049",
+    "frame_0058",
+    "frame_0078"
+   ],
+   "dust3r_mean_rre": 6.388833117485047
+  },
+  {
+   "sample_id": "scannetv2:scene0720_00:frame_0009:frame_0021:frame_0054:frame_0074:frame_0080",
+   "dataset": "scannetv2",
+   "scene": "scene0720_00",
+   "frames": [
+    "frame_0009",
+    "frame_0021",
+    "frame_0054",
+    "frame_0074",
+    "frame_0080"
+   ],
+   "dust3r_mean_rre": 6.387277209758759
+  },
+  {
+   "sample_id": "scannetv2:scene0720_00:frame_0047:frame_0066:frame_0067:frame_0072:frame_0082",
+   "dataset": "scannetv2",
+   "scene": "scene0720_00",
+   "frames": [
+    "frame_0047",
+    "frame_0066",
+    "frame_0067",
+    "frame_0072",
+    "frame_0082"
+   ],
+   "dust3r_mean_rre": 6.37210568189621
+  },
+  {
+   "sample_id": "scannetv2:scene0740_00:frame_0018:frame_0022:frame_0033:frame_0043:frame_0070",
+   "dataset": "scannetv2",
+   "scene": "scene0740_00",
+   "frames": [
+    "frame_0018",
+    "frame_0022",
+    "frame_0033",
+    "frame_0043",
+    "frame_0070"
+   ],
+   "dust3r_mean_rre": 6.257135140895843
+  },
+  {
+   "sample_id": "scannetv2:scene0729_00:frame_0047:frame_0048:frame_0065:frame_0071:frame_0084",
+   "dataset": "scannetv2",
+   "scene": "scene0729_00",
+   "frames": [
+    "frame_0047",
+    "frame_0048",
+    "frame_0065",
+    "frame_0071",
+    "frame_0084"
+   ],
+   "dust3r_mean_rre": 5.949121904373169
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0027:frame_0028:frame_0036:frame_0037:frame_0079",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0027",
+    "frame_0028",
+    "frame_0036",
+    "frame_0037",
+    "frame_0079"
+   ],
+   "dust3r_mean_rre": 5.803145486116409
+  },
+  {
+   "sample_id": "scannetv2:scene0721_00:frame_0000:frame_0027:frame_0049:frame_0060:frame_0082",
+   "dataset": "scannetv2",
+   "scene": "scene0721_00",
+   "frames": [
+    "frame_0000",
+    "frame_0027",
+    "frame_0049",
+    "frame_0060",
+    "frame_0082"
+   ],
+   "dust3r_mean_rre": 5.7590172529220585
+  },
+  {
+   "sample_id": "scannetv2:scene0764_00:frame_0023:frame_0068:frame_0071:frame_0079:frame_0089",
+   "dataset": "scannetv2",
+   "scene": "scene0764_00",
+   "frames": [
+    "frame_0023",
+    "frame_0068",
+    "frame_0071",
+    "frame_0079",
+    "frame_0089"
+   ],
+   "dust3r_mean_rre": 5.729720896482467
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0028:frame_0029:frame_0030:frame_0031:frame_0032",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0028",
+    "frame_0029",
+    "frame_0030",
+    "frame_0031",
+    "frame_0032"
+   ],
+   "dust3r_mean_rre": 5.648380470275879
+  },
+  {
+   "sample_id": "scannetv2:scene0740_00:frame_0002:frame_0041:frame_0043:frame_0054:frame_0064",
+   "dataset": "scannetv2",
+   "scene": "scene0740_00",
+   "frames": [
+    "frame_0002",
+    "frame_0041",
+    "frame_0043",
+    "frame_0054",
+    "frame_0064"
+   ],
+   "dust3r_mean_rre": 5.5561105608940125
+  },
+  {
+   "sample_id": "scannetv2:scene0720_00:frame_0020:frame_0037:frame_0041:frame_0056:frame_0081",
+   "dataset": "scannetv2",
+   "scene": "scene0720_00",
+   "frames": [
+    "frame_0020",
+    "frame_0037",
+    "frame_0041",
+    "frame_0056",
+    "frame_0081"
+   ],
+   "dust3r_mean_rre": 5.488720428943634
+  },
+  {
+   "sample_id": "scannetv2:scene0731_00:frame_0027:frame_0040:frame_0044:frame_0058:frame_0087",
+   "dataset": "scannetv2",
+   "scene": "scene0731_00",
+   "frames": [
+    "frame_0027",
+    "frame_0040",
+    "frame_0044",
+    "frame_0058",
+    "frame_0087"
+   ],
+   "dust3r_mean_rre": 5.431083112955093
+  },
+  {
+   "sample_id": "scannetv2:scene0731_00:frame_0006:frame_0024:frame_0054:frame_0084:frame_0087",
+   "dataset": "scannetv2",
+   "scene": "scene0731_00",
+   "frames": [
+    "frame_0006",
+    "frame_0024",
+    "frame_0054",
+    "frame_0084",
+    "frame_0087"
+   ],
+   "dust3r_mean_rre": 5.319652891159057
+  },
+  {
+   "sample_id": "scannetv2:scene0731_00:frame_0032:frame_0035:frame_0079:frame_0085:frame_0086",
+   "dataset": "scannetv2",
+   "scene": "scene0731_00",
+   "frames": [
+    "frame_0032",
+    "frame_0035",
+    "frame_0079",
+    "frame_0085",
+    "frame_0086"
+   ],
+   "dust3r_mean_rre": 5.236214500665665
+  },
+  {
+   "sample_id": "scannetv2:scene0708_00:frame_0003:frame_0005:frame_0022:frame_0067:frame_0086",
+   "dataset": "scannetv2",
+   "scene": "scene0708_00",
+   "frames": [
+    "frame_0003",
+    "frame_0005",
+    "frame_0022",
+    "frame_0067",
+    "frame_0086"
+   ],
+   "dust3r_mean_rre": 5.168936008214951
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0024:frame_0043:frame_0048:frame_0086:frame_0088",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0024",
+    "frame_0043",
+    "frame_0048",
+    "frame_0086",
+    "frame_0088"
+   ],
+   "dust3r_mean_rre": 5.098109447956086
+  },
+  {
+   "sample_id": "scannetv2:scene0725_00:frame_0014:frame_0035:frame_0049:frame_0061:frame_0075",
+   "dataset": "scannetv2",
+   "scene": "scene0725_00",
+   "frames": [
+    "frame_0014",
+    "frame_0035",
+    "frame_0049",
+    "frame_0061",
+    "frame_0075"
+   ],
+   "dust3r_mean_rre": 5.093194830417633
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0000:frame_0024:frame_0034:frame_0084:frame_0087",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0000",
+    "frame_0024",
+    "frame_0034",
+    "frame_0084",
+    "frame_0087"
+   ],
+   "dust3r_mean_rre": 4.947588562965393
+  },
+  {
+   "sample_id": "scannetv2:scene0798_00:frame_0013:frame_0040:frame_0042:frame_0055:frame_0077",
+   "dataset": "scannetv2",
+   "scene": "scene0798_00",
+   "frames": [
+    "frame_0013",
+    "frame_0040",
+    "frame_0042",
+    "frame_0055",
+    "frame_0077"
+   ],
+   "dust3r_mean_rre": 4.9277513265609745
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0014:frame_0039:frame_0052:frame_0061:frame_0086",
+   "dataset": "scannetv2",
+   "scene": "scene0802_00",
+   "frames": [
+    "frame_0014",
+    "frame_0039",
+    "frame_0052",
+    "frame_0061",
+    "frame_0086"
+   ],
+   "dust3r_mean_rre": 4.913481748104095
+  },
+  {
+   "sample_id": "scannetv2:scene0721_00:frame_0003:frame_0019:frame_0050:frame_0073:frame_0089",
+   "dataset": "scannetv2",
+   "scene": "scene0721_00",
+   "frames": [
+    "frame_0003",
+    "frame_0019",
+    "frame_0050",
+    "frame_0073",
+    "frame_0089"
+   ],
+   "dust3r_mean_rre": 4.864396005868912
+  },
+  {
+   "sample_id": "scannetv2:scene0798_00:frame_0011:frame_0032:frame_0066:frame_0071:frame_0079",
+   "dataset": "scannetv2",
+   "scene": "scene0798_00",
+   "frames": [
+    "frame_0011",
+    "frame_0032",
+    "frame_0066",
+    "frame_0071",
+    "frame_0079"
+   ],
+   "dust3r_mean_rre": 4.85816502571106
+  },
+  {
+   "sample_id": "scannetv2:scene0710_00:frame_0000:frame_0013:frame_0035:frame_0072:frame_0087",
+   "dataset": "scannetv2",
+   "scene": "scene0710_00",
+   "frames": [
+    "frame_0000",
+    "frame_0013",
+    "frame_0035",
+    "frame_0072",
+    "frame_0087"
+   ],
+   "dust3r_mean_rre": 4.825150571018457
+  },
+  {
+   "sample_id": "scannetv2:scene0798_00:frame_0016:frame_0042:frame_0058:frame_0076:frame_0087",
+   "dataset": "scannetv2",
+   "scene": "scene0798_00",
+   "frames": [
+    "frame_0016",
+    "frame_0042",
+    "frame_0058",
+    "frame_0076",
+    "frame_0087"
+   ],
+   "dust3r_mean_rre": 4.76960300207138
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0031:frame_0040:frame_0074:frame_0079:frame_0083",
+   "dataset": "scannetv2",
+   "scene": "scene0802_00",
+   "frames": [
+    "frame_0031",
+    "frame_0040",
+    "frame_0074",
+    "frame_0079",
+    "frame_0083"
+   ],
+   "dust3r_mean_rre": 4.7475951462984085
+  },
+  {
+   "sample_id": "scannetv2:scene0775_00:frame_0016:frame_0017:frame_0018:frame_0019:frame_0020",
+   "dataset": "scannetv2",
+   "scene": "scene0775_00",
+   "frames": [
+    "frame_0016",
+    "frame_0017",
+    "frame_0018",
+    "frame_0019",
+    "frame_0020"
+   ],
+   "dust3r_mean_rre": 4.7381092578172685
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0017:frame_0018:frame_0049:frame_0076:frame_0077",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0017",
+    "frame_0018",
+    "frame_0049",
+    "frame_0076",
+    "frame_0077"
+   ],
+   "dust3r_mean_rre": 4.712765961885452
+  },
+  {
+   "sample_id": "scannetv2:scene0792_00:frame_0003:frame_0041:frame_0048:frame_0056:frame_0081",
+   "dataset": "scannetv2",
+   "scene": "scene0792_00",
+   "frames": [
+    "frame_0003",
+    "frame_0041",
+    "frame_0048",
+    "frame_0056",
+    "frame_0081"
+   ],
+   "dust3r_mean_rre": 4.702019357681275
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0000:frame_0040:frame_0048:frame_0066:frame_0078",
+   "dataset": "scannetv2",
+   "scene": "scene0802_00",
+   "frames": [
+    "frame_0000",
+    "frame_0040",
+    "frame_0048",
+    "frame_0066",
+    "frame_0078"
+   ],
+   "dust3r_mean_rre": 4.671003702282905
+  },
+  {
+   "sample_id": "scannetv2:scene0797_00:frame_0035:frame_0053:frame_0057:frame_0067:frame_0082",
+   "dataset": "scannetv2",
+   "scene": "scene0797_00",
+   "frames": [
+    "frame_0035",
+    "frame_0053",
+    "frame_0057",
+    "frame_0067",
+    "frame_0082"
+   ],
+   "dust3r_mean_rre": 4.6628551363945006
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0021:frame_0026:frame_0037:frame_0062:frame_0076",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0021",
+    "frame_0026",
+    "frame_0037",
+    "frame_0062",
+    "frame_0076"
+   ],
+   "dust3r_mean_rre": 4.649224054813385
+  },
+  {
+   "sample_id": "scannetv2:scene0795_00:frame_0003:frame_0004:frame_0005:frame_0006:frame_0007",
+   "dataset": "scannetv2",
+   "scene": "scene0795_00",
+   "frames": [
+    "frame_0003",
+    "frame_0004",
+    "frame_0005",
+    "frame_0006",
+    "frame_0007"
+   ],
+   "dust3r_mean_rre": 4.64331967830658
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0011:frame_0044:frame_0046:frame_0059:frame_0082",
+   "dataset": "scannetv2",
+   "scene": "scene0802_00",
+   "frames": [
+    "frame_0011",
+    "frame_0044",
+    "frame_0046",
+    "frame_0059",
+    "frame_0082"
+   ],
+   "dust3r_mean_rre": 4.619143301248551
+  },
+  {
+   "sample_id": "scannetv2:scene0795_00:frame_0000:frame_0003:frame_0007:frame_0027:frame_0044",
+   "dataset": "scannetv2",
+   "scene": "scene0795_00",
+   "frames": [
+    "frame_0000",
+    "frame_0003",
+    "frame_0007",
+    "frame_0027",
+    "frame_0044"
+   ],
+   "dust3r_mean_rre": 4.581329190731049
+  },
+  {
+   "sample_id": "scannetv2:scene0792_00:frame_0008:frame_0009:frame_0010:frame_0011:frame_0012",
+   "dataset": "scannetv2",
+   "scene": "scene0792_00",
+   "frames": [
+    "frame_0008",
+    "frame_0009",
+    "frame_0010",
+    "frame_0011",
+    "frame_0012"
+   ],
+   "dust3r_mean_rre": 4.568672335147857
+  },
+  {
+   "sample_id": "scannetv2:scene0792_00:frame_0020:frame_0021:frame_0022:frame_0023:frame_0024",
+   "dataset": "scannetv2",
+   "scene": "scene0792_00",
+   "frames": [
+    "frame_0020",
+    "frame_0021",
+    "frame_0022",
+    "frame_0023",
+    "frame_0024"
+   ],
+   "dust3r_mean_rre": 4.4856527090072635
+  },
+  {
+   "sample_id": "scannetv2:scene0726_00:frame_0009:frame_0024:frame_0060:frame_0087:frame_0089",
+   "dataset": "scannetv2",
+   "scene": "scene0726_00",
+   "frames": [
+    "frame_0009",
+    "frame_0024",
+    "frame_0060",
+    "frame_0087",
+    "frame_0089"
+   ],
+   "dust3r_mean_rre": 4.479561427235604
+  },
+  {
+   "sample_id": "scannetv2:scene0768_00:frame_0015:frame_0017:frame_0033:frame_0066:frame_0077",
+   "dataset": "scannetv2",
+   "scene": "scene0768_00",
+   "frames": [
+    "frame_0015",
+    "frame_0017",
+    "frame_0033",
+    "frame_0066",
+    "frame_0077"
+   ],
+   "dust3r_mean_rre": 4.3315849781036375
+  },
+  {
+   "sample_id": "scannetv2:scene0768_00:frame_0016:frame_0041:frame_0045:frame_0058:frame_0077",
+   "dataset": "scannetv2",
+   "scene": "scene0768_00",
+   "frames": [
+    "frame_0016",
+    "frame_0041",
+    "frame_0045",
+    "frame_0058",
+    "frame_0077"
+   ],
+   "dust3r_mean_rre": 4.291632053256035
+  },
+  {
+   "sample_id": "scannetv2:scene0726_00:frame_0008:frame_0015:frame_0038:frame_0085:frame_0086",
+   "dataset": "scannetv2",
+   "scene": "scene0726_00",
+   "frames": [
+    "frame_0008",
+    "frame_0015",
+    "frame_0038",
+    "frame_0085",
+    "frame_0086"
+   ],
+   "dust3r_mean_rre": 4.267946583032608
+  },
+  {
+   "sample_id": "scannetv2:scene0760_00:frame_0012:frame_0021:frame_0046:frame_0064:frame_0085",
+   "dataset": "scannetv2",
+   "scene": "scene0760_00",
+   "frames": [
+    "frame_0012",
+    "frame_0021",
+    "frame_0046",
+    "frame_0064",
+    "frame_0085"
+   ],
+   "dust3r_mean_rre": 4.249656587839127
+  },
+  {
+   "sample_id": "scannetv2:scene0792_00:frame_0002:frame_0003:frame_0004:frame_0005:frame_0006",
+   "dataset": "scannetv2",
+   "scene": "scene0792_00",
+   "frames": [
+    "frame_0002",
+    "frame_0003",
+    "frame_0004",
+    "frame_0005",
+    "frame_0006"
+   ],
+   "dust3r_mean_rre": 4.204749819636345
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0020:frame_0050:frame_0064:frame_0077:frame_0089",
+   "dataset": "scannetv2",
+   "scene": "scene0802_00",
+   "frames": [
+    "frame_0020",
+    "frame_0050",
+    "frame_0064",
+    "frame_0077",
+    "frame_0089"
+   ],
+   "dust3r_mean_rre": 4.186318525671959
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0007:frame_0019:frame_0049:frame_0050:frame_0086",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0007",
+    "frame_0019",
+    "frame_0049",
+    "frame_0050",
+    "frame_0086"
+   ],
+   "dust3r_mean_rre": 4.173787331581115
+  },
+  {
+   "sample_id": "scannetv2:scene0797_00:frame_0002:frame_0019:frame_0043:frame_0067:frame_0075",
+   "dataset": "scannetv2",
+   "scene": "scene0797_00",
+   "frames": [
+    "frame_0002",
+    "frame_0019",
+    "frame_0043",
+    "frame_0067",
+    "frame_0075"
+   ],
+   "dust3r_mean_rre": 4.1410117745399475
+  },
+  {
+   "sample_id": "scannetv2:scene0776_00:frame_0005:frame_0017:frame_0078:frame_0080:frame_0083",
+   "dataset": "scannetv2",
+   "scene": "scene0776_00",
+   "frames": [
+    "frame_0005",
+    "frame_0017",
+    "frame_0078",
+    "frame_0080",
+    "frame_0083"
+   ],
+   "dust3r_mean_rre": 4.11939947605133
+  },
+  {
+   "sample_id": "scannetv2:scene0769_00:frame_0006:frame_0009:frame_0050:frame_0062:frame_0068",
+   "dataset": "scannetv2",
+   "scene": "scene0769_00",
+   "frames": [
+    "frame_0006",
+    "frame_0009",
+    "frame_0050",
+    "frame_0062",
+    "frame_0068"
+   ],
+   "dust3r_mean_rre": 4.118512114882469
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0019:frame_0029:frame_0056:frame_0066:frame_0080",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0019",
+    "frame_0029",
+    "frame_0056",
+    "frame_0066",
+    "frame_0080"
+   ],
+   "dust3r_mean_rre": 4.118044596910477
+  },
+  {
+   "sample_id": "scannetv2:scene0776_00:frame_0015:frame_0038:frame_0042:frame_0044:frame_0079",
+   "dataset": "scannetv2",
+   "scene": "scene0776_00",
+   "frames": [
+    "frame_0015",
+    "frame_0038",
+    "frame_0042",
+    "frame_0044",
+    "frame_0079"
+   ],
+   "dust3r_mean_rre": 4.043984359502792
+  },
+  {
+   "sample_id": "scannetv2:scene0805_00:frame_0003:frame_0017:frame_0021:frame_0054:frame_0085",
+   "dataset": "scannetv2",
+   "scene": "scene0805_00",
+   "frames": [
+    "frame_0003",
+    "frame_0017",
+    "frame_0021",
+    "frame_0054",
+    "frame_0085"
+   ],
+   "dust3r_mean_rre": 4.038624501228332
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0016:frame_0036:frame_0056:frame_0058:frame_0085",
+   "dataset": "scannetv2",
+   "scene": "scene0796_00",
+   "frames": [
+    "frame_0016",
+    "frame_0036",
+    "frame_0056",
+    "frame_0058",
+    "frame_0085"
+   ],
+   "dust3r_mean_rre": 4.036788082122802
+  },
+  {
+   "sample_id": "scannetv2:scene0726_00:frame_0010:frame_0029:frame_0078:frame_0081:frame_0088",
+   "dataset": "scannetv2",
+   "scene": "scene0726_00",
+   "frames": [
+    "frame_0010",
+    "frame_0029",
+    "frame_0078",
+    "frame_0081",
+    "frame_0088"
+   ],
+   "dust3r_mean_rre": 4.036382114887237
+  },
+  {
+   "sample_id": "scannetv2:scene0788_00:frame_0042:frame_0046:frame_0047:frame_0065:frame_0087",
+   "dataset": "scannetv2",
+   "scene": "scene0788_00",
+   "frames": [
+    "frame_0042",
+    "frame_0046",
+    "frame_0047",
+    "frame_0065",
+    "frame_0087"
+   ],
+   "dust3r_mean_rre": 4.0242918759584425
+  },
+  {
+   "sample_id": "scannetv2:scene0742_00:frame_0004:frame_0021:frame_0028:frame_0039:frame_0081",
+   "dataset": "scannetv2",
+   "scene": "scene0742_00",
+   "frames": [
+    "frame_0004",
+    "frame_0021",
+    "frame_0028",
+    "frame_0039",
+    "frame_0081"
+   ],
+   "dust3r_mean_rre": 4.018634051084518
+  }
+ ]
+}

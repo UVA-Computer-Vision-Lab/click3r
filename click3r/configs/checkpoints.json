@@ -1,0 +1,12 @@
+{
+  "click3r": {
+    "source": "https://huggingface.co/uva-cv-lab/Click3R/resolve/65cd8f169c9c937e763e1c1f40bf815525e2954e/click3r.pth",
+    "path": "click3r.pth",
+    "sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78"
+  },
+  "dust3r_retrained": {
+    "source": "https://huggingface.co/uva-cv-lab/Click3R-DUSt3R-retrained/resolve/1c21525ed55828c62532972eae0c13b3680ca889/retrained.pth",
+    "path": "dust3r/retrained.pth",
+    "sha256": "be5ae0d4cac4a0cc973f69d6e786a434269106fd92f8d3f2fc5155c0bf95f903"
+  }
+}

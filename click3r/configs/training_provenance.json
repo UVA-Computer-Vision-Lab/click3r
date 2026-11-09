@@ -1,0 +1,383 @@
+{
+  "run": "main_checkpoint_20260130",
+  "initialization": {
+    "name": "CroCo_V2_ViTLarge_BaseDecoder.pth",
+    "sha256": "c327abc87eda561943b27f4c864b0f39d001c2730cc3c8c22fa68913462ae8fc",
+    "evidence": "Initial log reports Loading pretrained CroCo v2"
+  },
+  "selected_epoch_index": 89,
+  "job_completed_epochs": 100,
+  "effective_criterion": "ConfLoss(Regr3D(L21, norm_mode='avg_dis'), alpha=0.2)",
+  "logs": [
+    {
+      "resume_epoch": 0,
+      "croco_loaded": true,
+      "finished": false,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "log_sha256": "ff49d57f9c7ed05cfac23bc4e181015bbf6cfe961b40332aae000f3e6e141e5e"
+    },
+    {
+      "resume_epoch": 20,
+      "croco_loaded": false,
+      "finished": false,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "log_sha256": "0e5c35c9ea171bb886f2f098037a9f134c2285bb3e754a1096229708f1905464"
+    },
+    {
+      "resume_epoch": 41,
+      "croco_loaded": false,
+      "finished": false,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "log_sha256": "ae28a8c716ad19808948217a13b39d64c5ae8557b5a77a6458a3f147acd85595"
+    },
+    {
+      "resume_epoch": 61,
+      "croco_loaded": false,
+      "finished": false,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "log_sha256": "c3c679ea9d1ff7e7f92420635bfd298bf922639a714b2e273ce32dfc36b20de0"
+    },
+    {
+      "resume_epoch": 82,
+      "croco_loaded": false,
+      "finished": false,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        82
+      ],
+      "log_sha256": "b11bacb3d040731eaf3cd43e4e89f5cf370431f85758b647a80a641ffe49c097"
+    },
+    {
+      "resume_epoch": 82,
+      "croco_loaded": false,
+      "finished": false,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        82
+      ],
+      "log_sha256": "da34f64e09b5dc45748fb50cbe0f5762567ca8e485789b9690aa750ec3015bf4"
+    },
+    {
+      "resume_epoch": 82,
+      "croco_loaded": false,
+      "finished": true,
+      "recorded_git_revision": [],
+      "recorded_config": {
+        "epochs": 100,
+        "batch_size": 16,
+        "world_size": 4,
+        "amp": 1,
+        "warmup_epochs": 10,
+        "accum_iter": 1,
+        "seed": 0,
+        "lr": 0.0001,
+        "min_lr": 1e-06,
+        "weight_decay": 0.05,
+        "compile": true
+      },
+      "observed_training_epochs": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "log_sha256": "2c89fa1cb0ec2799311066e134d885714806a21f7e347b9a8167a69f62fa486e"
+    }
+  ],
+  "unrecorded": [
+    "exact working-tree revisions at initial launch and resumes",
+    "original preprocessing commands/source revisions",
+    "GPU model for the training jobs"
+  ],
+  "source_note": "Log fingerprints and compact dataset indices recovered from the research archive; launch-time working-tree revisions were not recorded.",
+  "dataset_indices": {
+    "blendedmvs": {
+      "indices": [
+        {
+          "file": "blendedmvs_pairs.npy",
+          "present": true,
+          "sha256": "78802fd84b9cd05d253cc9beec69581acf9cb81ce8b4c2350557d23b913e0026"
+        }
+      ]
+    },
+    "megadepth": {
+      "indices": [
+        {
+          "file": "all_metadata.npz",
+          "present": true,
+          "sha256": "32c9d610d4d5ef3756869d2f8b6f084a7eebcc9664545e6eb8b4f70be49c5e64"
+        }
+      ]
+    },
+    "co3d": {
+      "indices": [
+        {
+          "file": "selected_seqs_train.json",
+          "present": true,
+          "sha256": "d53afa5207be0f29256086d908509acda5b303e043c9a6cd381b7407cb4cd566"
+        },
+        {
+          "file": "selected_seqs_test.json",
+          "present": true,
+          "sha256": "d09842b6cb0ef3ecc18e1c7788592de270f36914e7f825dd57307efa3b868d80"
+        }
+      ]
+    },
+    "staticthings3d": {
+      "indices": [
+        {
+          "file": "staticthings_pairs.npy",
+          "present": true,
+          "sha256": "91287ea2151c78e3606e285ff92eaded4f11529b2fd3b3cbf8cc8163f1b27782"
+        }
+      ]
+    },
+    "waymo": {
+      "indices": [
+        {
+          "file": "waymo_pairs.npz",
+          "present": true,
+          "sha256": "6d8038a0c5d19dd150762360f76fa2a385117f19e846d1e3a6b9c7f482ca9395"
+        }
+      ]
+    },
+    "arkitscenes": {
+      "indices": [
+        {
+          "file": "Training/all_metadata.npz",
+          "present": true,
+          "sha256": "be552af3c77aa01e7a659abb819f1541a2b8704d4f74af73f51899a475567fd9"
+        },
+        {
+          "file": "Test/all_metadata.npz",
+          "present": true,
+          "sha256": "cbbf64c290cbdada62be8353bf94e46d553ab063001ed45a3e2412a4c3c93238"
+        }
+      ]
+    },
+    "wildrgbd": {
+      "indices": [
+        {
+          "file": "selected_seqs_train.json",
+          "present": true,
+          "sha256": "53d05b8719e96583718dccd68abb2550a7a87e57c7b0f1332670392e7c659cac"
+        },
+        {
+          "file": "selected_seqs_test.json",
+          "present": true,
+          "sha256": "43b846948591137fbbb9b2b8f45b69e6088cd9dec231d3d717bf7123289428a6"
+        }
+      ]
+    },
+    "habitat": {
+      "indices": [
+        {
+          "file": "Habitat_100000_scenes_train.txt",
+          "present": true,
+          "sha256": "d8b7ca6aeb4faf3826d2a44b0e4a3b3bda88dd9d52b9284950cbc2ae2dea9207"
+        },
+        {
+          "file": "Habitat_10000_scenes_val.txt",
+          "present": true,
+          "sha256": "ef8abe6c208d09899705586ed862b2f77efc7efa9cb4215c87abcd88291a0c01"
+        }
+      ]
+    },
+    "scannetpp": {
+      "indices": [
+        {
+          "file": "all_metadata.npz",
+          "present": true,
+          "sha256": "7037dd23eb4253bd1f48edda1dd42585851d39dd8be7b9bb5ebb39011b71a916"
+        }
+      ]
+    }
+  },
+  "dataset_indices_source": "Recovered original processed-data backup; hashes identify indices, not all pixels or original conversion arguments."
+}

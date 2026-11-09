@@ -1,0 +1,4895 @@
+{
+ "metadata": {
+  "benchmark": "Hard3DBench",
+  "splits": {
+   "In-Distribution": {
+    "num_samples": 404,
+    "counts": {
+     "large_viewpoint": 229,
+     "moderate_viewpoint": 97,
+     "low_overlap": 24,
+     "large_baseline": 371,
+     "extreme_depth_range": 34,
+     "other": 17
+    }
+   },
+   "Out-of-Distribution": {
+    "num_samples": 300,
+    "counts": {
+     "large_viewpoint": 121,
+     "moderate_viewpoint": 89,
+     "low_overlap": 71,
+     "large_baseline": 235,
+     "extreme_depth_range": 23,
+     "other": 32
+    }
+   }
+  },
+  "generated_by": "evaluation/hard3dbench/labels.py"
+ },
+ "samples": [
+  {
+   "sample_id": "WildRGBD_test:40911",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:49081",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:142146",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:245150",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:41252",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:49463",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:245152",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:245054",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:214121",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:157383",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:133055",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:245084",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:115507",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:41233",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:66460",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:195846",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:44376",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:129331",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:41166",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:191989",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:215517",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:109692",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:215538",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:148374",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:171042",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:188882",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:72525",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:124484",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:129276",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:69455",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:95325",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:246825",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:39743",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:66370",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:69738",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:63604",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:163619",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:241772",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:187304",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:188854",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:219988",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:3731",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:131570",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:109662",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:57574",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8417",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:110851",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:95610",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:64130",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:167336",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:154217",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:52834",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:141789",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:74380",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:34914",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:129577",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:58083",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:157313",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:397",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:157230",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:40744",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:109526",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:165382",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:80113",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:45593",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:1688",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:75195",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:102726",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:132386",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:159146",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:109457",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:244135",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:45855",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:156920",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:38213",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:134969",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:243872",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:156947",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:69617",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:86882",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:45179",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:234444",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:79834",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:39971",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:84884",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37906",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:239318",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:239956",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74288",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:33917",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:64353",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:234396",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:148385",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7491",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:71147",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:54000",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37452",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:54403",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:87002",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:38234",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:244639",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:37995",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:38160",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:49400",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:5067",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:157406",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:27052",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:143264",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:52316",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:123350",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:82028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:45633",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:239359",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1158",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:133304",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:1090",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:37970",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36975",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:120446",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1013",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:116413",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37894",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:15881",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:137531",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:15949",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:90620",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:114202",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:34391",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:123457",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:54394",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:55756",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37119",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:86948",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:69533",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8117",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:103832",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37482",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:123820",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:1101",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:139448",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:156935",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:69520",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:144676",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:218568",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:153050",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:55779",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37354",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7264",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:96235",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:103862",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:102988",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:159694",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:80744",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:57826",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:114083",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:218722",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:95135",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:151766",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:33421",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37521",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:45801",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37453",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:55727",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:57441",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:197218",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:133357",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:75126",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:103824",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:108548",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:24270",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:28907",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:79270",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:41317",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:107833",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:49634",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:100397",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:103888",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:67360",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:132070",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35681",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4986",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:122836",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:131998",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:202276",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:143089",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:39990",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35023",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:24868",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:143204",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:109486",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:106526",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:20854",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:70964",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:219674",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:132087",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:143680",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:123372",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:187239",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35441",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:99358",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:79329",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:106470",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:187375",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:5798",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:69523",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:135773",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:45438",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:57811",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:203152",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:208370",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:45581",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:3553",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:21295",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:143582",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:37910",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Co3d_test:159349",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35642",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37342",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:30229",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:81878",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:78536",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:13387",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:99225",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:219626",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:139435",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6919",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1398",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:107636",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37942",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:103888",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:70493",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37547",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:84936",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:196156",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:18914",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9859",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:134378",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:217167",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:119",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:25776",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:100358",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:3560",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:70519",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37216",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:3253",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37347",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:103298",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:18995",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:2589",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37512",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:52450",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:122110",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:3494",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8201",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:39999",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:35317",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:206640",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:72468",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:11045",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "WildRGBD_test:98063",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35799",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1220",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:71257",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9830",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36917",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36998",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:75196",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6824",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:24638",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:34983",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74217",
+   "categories": [
+    "moderate_viewpoint",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37319",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6649",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36749",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6735",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:5011",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:5894",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74336",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74953",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:5118",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:3671",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:38014",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36991",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37856",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:54491",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4697",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:562",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:54475",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9710",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1356",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:4230",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:56106",
+   "categories": [
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:79940",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37509",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:4941",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35090",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:73860",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35667",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:71463",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:28649",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:4609",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:70863",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:71362",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9154",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:4232",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36799",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4572",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35358",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:54168",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4828",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9824",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6057",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:34912",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:70772",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:18928",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:49278",
+   "categories": [
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1859",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:15815",
+   "categories": [
+    "large_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:450",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6952",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:2601",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6071",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6288",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:75669",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:54271",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37971",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4906",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1348",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:49335",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8801",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35805",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:54314",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:544",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74330",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8837",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:49246",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7613",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:49195",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:3023",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:11673",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8171",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:308",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:35266",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:36808",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74061",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:54242",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:75474",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7028",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:37718",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:71462",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:74485",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6559",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "BlendedMVS_val:4285",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:3165",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1465",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9799",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9963",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:3915",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9352",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8116",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9703",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1804",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9266",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:5810",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:78",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6263",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:15",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6677",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7706",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:5621",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:816",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:818",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7691",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:8058",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:5281",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4271",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4302",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7261",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6737",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7995",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:2453",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:2219",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:2758",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:3002",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7240",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:5698",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:299",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6757",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6318",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9563",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7277",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:2257",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9674",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6785",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:6756",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4381",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4183",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9134",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:4090",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:9934",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1325",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:1347",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:561",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "Habitat_val:7916",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0431:DSC_0442",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0438:DSC_0452",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img161:img777",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan118:00000004:00000012",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan34:00000005:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan34:00000004:00000028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan12:00000003:00000031",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000019:00000028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan110:00000011:00000021",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0468:DSC_0482",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan110:00000028:00000040",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000028:00000038",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0430:DSC_0444",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0465:DSC_0483",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img441:img768",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan29:00000004:00000029",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000005:00000010",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000003:00000028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000016:00000026",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0437:DSC_0443",
+   "categories": [
+    "large_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan48:00000019:00000047",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0467:DSC_0481",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0463:DSC_0470",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000037:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img729:img1074",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000028:00000036",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan24:00000000:00000005",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan24:00000020:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0587:DSC_0599",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0431:DSC_0452",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:delivery_area:DSC_0687:DSC_0712",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000010:00000020",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000005:00000024",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan12:00000005:00000042",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000010:00000019",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0468:DSC_0470",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan24:00000039:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0750_00:frame_0027:frame_0077",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan24:00000031:00000038",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000003:00000025",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan48:00000006:00000044",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000002:00000042",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000040:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:office:seq-08/frame-000476:seq-09/frame-000798",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-03/frame-000491:seq-04/frame-000001",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-03/frame-000499:seq-04/frame-000009",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000031:00000041",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan48:00000039:00000044",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000017:00000027",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000005:00000026",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000012:00000041",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000042:00000047",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000019:00000045",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000043:00000046",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan34:00000004:00000029",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000005:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan12:00000019:00000025",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0654:DSC_0659",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000020:00000030",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000028:00000040",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000022:00000028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:chess:seq-04/frame-000438:seq-04/frame-000488",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000023:00000029",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000000:00000020",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img137:img741",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000007:00000040",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0797_00:frame_0046:frame_0082",
+   "categories": [
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000010:00000031",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan29:00000000:00000004",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan48:00000008:00000044",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000037:00000047",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000000:00000043",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:stairs:seq-05/frame-000106:seq-05/frame-000156",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000016:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000004:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000024:00000041",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000012:00000043",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000000:00000041",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000039:00000046",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan118:00000033:00000038",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0754_00:frame_0035:frame_0085",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000041:00000046",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000000:00000040",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000028:00000033",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-02/frame-000682:seq-02/frame-000732",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000014:00000021",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000022:00000030",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000034:00000045",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan12:00000036:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6504:DSC_6509",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan12:00000005:00000010",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000020:00000046",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000001:00000013",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000005:00000023",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000014:00000019",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan32:00000001:00000028",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan114:00000027:00000038",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000007:00000038",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000008:00000028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrace:DSC_0263:DSC_0270",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000030:00000040",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000022:00000027",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan114:00000000:00000005",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000017:00000027",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0654:DSC_0662",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan32:00000002:00000043",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000004:00000025",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000018:00000038",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000024:00000047",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000022:00000046",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan9:00000004:00000014",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0750_00:frame_0022:frame_0073",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000011:00000033",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan48:00000031:00000039",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan29:00000026:00000040",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000022:00000036",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000035:00000047",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan110:00000003:00000028",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000014:00000030",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000030:00000035",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000009:00000019",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan12:00000014:00000034",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan110:00000006:00000010",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0585:DSC_0606",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000001:00000018",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan48:00000021:00000027",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan13:00000033:00000038",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan114:00000003:00000027",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:chess:seq-04/frame-000942:seq-04/frame-000947",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0001:frame_0063",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan10:00000043:00000048",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000019:00000024",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-13/frame-000989:seq-14/frame-000009",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan118:00000007:00000044",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-05/frame-000266:seq-05/frame-000316",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-12/frame-000805:seq-12/frame-000855",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000042:00000048",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000016:00000045",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0650:DSC_0652",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan49:00000020:00000030",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-03/frame-000826:seq-03/frame-000827",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan33:00000011:00000023",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan62:00000028:00000035",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "dtu:scan77:00000034:00000040",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0010:frame_0060",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0651:DSC_0653",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0654:DSC_0665",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-12/frame-000802:seq-12/frame-000852",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0710_00:frame_0001:frame_0080",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:chess:seq-05/frame-000052:seq-05/frame-000053",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-13/frame-000991:seq-14/frame-000041",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0625:DSC_0668",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0025:frame_0077",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-02/frame-000650:seq-02/frame-000700",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0768_00:frame_0076:frame_0086",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-06/frame-000592:seq-06/frame-000642",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-02/frame-000655:seq-02/frame-000705",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-03/frame-000815:seq-03/frame-000817",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0730_00:frame_0028:frame_0050",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0788_00:frame_0051:frame_0082",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-04/frame-000903:seq-04/frame-000953",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-14/frame-000836:seq-14/frame-000886",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-02/frame-000239:seq-02/frame-000289",
+   "categories": [
+    "moderate_viewpoint",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-03/frame-000799:seq-03/frame-000819",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0033:frame_0082",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-07/frame-000943:seq-07/frame-000993",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0023:frame_0053",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-06/frame-000472:seq-06/frame-000522",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:chess:seq-02/frame-000176:seq-02/frame-000226",
+   "categories": [
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:office:seq-08/frame-000393:seq-08/frame-000398",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-07/frame-000982:seq-08/frame-000002",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0721_00:frame_0007:frame_0047",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-02/frame-000837:seq-07/frame-000999",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:office:seq-08/frame-000354:seq-08/frame-000356",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:office:seq-10/frame-000260:seq-10/frame-000280",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6491:DSC_6497",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0786_00:frame_0057:frame_0081",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-03/frame-000998:seq-04/frame-000000",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0763_00:frame_0022:frame_0072",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0730_00:frame_0003:frame_0026",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-06/frame-000955:seq-07/frame-000005",
+   "categories": [
+    "low_overlap",
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-07/frame-000503:seq-07/frame-000553",
+   "categories": [
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0797_00:frame_0042:frame_0080",
+   "categories": [
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-08/frame-000509:seq-08/frame-000559",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-08/frame-000533:seq-08/frame-000583",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0796_00:frame_0045:frame_0083",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-11/frame-000877:seq-11/frame-000927",
+   "categories": [
+    "large_baseline",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0750_00:frame_0017:frame_0064",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:office:seq-08/frame-000466:seq-08/frame-000471",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-06/frame-000720:seq-06/frame-000770",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:pumpkin:seq-01/frame-000347:seq-01/frame-000397",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-06/frame-000719:seq-06/frame-000769",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-01/frame-000539:seq-01/frame-000549",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img776:img1041",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0802_00:frame_0000:frame_0051",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-08/frame-000539:seq-08/frame-000589",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img359:img1433",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-07/frame-000515:seq-07/frame-000565",
+   "categories": [
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0786_00:frame_0061:frame_0081",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-05/frame-000234:seq-05/frame-000284",
+   "categories": [
+    "moderate_viewpoint",
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0798_00:frame_0040:frame_0060",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-06/frame-000970:seq-07/frame-000020",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-13/frame-000961:seq-14/frame-000011",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "7scenes:redkitchen:seq-03/frame-000857:seq-03/frame-000859",
+   "categories": [
+    "extreme_depth_range"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0488:DSC_0489",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0731_00:frame_0083:frame_0085",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0755_00:frame_0021:frame_0050",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0792_00:frame_0050:frame_0079",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0777_00:frame_0023:frame_0073",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0795_00:frame_0013:frame_0014",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0723_00:frame_0033:frame_0089",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0777_00:frame_0015:frame_0085",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0797_00:frame_0007:frame_0055",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0487:DSC_0488",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0590:DSC_0592",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "scannetv2:scene0780_00:frame_0005:frame_0061",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6538:DSC_6541",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0393:DSC_0421",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0656:DSC_0657",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0588:DSC_0590",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img616:img825",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:delivery_area:DSC_0677:DSC_0707",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0398:DSC_0404",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img835:img840",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6491:DSC_6514",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img452:img1338",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:green_room:img1080:img1205",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img831:img841",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0402:DSC_0404",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img644:img725",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6497:DSC_6508",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9273:DSC_9293",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img688:img769",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img959:img1009",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:whiteroom:img317:img759",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6514:DSC_6519",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0578:DSC_0593",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img104:img272",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img837:img842",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img343:img603",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img276:img1088",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img201:img362",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img136:img507",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0463:DSC_0468",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img112:img1114",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0400:DSC_0401",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:delivery_area:DSC_0679:DSC_0708",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0393:DSC_0398",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img656:img1129",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:green_room:img1163:img1213",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6504:DSC_6520",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0397:DSC_0400",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0481:DSC_0484",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0567:DSC_0596",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0432:DSC_0439",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:morning_apartment:img86:img136",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0330:DSC_0350",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img588:img638",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img702:img994",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img951:img1001",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:staircase:img294:img913",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img570:img590",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:thin_geometry:img111:img298",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:complete_kitchen:img44:img1131",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:green_room:img547:img1149",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0401:DSC_0407",
+   "categories": [
+    "other"
+   ]
+  },
+  {
+   "sample_id": "nrgbd:breakfast_room:img920:img970",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0335:DSC_0389",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0463:DSC_0467",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6535:DSC_6557",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0220:DSC_0252",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:courtyard:DSC_0294:DSC_0312",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9270:DSC_9275",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0349:DSC_0400",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrains:DSC_0655:DSC_0658",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9281:DSC_9300",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0581:DSC_0593",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:courtyard:DSC_0314:DSC_0318",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6538:DSC_6548",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0430:DSC_0435",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0229:DSC_0235",
+   "categories": [
+    "moderate_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrace:DSC_0262:DSC_0264",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6539:DSC_6541",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6504:DSC_6513",
+   "categories": [
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief:DSC_0429:DSC_0433",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6491:DSC_6493",
+   "categories": [
+    "large_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0592:DSC_0593",
+   "categories": [
+    "large_viewpoint"
+   ]
+  },
+  {
+   "sample_id": "eth3d:playground:DSC_0573:DSC_0575",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap"
+   ]
+  },
+  {
+   "sample_id": "eth3d:relief_2:DSC_0470:DSC_0472",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9263:DSC_9265",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:facade:DSC_0338:DSC_0393",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrace:DSC_0261:DSC_0263",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:delivery_area:DSC_0695:DSC_0715",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:meadow:DSC_6540:DSC_6557",
+   "categories": [
+    "moderate_viewpoint",
+    "low_overlap",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:terrace:DSC_0262:DSC_0266",
+   "categories": [
+    "large_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:courtyard:DSC_0290:DSC_0310",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:electro:DSC_9284:DSC_9301",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:kicker:DSC_6514:DSC_6520",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:delivery_area:DSC_0700:DSC_0717",
+   "categories": [
+    "large_baseline"
+   ]
+  },
+  {
+   "sample_id": "eth3d:office:DSC_0242:DSC_0254",
+   "categories": [
+    "moderate_viewpoint",
+    "large_baseline"
+   ]
+  }
+ ]
+}

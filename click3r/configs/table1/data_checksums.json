@@ -1,0 +1,37 @@
+{
+ "metadata": {
+  "purpose": "Checksums of the Table 1 evaluation data the paper used. scripts/table1/prepare_data.py compares a prepared data root with them. Hashes and counts only.",
+  "metadata": "co3d: sha256 of selected_seqs_test.json, the frame list of every sequence. arkitscenes and scannetpp: sha256 of each array in all_metadata.npz, with strings joined by newlines (UTF-8), integers as little-endian int64 and floats rounded with numpy.round(x, 4) as little-endian float64. For pairs only the two frame indices count; the loaders ignore the score.",
+  "files": "number of image, depth, mask and camera files the metadata lists; all must exist"
+ },
+ "co3d": {
+  "metadata": {
+   "selected_seqs_test.json": "c8725146a6f0676d75c7cf9d85c0303c09144839455123d30c258b9d978b8242"
+  },
+  "files": 400052
+ },
+ "arkitscenes": {
+  "metadata": {
+   "counts": "0c8d2267c11be5e32d091856e9339999e4ac5ae45313966a16f24d38a2766a2c",
+   "images": "ceb743bb8598a13d7d1a4368e7b71a7c99c99420d540f94b4f16cb0cd6209e68",
+   "intrinsics": "94d92d15b86d0c20933c3cd5a5bef00be11f27c8e3af3b08cc13c9b41626021d",
+   "pairs": "a06823875b69762962b073d9dcdc85b8f5de793c9bb7dedd7f9a1b1fec4404b9",
+   "sceneids": "39465818ed7ecee89ca26a4b13caecca5912609e5917747669545b2bc5eef878",
+   "scenes": "d98f564e2e0a93f57afbe482ef34d009b2810b2a33bdd4ab1e932d70f31d731f",
+   "trajectories": "2706479c970a1a3d8aa8620b2af35dfe585460bcf62356dc6ac72f7c86db6c2d"
+  },
+  "files": 97296
+ },
+ "scannetpp": {
+  "metadata": {
+   "counts": "100afbc6b19ef4dc71998ba2974ce3db89299beb93970d81e9e02706037490c3",
+   "images": "199431f096f48f61b09ee960876fe8f3665b39b717329af47a6b4950aa761c06",
+   "intrinsics": "7e164a5fbabc13db32193ef9c7e910cc1671b54a325413d6399ccfbc2fc43a6e",
+   "pairs": "cd31e54da12ced220d7b6b1861042f0972386861de9a402015edc78b38d000fc",
+   "sceneids": "c3a3e14d4cdf007782dfc137b44dae82ffd961d8397f609844df0ed8df634bd6",
+   "scenes": "cfc90e074c6392c075d662c0e20ae9781fab252a36c80a164c22997529d083f6",
+   "trajectories": "e4f99e5d07e4c043a6b362f0c78bddd6a7af6667622aa46860cde10a6b88f142"
+  },
+  "files": 27860
+ }
+}

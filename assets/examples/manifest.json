@@ -1,0 +1,3147 @@
+{
+  "examples": [
+    {
+      "id": "paper_bicycle",
+      "title": "Bicycle \u00b7 two click pairs",
+      "pair_id": "CO3D/bicycle/465_65975_129432/frame000121.jpg|frame000153.jpg",
+      "image1": "paper_bicycle/view1.png",
+      "image2": "paper_bicycle/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.5898801597869507,
+          "y1": 0.29161118508655126,
+          "x2": 0.7148541114058355,
+          "y2": 0.6896551724137931
+        },
+        {
+          "x1": 0.5792276964047937,
+          "y1": 0.20905459387483355,
+          "x2": 0.20689655172413793,
+          "y2": 0.669761273209549
+        }
+      ],
+      "source": "Paper Figure 1",
+      "source_dataset": "CO3D",
+      "image_type": "photograph",
+      "source_frames": [
+        "frame000121.jpg",
+        "frame000153.jpg"
+      ],
+      "source_sequence": "bicycle/465_65975_129432",
+      "suggested_click_source": "Colored correspondence markers in the paper figure; manually transcribed normalized coordinates",
+      "verification": "GPU replay passed, 2026-10-13; finite predictions and distances at paper clicks; ground-truth cameras not available; click3r_clicks replayed 2026-11-04 with prompt token offset 0.0",
+      "demonstration_note": "Retained Click3R already aligns these views without clicks; included for comparison with pretrained DUSt3R and the paper figures.",
+      "release_metrics": {
+        "pair_id": "CO3D/bicycle/465_65975_129432/frame000121.jpg|frame000153.jpg",
+        "num_clicks": 2,
+        "dust3r": {
+          "normalized_distance_at_clicks": 0.49223995208740234,
+          "pose_verification": "Ground-truth cameras unavailable"
+        },
+        "click3r_no_clicks": {
+          "normalized_distance_at_clicks": 0.012637637555599213,
+          "pose_verification": "Ground-truth cameras unavailable"
+        },
+        "click3r_clicks": {
+          "normalized_distance_at_clicks": 0.010472371242940426,
+          "pose_verification": "Ground-truth cameras unavailable"
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "paper_railing",
+      "title": "Railing \u00b7 two click pairs",
+      "pair_id": "BlendedMVS/58897f62c02346100f4b8ee6/00000435|00000459",
+      "image1": "paper_railing/view1.png",
+      "image2": "paper_railing/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.7756410256410257,
+          "y1": 0.019230769230769232,
+          "x2": 0.17307692307692307,
+          "y2": 0.5705128205128205
+        },
+        {
+          "x1": 0.9358974358974359,
+          "y1": 0.019230769230769232,
+          "x2": 0.41025641025641024,
+          "y2": 0.6217948717948718
+        }
+      ],
+      "source": "NeurIPS Figure 4",
+      "source_dataset": "BlendedMVS",
+      "image_type": "blended captured and rendered images",
+      "source_frames": [
+        "00000435",
+        "00000459"
+      ],
+      "source_sequence": "58897f62c02346100f4b8ee6",
+      "suggested_click_source": "Colored correspondence markers in the paper figure; manually transcribed normalized coordinates",
+      "verification": "GPU replay passed, 2026-10-13; finite predictions and distances at paper clicks; ground-truth cameras not available; click3r_clicks replayed 2026-11-04 with prompt token offset 0.0",
+      "source_dataset_url": "https://github.com/YoYo000/BlendedMVS",
+      "release_metrics": {
+        "pair_id": "BlendedMVS/58897f62c02346100f4b8ee6/00000435|00000459",
+        "num_clicks": 2,
+        "dust3r": {
+          "normalized_distance_at_clicks": 1.5427701473236084,
+          "pose_verification": "Ground-truth cameras unavailable"
+        },
+        "click3r_no_clicks": {
+          "normalized_distance_at_clicks": 1.411412000656128,
+          "pose_verification": "Ground-truth cameras unavailable"
+        },
+        "click3r_clicks": {
+          "normalized_distance_at_clicks": 0.38291144371032715,
+          "pose_verification": "Ground-truth cameras unavailable"
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-4.0",
+      "attribution": "Yao Yao et al., BlendedMVS (CVPR 2020)",
+      "license_source": "https://github.com/YoYo000/BlendedMVS#license"
+    },
+    {
+      "id": "breakfast",
+      "title": "Breakfast room \u00b7 two click pairs",
+      "pair_id": "nrgbd/breakfast_room/img161|img777",
+      "image1": "breakfast/view1.png",
+      "image2": "breakfast/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.14,
+          "y1": 0.13625,
+          "x2": 0.5175,
+          "y2": 0.25375
+        },
+        {
+          "x1": 0.1025,
+          "y1": 0.265,
+          "x2": 0.62875,
+          "y2": 0.04875
+        }
+      ],
+      "saved_metrics": {
+        "vanilla_dust3r": {
+          "rre": 178.7942352294922,
+          "rte": 31.379133224487305
+        },
+        "click3r_no_prompt": {
+          "rre": 176.94879150390625,
+          "rte": 66.62816619873047
+        },
+        "click3r_human": {
+          "rre": 10.756855964660645,
+          "rte": 2.680368423461914,
+          "num_corrs": 2,
+          "num_corrs_after_remap": 2
+        }
+      },
+      "source": "Hard3DBench/Table 3; manually selected demonstration subset",
+      "verification": "GPU replay passed, 2026-10-10; float32, symmetrized PnP metrics; click3r_clicks replayed 2026-11-04 with prompt token offset 0.0",
+      "K1": [
+        [
+          554.2562584220408,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          554.2562584220408,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          554.2562584220408,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          554.2562584220408,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        640,
+        480
+      ],
+      "img_size2": [
+        640,
+        480
+      ],
+      "pose1_c2w": [
+        [
+          0.579078,
+          0.506455,
+          -0.638883,
+          1.7738
+        ],
+        [
+          0.689821,
+          0.113298,
+          0.71506,
+          1.0433
+        ],
+        [
+          0.43453,
+          -0.85479,
+          -0.283755,
+          0.646831
+        ],
+        [
+          0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.148986,
+          -0.753975,
+          0.639785,
+          -1.94951
+        ],
+        [
+          -0.823533,
+          0.452748,
+          0.341779,
+          1.9542
+        ],
+        [
+          -0.547354,
+          -0.475964,
+          -0.688376,
+          1.06028
+        ],
+        [
+          0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "nrgbd/breakfast_room/img161|img777",
+        "num_clicks": 2,
+        "dust3r": {
+          "rotation_error_deg": 175.70835876464844,
+          "translation_error_deg": 25.07588768005371
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 177.67913818359375,
+          "translation_error_deg": 65.16426849365234
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 9.183930397033691,
+          "translation_error_deg": 2.7855124473571777
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY",
+      "attribution": "Wig42, The Breakfast Room; rendered by Azinovic et al. (CVPR 2022)",
+      "license_source": "https://blendswap.com/blend/13363"
+    },
+    {
+      "id": "eth3d_relief",
+      "title": "Relief \u00b7 four click pairs",
+      "pair_id": "eth3d/relief_2/DSC_0467|DSC_0481",
+      "image1": "eth3d_relief/view1.png",
+      "image2": "eth3d_relief/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.43125,
+          "y1": 0.545,
+          "x2": 0.37375,
+          "y2": 0.2225
+        },
+        {
+          "x1": 0.985,
+          "y1": 0.405,
+          "x2": 0.465,
+          "y2": 0.67375
+        },
+        {
+          "x1": 0.3375,
+          "y1": 0.3975,
+          "x2": 0.51375,
+          "y2": 0.23625
+        },
+        {
+          "x1": 0.645,
+          "y1": 0.2275,
+          "x2": 0.54625,
+          "y2": 0.4575
+        }
+      ],
+      "source": "Hard3DBench/Table 3; manually selected demonstration subset",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0",
+      "K1": [
+        [
+          3413.070068359375,
+          0.0,
+          3038.550048828125
+        ],
+        [
+          0.0,
+          3413.659912109375,
+          2011.1500244140625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          3413.070068359375,
+          0.0,
+          3038.550048828125
+        ],
+        [
+          0.0,
+          3413.659912109375,
+          2011.1500244140625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        6048,
+        4032
+      ],
+      "img_size2": [
+        6048,
+        4032
+      ],
+      "pose1_c2w": [
+        [
+          -0.07017687649256758,
+          0.8491853405048204,
+          -0.5234113711770685,
+          -0.9983128357321945
+        ],
+        [
+          -0.28424911096818983,
+          -0.5199748647795837,
+          -0.8054989651832256,
+          4.457948736362387
+        ],
+        [
+          -0.9561786699772905,
+          0.0922518155331687,
+          0.2778703899505911,
+          -0.3829310357732062
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.30893309093974125,
+          0.00246001920354443,
+          -0.9510805926039791,
+          0.7633675401698922
+        ],
+        [
+          0.9509041590879946,
+          -0.020232593403651435,
+          0.3088234485807657,
+          1.407788465279689
+        ],
+        [
+          -0.01848311531024663,
+          -0.9997922736597245,
+          -0.008589760110003848,
+          -0.26286691719086164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "eth3d/relief_2/DSC_0467|DSC_0481",
+        "num_clicks": 4,
+        "dust3r": {
+          "rotation_error_deg": 119.60041046142578,
+          "translation_error_deg": 39.8147087097168
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 70.715576171875,
+          "translation_error_deg": 40.91756820678711
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 9.323628425598145,
+          "translation_error_deg": 6.126887321472168
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-SA-4.0",
+      "attribution": "Sch\u00f6ps et al., ETH3D (CVPR 2017)",
+      "license_source": "https://www.eth3d.net/documentation"
+    },
+    {
+      "id": "dtu10",
+      "title": "Scribbled box \u00b7 three click pairs",
+      "pair_id": "dtu/scan10/00000003|00000025",
+      "image1": "dtu10/view1.png",
+      "image2": "dtu10/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.475,
+          "y1": 0.5825,
+          "x2": 0.54625,
+          "y2": 0.505
+        },
+        {
+          "x1": 0.795,
+          "y1": 0.43625,
+          "x2": 0.66875,
+          "y2": 0.34
+        },
+        {
+          "x1": 0.635,
+          "y1": 0.78875,
+          "x2": 0.6625,
+          "y2": 0.95375
+        }
+      ],
+      "source": "Hard3DBench/Table 3; manually selected demonstration subset",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0",
+      "K1": [
+        [
+          2892.33,
+          0.0,
+          823.204
+        ],
+        [
+          0.0,
+          2883.17,
+          619.07
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          2892.33,
+          0.0,
+          823.205
+        ],
+        [
+          0.0,
+          2883.18,
+          619.072
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        1600,
+        1200
+      ],
+      "img_size2": [
+        1600,
+        1200
+      ],
+      "pose1_c2w": [
+        [
+          -0.06928978856338114,
+          0.865944195482999,
+          -0.49531762840456445,
+          344.27624601494404
+        ],
+        [
+          -0.8737050184042429,
+          0.1869678895184815,
+          0.4490905952860993,
+          -292.0119790762561
+        ],
+        [
+          0.4814961585860386,
+          0.4638791737051654,
+          0.7436244322155364,
+          161.46871517090597
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.671672864592902,
+          0.2453799084939222,
+          -0.6990307297874531,
+          469.3648553672451
+        ],
+        [
+          -0.6153083605720456,
+          0.710283444452364,
+          -0.34189708449380146,
+          189.6561157682795
+        ],
+        [
+          0.41261542913715554,
+          0.6597627967021485,
+          0.6280626155200755,
+          231.80743497464923
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "dtu/scan10/00000003|00000025",
+        "num_clicks": 3,
+        "dust3r": {
+          "rotation_error_deg": 87.35292053222656,
+          "translation_error_deg": 61.34180450439453
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 53.5022087097168,
+          "translation_error_deg": 72.16803741455078
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 1.8556183576583862,
+          "translation_error_deg": 5.775805950164795
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "citeware",
+      "attribution": "Jensen et al., DTU MVS dataset (CVPR 2014)",
+      "license_source": "https://roboimagedata.compute.dtu.dk/"
+    },
+    {
+      "id": "dtu24",
+      "title": "Brick building model \u00b7 three click pairs",
+      "pair_id": "dtu/scan24/00000031|00000038",
+      "image1": "dtu24/view1.png",
+      "image2": "dtu24/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.93125,
+          "y1": 0.3275,
+          "x2": 0.89375,
+          "y2": 0.4625
+        },
+        {
+          "x1": 0.06625,
+          "y1": 0.37625,
+          "x2": 0.6,
+          "y2": 0.3425
+        },
+        {
+          "x1": 0.85375,
+          "y1": 0.465,
+          "x2": 0.67375,
+          "y2": 0.5575
+        }
+      ],
+      "saved_metrics": {
+        "vanilla_dust3r": {
+          "rre": 83.93318939208984,
+          "rte": 81.95968627929688
+        },
+        "click3r_no_prompt": {
+          "rre": 100.95121002197266,
+          "rte": 61.034095764160156
+        },
+        "click3r_human": {
+          "rre": 5.500321388244629,
+          "rte": 3.9647693634033203,
+          "num_corrs": 3,
+          "num_corrs_after_remap": 3
+        }
+      },
+      "source": "Hard3DBench/Table 3; manually selected demonstration subset",
+      "verification": "GPU replay passed, 2026-10-10; float32, symmetrized PnP metrics; click3r_clicks replayed 2026-11-04 with prompt token offset 0.0",
+      "K1": [
+        [
+          2892.33,
+          0.0,
+          823.206
+        ],
+        [
+          0.0,
+          2883.18,
+          619.07
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          2892.33,
+          0.0,
+          823.206
+        ],
+        [
+          0.0,
+          2883.18,
+          619.07
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        1600,
+        1200
+      ],
+      "img_size2": [
+        1600,
+        1200
+      ],
+      "pose1_c2w": [
+        [
+          0.6832265430047785,
+          0.11188440175404593,
+          -0.7215844413445525,
+          483.1720317603095
+        ],
+        [
+          -0.6167831883713364,
+          0.6173923739391052,
+          -0.4882674536746821,
+          278.60891590143746
+        ],
+        [
+          0.3908718647732353,
+          0.7786578904612349,
+          0.4908273743568638,
+          315.340734935483
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.6362972363651662,
+          0.03157138360405401,
+          -0.7707977517157917,
+          512.6388300473849
+        ],
+        [
+          -0.7276653589977291,
+          0.30723758076877256,
+          0.613276740451123,
+          -392.4117995630552
+        ],
+        [
+          0.2561792488674981,
+          0.9511091798430089,
+          -0.17252102117319051,
+          718.9489333306301
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "dtu/scan24/00000031|00000038",
+        "num_clicks": 3,
+        "dust3r": {
+          "rotation_error_deg": 84.8743667602539,
+          "translation_error_deg": 86.13037109375
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 101.38371276855469,
+          "translation_error_deg": 60.92454528808594
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 5.819653034210205,
+          "translation_error_deg": 3.191077709197998
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "citeware",
+      "attribution": "Jensen et al., DTU MVS dataset (CVPR 2014)",
+      "license_source": "https://roboimagedata.compute.dtu.dk/"
+    },
+    {
+      "id": "co3d_cellphone",
+      "title": "Cellphone \u00b7 one click pair",
+      "pair_id": "CO3D/cellphone/274_29360_56021/frame000034.jpg|frame000085.jpg",
+      "image1": "co3d_cellphone/view1.png",
+      "image2": "co3d_cellphone/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.24107142857142858,
+          "y1": 0.6607142857142857,
+          "x2": 0.6549171720232282,
+          "y2": 0.1573871374130249
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "cellphone/274_29360_56021",
+      "source_frames": [
+        "frame000034",
+        "frame000085"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          338.6992492675781,
+          0.0,
+          111.02833557128906
+        ],
+        [
+          0.0,
+          338.6992492675781,
+          111.81999969482422
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          317.42236328125,
+          0.0,
+          111.29165649414062
+        ],
+        [
+          0.0,
+          317.42236328125,
+          111.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.9942798018455505,
+          -0.08403376489877701,
+          -0.06592364609241486,
+          -0.4331270754337311
+        ],
+        [
+          0.1066753938794136,
+          0.811884343624115,
+          0.5739896893501282,
+          -9.943920135498047
+        ],
+        [
+          0.005287861451506615,
+          -0.5777388215065002,
+          0.8162046074867249,
+          -8.485107421875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.9984527826309204,
+          -0.016174031421542168,
+          0.05320211127400398,
+          -5.311827659606934
+        ],
+        [
+          -0.0031476174481213093,
+          0.9387903809547424,
+          0.34447452425956726,
+          -3.364530086517334
+        ],
+        [
+          -0.05551717430353165,
+          -0.3441089987754822,
+          0.937286913394928,
+          -10.610925674438477
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/cellphone/274_29360_56021/frame000034.jpg|frame000085.jpg",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 165.0409393310547,
+          "translation_error_deg": 16.582441329956055
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 133.51937866210938,
+          "translation_error_deg": 66.17974853515625
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 3.1256215572357178,
+          "translation_error_deg": 1.4105595350265503
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_suitcase",
+      "title": "Suitcase \u00b7 one click pair",
+      "pair_id": "CO3D/suitcase/375_42625_85400/frame000105.jpg|frame000152.jpg",
+      "image1": "co3d_suitcase/view1.png",
+      "image2": "co3d_suitcase/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.7589285714285714,
+          "y1": 0.13839285714285715,
+          "x2": 0.1348449162074498,
+          "y2": 0.13923485789980208
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "suitcase/375_42625_85400",
+      "source_frames": [
+        "frame000105",
+        "frame000152"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          368.4777526855469,
+          0.0,
+          111.60448455810547
+        ],
+        [
+          0.0,
+          368.4777526855469,
+          112.39614868164062
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          365.1903991699219,
+          0.0,
+          111.7089614868164
+        ],
+        [
+          0.0,
+          365.1903991699219,
+          112.39614868164062
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.5838484764099121,
+          -0.5651400089263916,
+          0.5828702449798584,
+          -4.974237442016602
+        ],
+        [
+          0.5567161440849304,
+          0.24386811256408691,
+          0.7941004037857056,
+          -4.844883918762207
+        ],
+        [
+          -0.5909213423728943,
+          0.788127601146698,
+          0.17224055528640747,
+          -0.18156757950782776
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.8071576356887817,
+          -0.41247913241386414,
+          0.42232394218444824,
+          -3.1700057983398438
+        ],
+        [
+          0.41128137707710266,
+          0.9061220288276672,
+          0.09894663840532303,
+          1.0200777053833008
+        ],
+        [
+          -0.4234904646873474,
+          0.09382843226194382,
+          0.9010283350944519,
+          -5.937276840209961
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/suitcase/375_42625_85400/frame000105.jpg|frame000152.jpg",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 175.58473205566406,
+          "translation_error_deg": 89.3770751953125
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 111.6901626586914,
+          "translation_error_deg": 85.83454132080078
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 2.7250545024871826,
+          "translation_error_deg": 1.0936061143875122
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_toaster",
+      "title": "Toaster \u00b7 one click pair",
+      "pair_id": "CO3D/toaster/424_59171_115039/frame000113.jpg|frame000182.jpg",
+      "image1": "co3d_toaster/view1.png",
+      "image2": "co3d_toaster/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.04017857142857143,
+          "y1": 0.38839285714285715,
+          "x2": 0.7278660365513393,
+          "y2": 0.18632970537458146
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "toaster/424_59171_115039",
+      "source_frames": [
+        "frame000113",
+        "frame000182"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          396.63470458984375,
+          0.0,
+          111.6058578491211
+        ],
+        [
+          0.0,
+          396.63470458984375,
+          112.29167175292969
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          399.22406005859375,
+          0.0,
+          111.6058578491211
+        ],
+        [
+          0.0,
+          399.22406005859375,
+          112.50338745117188
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.6124836206436157,
+          0.7283581495285034,
+          -0.3071778416633606,
+          3.629856586456299
+        ],
+        [
+          -0.6278373599052429,
+          -0.2121209055185318,
+          0.7488824725151062,
+          -8.182954788208008
+        ],
+        [
+          0.4802958071231842,
+          0.6515359878540039,
+          0.5872110724449158,
+          -4.472968578338623
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.9639430642127991,
+          0.19868697226047516,
+          -0.17702312767505646,
+          2.827470064163208
+        ],
+        [
+          -0.2014506310224533,
+          0.9794957041740417,
+          0.002406938001513481,
+          2.6177620887756348
+        ],
+        [
+          0.17387162148952484,
+          0.03334126994013786,
+          0.9842037558555603,
+          -11.974472999572754
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/toaster/424_59171_115039/frame000113.jpg|frame000182.jpg",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 176.11073303222656,
+          "translation_error_deg": 63.41825866699219
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 163.88809204101562,
+          "translation_error_deg": 58.64789962768555
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 4.0057501792907715,
+          "translation_error_deg": 2.5448365211486816
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_toytruck",
+      "title": "Toy truck \u00b7 one click pair",
+      "pair_id": "CO3D/toytruck/610_96947_194408/frame000062.jpg|frame000114.jpg",
+      "image1": "co3d_toytruck/view1.png",
+      "image2": "co3d_toytruck/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.4375,
+          "y1": 0.3482142857142857,
+          "x2": 0.3825622967311314,
+          "y2": 0.06129351684025356
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "toytruck/610_96947_194408",
+      "source_frames": [
+        "frame000062",
+        "frame000114"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          415.4440612792969,
+          0.0,
+          111.60467529296875
+        ],
+        [
+          0.0,
+          415.6273193359375,
+          112.39633178710938
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          429.5688171386719,
+          0.0,
+          111.70974731445312
+        ],
+        [
+          0.0,
+          429.4405822753906,
+          111.89653015136719
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.24935750663280487,
+          0.7690519690513611,
+          -0.5885404348373413,
+          13.65685749053955
+        ],
+        [
+          -0.705254077911377,
+          0.27227142453193665,
+          0.6545876264572144,
+          -11.952640533447266
+        ],
+        [
+          0.6636546850204468,
+          0.5782968401908875,
+          0.4744841456413269,
+          -5.673504829406738
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.6217780709266663,
+          -0.5163492560386658,
+          0.5888764262199402,
+          -15.485987663269043
+        ],
+        [
+          0.664182722568512,
+          0.050807394087314606,
+          0.7458418011665344,
+          -16.53878402709961
+        ],
+        [
+          -0.41503411531448364,
+          0.8548696041107178,
+          0.31135931611061096,
+          -1.7193325757980347
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/toytruck/610_96947_194408/frame000062.jpg|frame000114.jpg",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 170.39645385742188,
+          "translation_error_deg": 64.3287353515625
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 161.7444610595703,
+          "translation_error_deg": 58.432281494140625
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 3.4042131900787354,
+          "translation_error_deg": 2.2072641849517822
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_umbrella",
+      "title": "Umbrella \u00b7 one click pair",
+      "pair_id": "CO3D/umbrella/397_50285_98754/frame000042.jpg|frame000092.jpg",
+      "image1": "co3d_umbrella/view1.png",
+      "image2": "co3d_umbrella/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.6473214285714286,
+          "y1": 0.46875,
+          "x2": 0.565182992390224,
+          "y2": 0.24205761296408518
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "umbrella/397_50285_98754",
+      "source_frames": [
+        "frame000042",
+        "frame000092"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          345.33746337890625,
+          0.0,
+          111.6702651977539
+        ],
+        [
+          0.0,
+          345.33746337890625,
+          112.29167175292969
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          348.8733215332031,
+          0.0,
+          111.6702651977539
+        ],
+        [
+          0.0,
+          348.8733215332031,
+          112.29167175292969
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.9986358880996704,
+          -0.0016038267640396953,
+          0.05219004303216934,
+          -0.04847808554768562
+        ],
+        [
+          -0.0011055415961891413,
+          0.9986546635627747,
+          0.051843274384737015,
+          0.22572726011276245
+        ],
+        [
+          -0.0522029735147953,
+          -0.05183025449514389,
+          0.9972906112670898,
+          -4.758376598358154
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.1231895312666893,
+          0.5284061431884766,
+          -0.8400067090988159,
+          5.90958833694458
+        ],
+        [
+          -0.8970932960510254,
+          0.42121991515159607,
+          0.13340690732002258,
+          0.23308521509170532
+        ],
+        [
+          0.4243205785751343,
+          0.7371300458908081,
+          0.525919497013092,
+          -2.331075668334961
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/umbrella/397_50285_98754/frame000042.jpg|frame000092.jpg",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 55.51946258544922,
+          "translation_error_deg": 74.05168914794922
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 161.68856811523438,
+          "translation_error_deg": 88.294921875
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 2.4384729862213135,
+          "translation_error_deg": 3.090348243713379
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_cake",
+      "title": "Cake \u00b7 one click pair",
+      "pair_id": "CO3D/cake/391_46911_93278/frame000021.jpg|frame000071.jpg",
+      "image1": "co3d_cake/view1.png",
+      "image2": "co3d_cake/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.20089285714285715,
+          "y1": 0.6964285714285714,
+          "x2": 0.8941922869001117,
+          "y2": 0.5197733470371791
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "cake/391_46911_93278",
+      "source_frames": [
+        "frame000021",
+        "frame000071"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          365.2088317871094,
+          0.0,
+          111.16618347167969
+        ],
+        [
+          0.0,
+          365.2088317871094,
+          111.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          370.2075500488281,
+          0.0,
+          111.16618347167969
+        ],
+        [
+          0.0,
+          370.2075500488281,
+          111.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.47313496470451355,
+          -0.7904391288757324,
+          0.38903647661209106,
+          -4.754337310791016
+        ],
+        [
+          0.8059526085853577,
+          0.5666832327842712,
+          0.17120304703712463,
+          -0.46031653881073
+        ],
+        [
+          -0.3557860255241394,
+          0.23254279792308807,
+          0.9051741361618042,
+          -10.441695213317871
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.9473028182983398,
+          -0.22560107707977295,
+          0.22742369771003723,
+          -2.4977874755859375
+        ],
+        [
+          0.3191116154193878,
+          -0.6024864912033081,
+          0.7315585017204285,
+          -8.148426055908203
+        ],
+        [
+          -0.028020666912198067,
+          0.7655808925628662,
+          0.6427290439605713,
+          -6.776153087615967
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/cake/391_46911_93278/frame000021.jpg|frame000071.jpg",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 40.66719055175781,
+          "translation_error_deg": 40.10383987426758
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 38.947547912597656,
+          "translation_error_deg": 26.40506362915039
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 3.5604047775268555,
+          "translation_error_deg": 0.38461336493492126
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_teddybear",
+      "title": "Teddy bear \u00b7 two click pairs",
+      "pair_id": "CO3D/teddybear/187_20215_38541/frame000083.jpg|frame000115.jpg",
+      "image1": "co3d_teddybear/view1.png",
+      "image2": "co3d_teddybear/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.24107142857142858,
+          "y1": 0.20089285714285715,
+          "x2": 0.3114416258675711,
+          "y2": 0.3234296866825649
+        },
+        {
+          "x1": 0.625,
+          "y1": 0.7589285714285714,
+          "x2": 0.8102272578648159,
+          "y2": 0.46380339350019184
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "teddybear/187_20215_38541",
+      "source_frames": [
+        "frame000083",
+        "frame000115"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          385.7716979980469,
+          0.0,
+          112.10447692871094
+        ],
+        [
+          0.0,
+          385.7716979980469,
+          111.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          383.54638671875,
+          0.0,
+          112.10447692871094
+        ],
+        [
+          0.0,
+          383.54638671875,
+          111.60448455810547
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.6061817407608032,
+          -0.6750771999359131,
+          0.4204930067062378,
+          -4.850895404815674
+        ],
+        [
+          0.4082413613796234,
+          0.1896306425333023,
+          0.8929609060287476,
+          -8.745631217956543
+        ],
+        [
+          -0.6825559139251709,
+          0.7129592895507812,
+          0.1606438159942627,
+          -1.868408441543579
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.9921326637268066,
+          0.0665813758969307,
+          -0.10601745545864105,
+          1.3430616855621338
+        ],
+        [
+          -0.1058797687292099,
+          0.005603229161351919,
+          0.9943631887435913,
+          -10.126546859741211
+        ],
+        [
+          0.06680011004209518,
+          0.997765302658081,
+          0.0014904740964993834,
+          0.49858757853507996
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/teddybear/187_20215_38541/frame000083.jpg|frame000115.jpg",
+        "num_clicks": 2,
+        "dust3r": {
+          "rotation_error_deg": 124.05762481689453,
+          "translation_error_deg": 85.21311950683594
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 127.25117492675781,
+          "translation_error_deg": 64.88072204589844
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 2.574810743331909,
+          "translation_error_deg": 1.5954455137252808
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "co3d_handbag",
+      "title": "Handbag \u00b7 three click pairs",
+      "pair_id": "CO3D/handbag/31_1278_3933/frame000125.jpg|frame000192.jpg",
+      "image1": "co3d_handbag/view1.png",
+      "image2": "co3d_handbag/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.3080357142857143,
+          "y1": 0.10714285714285714,
+          "x2": 0.09307265281677246,
+          "y2": 0.1723426410130092
+        },
+        {
+          "x1": 0.13839285714285715,
+          "y1": 0.12946428571428573,
+          "x2": 0.15880753312792098,
+          "y2": 0.303659234728132
+        },
+        {
+          "x1": 0.10267857142857142,
+          "y1": 0.6339285714285714,
+          "x2": 0.49462505749293734,
+          "y2": 0.44624270711626324
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "CO3D",
+      "source_sequence": "handbag/31_1278_3933",
+      "source_frames": [
+        "frame000125",
+        "frame000192"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          382.7835998535156,
+          0.0,
+          111.17341613769531
+        ],
+        [
+          0.0,
+          382.7835998535156,
+          111.87837982177734
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          397.212158203125,
+          0.0,
+          111.87837219238281
+        ],
+        [
+          0.0,
+          397.212158203125,
+          111.87837982177734
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.48052075505256653,
+          0.7095731496810913,
+          -0.5153695940971375,
+          4.230011463165283
+        ],
+        [
+          -0.692388117313385,
+          0.05371328443288803,
+          0.7195231318473816,
+          -6.702376365661621
+        ],
+        [
+          0.5382364392280579,
+          0.7025815844535828,
+          0.46548962593078613,
+          -2.941538095474243
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.9989796876907349,
+          -0.027070986106991768,
+          0.03614921495318413,
+          0.7590420246124268
+        ],
+        [
+          0.027926040813326836,
+          0.9993369579315186,
+          -0.023361781612038612,
+          1.7318872213363647
+        ],
+        [
+          -0.03549282252788544,
+          0.024347448721528053,
+          0.9990732669830322,
+          -10.029332160949707
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/handbag/31_1278_3933/frame000125.jpg|frame000192.jpg",
+        "num_clicks": 3,
+        "dust3r": {
+          "rotation_error_deg": 73.08335876464844,
+          "translation_error_deg": 59.81003189086914
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 172.46380615234375,
+          "translation_error_deg": 86.53849792480469
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 3.942579746246338,
+          "translation_error_deg": 1.434768795967102
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "dtu29",
+      "title": "Building model, top view \u00b7 one click pair",
+      "pair_id": "dtu/scan29/00000004|00000029",
+      "image1": "dtu29/view1.png",
+      "image2": "dtu29/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.9330357142857143,
+          "y1": 0.39285714285714285,
+          "x2": 0.13077323777335031,
+          "y2": 0.923593384878976
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "DTU",
+      "source_sequence": "scan29",
+      "source_frames": [
+        "00000004",
+        "00000029"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          540.5041687500001,
+          0.0,
+          116.83662125000001
+        ],
+        [
+          0.0,
+          538.1936,
+          115.55992
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          540.5041687500001,
+          0.0,
+          116.83662125000001
+        ],
+        [
+          0.0,
+          538.1936,
+          115.55954666666666
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.546287,
+          0.748136,
+          -0.376647,
+          272.132268
+        ],
+        [
+          -0.748747,
+          -0.234625,
+          0.619943,
+          -394.807693
+        ],
+        [
+          0.375431,
+          0.62068,
+          0.688337,
+          194.728844
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.918018,
+          -0.021904,
+          -0.395935,
+          284.656833
+        ],
+        [
+          -0.28001,
+          0.671194,
+          -0.686363,
+          399.195876
+        ],
+        [
+          0.280783,
+          0.740958,
+          0.610033,
+          242.70923
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "dtu/scan29/00000004|00000029",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 135.5086669921875,
+          "translation_error_deg": 75.50239562988281
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 78.37031555175781,
+          "translation_error_deg": 34.14707565307617
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 4.712849140167236,
+          "translation_error_deg": 8.751090049743652
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "citeware",
+      "attribution": "Jensen et al., DTU MVS dataset (CVPR 2014)",
+      "license_source": "https://roboimagedata.compute.dtu.dk/"
+    },
+    {
+      "id": "dtu13",
+      "title": "Poster box \u00b7 four click pairs",
+      "pair_id": "dtu/scan13/00000040|00000048",
+      "image1": "dtu13/view1.png",
+      "image2": "dtu13/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.22321428571428573,
+          "y1": 0.07589285714285714,
+          "x2": 0.6691220828465053,
+          "y2": 0.05502299751554217
+        },
+        {
+          "x1": 0.24553571428571427,
+          "y1": 0.9017857142857143,
+          "x2": 0.6752523694719587,
+          "y2": 0.9436296735491071
+        },
+        {
+          "x1": 0.8526785714285714,
+          "y1": 0.6875,
+          "x2": 0.7168551172528949,
+          "y2": 0.5821820667811802
+        },
+        {
+          "x1": 0.18303571428571427,
+          "y1": 0.20535714285714285,
+          "x2": 0.6630281720842633,
+          "y2": 0.19320036683763778
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "DTU",
+      "source_sequence": "scan13",
+      "source_frames": [
+        "00000040",
+        "00000048"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          540.5041687500001,
+          0.0,
+          116.83662125000001
+        ],
+        [
+          0.0,
+          538.1936,
+          115.55992
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          540.5041687500001,
+          0.0,
+          116.83624750000001
+        ],
+        [
+          0.0,
+          538.1936,
+          115.55973333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.283876,
+          0.048516,
+          -0.957633,
+          626.651286
+        ],
+        [
+          -0.887829,
+          0.363936,
+          0.281621,
+          -189.651481
+        ],
+        [
+          0.36218,
+          0.930159,
+          -0.060239,
+          650.030856
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.962955,
+          -0.099716,
+          -0.250546,
+          194.996289
+        ],
+        [
+          -0.165149,
+          0.516409,
+          -0.840267,
+          493.068325
+        ],
+        [
+          0.213172,
+          0.850516,
+          0.480811,
+          321.190841
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "dtu/scan13/00000040|00000048",
+        "num_clicks": 4,
+        "dust3r": {
+          "rotation_error_deg": 67.04428100585938,
+          "translation_error_deg": 43.10509490966797
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 98.88404846191406,
+          "translation_error_deg": 59.43071746826172
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 4.402287006378174,
+          "translation_error_deg": 3.664151430130005
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "citeware",
+      "attribution": "Jensen et al., DTU MVS dataset (CVPR 2014)",
+      "license_source": "https://roboimagedata.compute.dtu.dk/"
+    },
+    {
+      "id": "dtu33",
+      "title": "Rabbit figurine with ear muffs \u00b7 four click pairs",
+      "pair_id": "dtu/scan33/00000019|00000028",
+      "image1": "dtu33/view1.png",
+      "image2": "dtu33/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.7053571428571429,
+          "y1": 0.25892857142857145,
+          "x2": 0.5968445369175502,
+          "y2": 0.0886227914265224
+        },
+        {
+          "x1": 0.6160714285714286,
+          "y1": 0.15178571428571427,
+          "x2": 0.43298782621111187,
+          "y2": 0.12392980711800712
+        },
+        {
+          "x1": 0.39732142857142855,
+          "y1": 0.33035714285714285,
+          "x2": 0.625598634992327,
+          "y2": 0.27251538208552767
+        },
+        {
+          "x1": 0.53125,
+          "y1": 0.9464285714285714,
+          "x2": 0.6292528424944196,
+          "y2": 0.9340294429234096
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05",
+      "source_dataset": "DTU",
+      "source_sequence": "scan33",
+      "source_frames": [
+        "00000019",
+        "00000028"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          540.5041687500001,
+          0.0,
+          116.83662125000001
+        ],
+        [
+          0.0,
+          538.1917333333333,
+          115.55954666666666
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          540.5041687500001,
+          0.0,
+          116.836808125
+        ],
+        [
+          0.0,
+          538.1936,
+          115.55973333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.623237,
+          0.360876,
+          -0.693789,
+          465.55999
+        ],
+        [
+          -0.719899,
+          0.081805,
+          0.689242,
+          -438.320314
+        ],
+        [
+          0.305487,
+          0.929019,
+          0.20881,
+          486.952902
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.974027,
+          -0.096094,
+          -0.205027,
+          167.866485
+        ],
+        [
+          -0.087127,
+          0.676703,
+          -0.731083,
+          426.536677
+        ],
+        [
+          0.208995,
+          0.729958,
+          0.650755,
+          217.982879
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "dtu/scan33/00000019|00000028",
+        "num_clicks": 4,
+        "dust3r": {
+          "rotation_error_deg": 163.08737182617188,
+          "translation_error_deg": 81.40585327148438
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 172.51402282714844,
+          "translation_error_deg": 88.97661590576172
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 3.297999858856201,
+          "translation_error_deg": 0.1678587943315506
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "citeware",
+      "attribution": "Jensen et al., DTU MVS dataset (CVPR 2014)",
+      "license_source": "https://roboimagedata.compute.dtu.dk/"
+    },
+    {
+      "id": "bmvs_houses",
+      "title": "Aerial houses \u00b7 one click pair",
+      "pair_id": "BlendedMVS/584c58b77072670e72c03990/00000026|00000095",
+      "image1": "bmvs_houses/view1.png",
+      "image2": "bmvs_houses/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.5223214285714286,
+          "y1": 0.9419642857142857,
+          "x2": 0.7051209722246442,
+          "y2": 0.37567486081804546
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05; chosen by the authors",
+      "source_dataset": "BlendedMVS",
+      "source_sequence": "584c58b77072670e72c03990",
+      "source_frames": [
+        "00000026",
+        "00000095"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          175.32716369628906,
+          0.0,
+          111.98680114746094
+        ],
+        [
+          0.0,
+          175.32716369628906,
+          111.55399322509766
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          175.32716369628906,
+          0.0,
+          111.98680114746094
+        ],
+        [
+          0.0,
+          175.32716369628906,
+          111.55399322509766
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.998124361038208,
+          0.05023106932640076,
+          -0.03499934449791908,
+          8.371938705444336
+        ],
+        [
+          0.05003034323453903,
+          -0.998725950717926,
+          -0.006586311385035515,
+          36.817588806152344
+        ],
+        [
+          -0.03528564050793648,
+          0.004822929389774799,
+          -0.9993652701377869,
+          149.85751342773438
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.029664618894457817,
+          0.729604184627533,
+          -0.6832261681556702,
+          110.06489562988281
+        ],
+        [
+          0.9993487596511841,
+          0.0075869569554924965,
+          -0.035288188606500626,
+          -36.13652038574219
+        ],
+        [
+          -0.020562825724482536,
+          -0.6838274002075195,
+          -0.7293534278869629,
+          149.3623046875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "BlendedMVS/584c58b77072670e72c03990/00000026|00000095",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 75.10264587402344,
+          "translation_error_deg": 46.38459777832031
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 178.75115966796875,
+          "translation_error_deg": 67.28594970703125
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 6.094227313995361,
+          "translation_error_deg": 5.452010631561279
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-4.0",
+      "attribution": "Yao Yao et al., BlendedMVS (CVPR 2020)",
+      "license_source": "https://github.com/YoYo000/BlendedMVS#license"
+    },
+    {
+      "id": "bmvs_town",
+      "title": "Town rooftops \u00b7 two click pairs",
+      "pair_id": "BlendedMVS/5aa0f478a9efce63548c1cb4/00000037|00000038",
+      "image1": "bmvs_town/view1.png",
+      "image2": "bmvs_town/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.5357142857142857,
+          "y1": 0.78125,
+          "x2": 0.9194040298461914,
+          "y2": 0.08985663311822074
+        },
+        {
+          "x1": 0.27232142857142855,
+          "y1": 0.6160714285714286,
+          "x2": 0.7898883819580078,
+          "y2": 0.036608525684901645
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05; chosen by the authors",
+      "source_dataset": "BlendedMVS",
+      "source_sequence": "5aa0f478a9efce63548c1cb4",
+      "source_frames": [
+        "00000037",
+        "00000038"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          226.60604858398438,
+          0.0,
+          111.64048767089844
+        ],
+        [
+          0.0,
+          226.60604858398438,
+          111.60067749023438
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          226.60604858398438,
+          0.0,
+          111.64048767089844
+        ],
+        [
+          0.0,
+          226.60604858398438,
+          111.60067749023438
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.9275658130645752,
+          0.2640404999256134,
+          -0.26439419388771057,
+          25.32509994506836
+        ],
+        [
+          0.3736484944820404,
+          -0.6608184576034546,
+          0.6509268283843994,
+          4.871515274047852
+        ],
+        [
+          -0.0028460724279284477,
+          -0.7025673389434814,
+          -0.7116115093231201,
+          -51.681758880615234
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.9307913780212402,
+          0.25704771280288696,
+          -0.2599102258682251,
+          19.980270385742188
+        ],
+        [
+          0.3655257821083069,
+          -0.6626525521278381,
+          0.6536684632301331,
+          -45.9665412902832
+        ],
+        [
+          -0.004205559846013784,
+          -0.7034335732460022,
+          -0.7107487320899963,
+          -49.5151481628418
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "BlendedMVS/5aa0f478a9efce63548c1cb4/00000037|00000038",
+        "num_clicks": 2,
+        "dust3r": {
+          "rotation_error_deg": 93.07195281982422,
+          "translation_error_deg": 34.38319778442383
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 132.9873809814453,
+          "translation_error_deg": 79.61357879638672
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 2.1395456790924072,
+          "translation_error_deg": 2.7803778648376465
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-4.0",
+      "attribution": "Yao Yao et al., BlendedMVS (CVPR 2020)",
+      "license_source": "https://github.com/YoYo000/BlendedMVS#license"
+    },
+    {
+      "id": "bmvs_village",
+      "title": "Village and pond \u00b7 one click pair",
+      "pair_id": "BlendedMVS/5bff3c5cfe0ea555e6bcbf3a/00000026|00000153",
+      "image1": "bmvs_village/view1.png",
+      "image2": "bmvs_village/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.48660714285714285,
+          "y1": 0.5892857142857143,
+          "x2": 0.6649938310895648,
+          "y2": 0.13118415219443186
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05; chosen by the authors",
+      "source_dataset": "BlendedMVS",
+      "source_sequence": "5bff3c5cfe0ea555e6bcbf3a",
+      "source_frames": [
+        "00000026",
+        "00000153"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          226.98033142089844,
+          0.0,
+          111.4696044921875
+        ],
+        [
+          0.0,
+          226.98033142089844,
+          111.93030548095703
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          226.98033142089844,
+          0.0,
+          111.4696044921875
+        ],
+        [
+          0.0,
+          226.98033142089844,
+          111.93030548095703
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.8447688817977905,
+          -0.37084853649139404,
+          0.38579514622688293,
+          -16.21695327758789
+        ],
+        [
+          -0.5349380373954773,
+          -0.6046258211135864,
+          0.590143084526062,
+          -71.70877838134766
+        ],
+        [
+          0.014408326707780361,
+          -0.704910397529602,
+          -0.7091494202613831,
+          131.7819061279297
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          -0.5513760447502136,
+          -0.5905308127403259,
+          0.5892855525016785,
+          -58.86702346801758
+        ],
+        [
+          -0.8342275023460388,
+          0.3843297064304352,
+          -0.3954181671142578,
+          8.591676712036133
+        ],
+        [
+          0.007026277016848326,
+          -0.7096225619316101,
+          -0.7045475244522095,
+          132.7011260986328
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "BlendedMVS/5bff3c5cfe0ea555e6bcbf3a/00000026|00000153",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 11.268932342529297,
+          "translation_error_deg": 65.2527847290039
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 177.5538330078125,
+          "translation_error_deg": 71.0184555053711
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 0.62807297706604,
+          "translation_error_deg": 0.6361216306686401
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-4.0",
+      "attribution": "Yao Yao et al., BlendedMVS (CVPR 2020)",
+      "license_source": "https://github.com/YoYo000/BlendedMVS#license"
+    },
+    {
+      "id": "co3d_smartphone",
+      "title": "Smartphone \u00b7 two click pairs",
+      "pair_id": "CO3D/cellphone/506_73107_142421/frame000001.jpg|frame000052.jpg",
+      "image1": "co3d_smartphone/view1.png",
+      "image2": "co3d_smartphone/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.13392857142857142,
+          "y1": 0.36607142857142855,
+          "x2": 0.4552314962659563,
+          "y2": 0.2647430896759033
+        },
+        {
+          "x1": 0.5892857142857143,
+          "y1": 0.36607142857142855,
+          "x2": 0.6675363949366978,
+          "y2": 0.47238578115190777
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05; chosen by the authors",
+      "source_dataset": "CO3D",
+      "source_sequence": "cellphone/506_73107_142421",
+      "source_frames": [
+        "frame000001",
+        "frame000052"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          346.17041015625,
+          0.0,
+          112.10894775390625
+        ],
+        [
+          0.0,
+          346.17041015625,
+          111.60894775390625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          335.2149353027344,
+          0.0,
+          112.08332824707031
+        ],
+        [
+          0.0,
+          335.2149353027344,
+          111.7178955078125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.5454533100128174,
+          -0.585326075553894,
+          0.5998950600624084,
+          -10.064957618713379
+        ],
+        [
+          0.6449467539787292,
+          0.1639913022518158,
+          0.7464250922203064,
+          -10.465826988220215
+        ],
+        [
+          -0.5352796912193298,
+          0.7940404415130615,
+          0.28805455565452576,
+          -4.9298415184021
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.42614948749542236,
+          -0.5719631314277649,
+          0.7008957266807556,
+          -12.471893310546875
+        ],
+        [
+          0.6540979146957397,
+          0.7300252914428711,
+          0.19803810119628906,
+          -2.326335906982422
+        ],
+        [
+          -0.6249420642852783,
+          0.37406057119369507,
+          0.6852197647094727,
+          -11.784967422485352
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "CO3D/cellphone/506_73107_142421/frame000001.jpg|frame000052.jpg",
+        "num_clicks": 2,
+        "dust3r": {
+          "rotation_error_deg": 179.95152282714844,
+          "translation_error_deg": 72.57878875732422
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 179.11752319335938,
+          "translation_error_deg": 71.63358306884766
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 1.4464508295059204,
+          "translation_error_deg": 3.705281972885132
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-4.0",
+      "attribution": "CO3D dataset contributors / Meta",
+      "license_source": "https://ai.meta.com/datasets/co3d-downloads/"
+    },
+    {
+      "id": "wildrgbd_flowerpot",
+      "title": "Flower pot \u00b7 one click pair",
+      "pair_id": "WildRGB-D/flower_pot/scenes/scene_516/00245|00288",
+      "image1": "wildrgbd_flowerpot/view1.png",
+      "image2": "wildrgbd_flowerpot/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.32589285714285715,
+          "y1": 0.6116071428571429,
+          "x2": 0.46776083537510466,
+          "y2": 0.6036951201302665
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05; chosen by the authors",
+      "source_dataset": "WildRGB-D",
+      "source_sequence": "flower_pot/scenes/scene_516",
+      "source_frames": [
+        "00245",
+        "00288"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          280.73779296875,
+          0.0,
+          111.81063842773438
+        ],
+        [
+          0.0,
+          280.73779296875,
+          111.8865966796875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          280.73779296875,
+          0.0,
+          111.81063842773438
+        ],
+        [
+          0.0,
+          280.73779296875,
+          111.8865966796875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          0.5061715245246887,
+          0.06879417598247528,
+          -0.8596847057342529,
+          0.4095953702926636
+        ],
+        [
+          -0.17872770130634308,
+          0.9835408926010132,
+          -0.026527149602770805,
+          0.006321798078715801
+        ],
+        [
+          0.8437101244926453,
+          0.16707675158977509,
+          0.5101358294487,
+          0.29846712946891785
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.999256432056427,
+          -0.0006350759067572653,
+          -0.03855157643556595,
+          0.02024144120514393
+        ],
+        [
+          8.154971146723256e-05,
+          0.9998969435691833,
+          -0.014357944950461388,
+          0.012194235809147358
+        ],
+        [
+          0.038556721061468124,
+          0.014344124123454094,
+          0.9991534352302551,
+          -5.5607026297366247e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "WildRGB-D/flower_pot/scenes/scene_516/00245|00288",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 67.67283630371094,
+          "translation_error_deg": 48.66230773925781
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 72.43276977539062,
+          "translation_error_deg": 35.12342071533203
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 8.043835639953613,
+          "translation_error_deg": 4.691018104553223
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "MIT",
+      "attribution": "Xia et al., WildRGB-D (CVPR 2024)",
+      "license_source": "https://github.com/wildrgbd/wildrgbd/blob/main/LICENSE"
+    },
+    {
+      "id": "eth3d_courtyard",
+      "title": "Courtyard \u00b7 one click pair",
+      "pair_id": "eth3d/courtyard/DSC_0312|DSC_0314",
+      "image1": "eth3d_courtyard/view1.png",
+      "image2": "eth3d_courtyard/view2.png",
+      "coordinate_space": "normalized 224x224 model crop",
+      "correspondences": [
+        {
+          "x1": 0.7053571428571429,
+          "y1": 0.15625,
+          "x2": 0.08579053197588239,
+          "y2": 0.08055002348763603
+        }
+      ],
+      "source": "Automatic example search, 2026-11-05; chosen by the authors",
+      "source_dataset": "ETH3D",
+      "source_sequence": "courtyard",
+      "source_frames": [
+        "DSC_0312",
+        "DSC_0314"
+      ],
+      "suggested_click_source": "Ground-truth correspondences at corners visible in both views, chosen automatically; not human clicks",
+      "verification": "GPU replay passed, 2026-11-05; float32, symmetrized PnP metrics; prompt token offset 0.0; +-2 px click jitter stays below 20 degrees",
+      "K1": [
+        [
+          189.42111544444444,
+          0.0,
+          112.68556044444443
+        ],
+        [
+          0.0,
+          189.41333005555555,
+          111.85000272222221
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K2": [
+        [
+          189.42111544444444,
+          0.0,
+          112.68556044444443
+        ],
+        [
+          0.0,
+          189.41333005555555,
+          111.85000272222221
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "img_size1": [
+        224,
+        224
+      ],
+      "img_size2": [
+        224,
+        224
+      ],
+      "pose1_c2w": [
+        [
+          -0.093551,
+          -0.389481,
+          -0.916271,
+          11.657521
+        ],
+        [
+          0.995116,
+          -0.065698,
+          -0.073675,
+          -2.496228
+        ],
+        [
+          -0.031502,
+          -0.918688,
+          0.393725,
+          1.709306
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pose2_c2w": [
+        [
+          0.56093,
+          -0.34177,
+          -0.754023,
+          11.204791
+        ],
+        [
+          0.826574,
+          0.180406,
+          0.533131,
+          0.524495
+        ],
+        [
+          -0.046178,
+          -0.922305,
+          0.383694,
+          1.72266
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "release_metrics": {
+        "pair_id": "eth3d/courtyard/DSC_0312|DSC_0314",
+        "num_clicks": 1,
+        "dust3r": {
+          "rotation_error_deg": 88.12259674072266,
+          "translation_error_deg": 50.58136749267578
+        },
+        "click3r_no_clicks": {
+          "rotation_error_deg": 89.37650299072266,
+          "translation_error_deg": 47.3322639465332
+        },
+        "click3r_clicks": {
+          "rotation_error_deg": 0.5553188920021057,
+          "translation_error_deg": 1.2651679515838623
+        }
+      },
+      "release_checkpoint_sha256": "7e882702da087cb214a101a45fa6c8a098aaefc5ce952511076b518e09decc78",
+      "asset_license": "CC-BY-NC-SA-4.0",
+      "attribution": "Sch\u00f6ps et al., ETH3D (CVPR 2017)",
+      "license_source": "https://www.eth3d.net/documentation"
+    }
+  ]
+}

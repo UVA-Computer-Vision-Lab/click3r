@@ -1,0 +1,249 @@
+{
+  "source": "Table 2 cells of the eleven rows, Click3R prompts encoded with token offset 0.0, the training convention. A column <subset>_<split> is a list file in this folder and the folder that evaluation/hard3dbench/two_view.py or five_view.py writes <result_file> to. GPU runs under bfloat16; values unrounded (the evaluators print them rounded as in the paper).",
+  "hardware": "NVIDIA A100 for every In-Distribution row and the Out-of-Distribution Click3R rows. The seven Out-of-Distribution baseline rows (DUSt3R to Pi3 (518)) come from the runs made for the paper on an NVIDIA RTX A6000. Per-sample values can differ across GPUs: on the A6000, Click3R w/o prompts gives 50.5 / 0.783 (2-view) and 54.8 / 0.302 (5-view) Out-of-Distribution.",
+  "metrics": "mAA_30: pose mAA@30 (%) over finite poses; median_pointmap: median pointmap error (evaluation/hard3dbench/common.py cell_values).",
+  "rows": [
+    {
+      "label": "DUSt3R",
+      "result_file": "dust3r_pretrained.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 39.24092409240925,
+          "median_pointmap": 0.5016236038976396
+        },
+        "two_view_ood": {
+          "mAA_30": 45.266666666666666,
+          "median_pointmap": 0.7510796184979078
+        },
+        "five_view_indist": {
+          "mAA_30": 21.115833333333338,
+          "median_pointmap": 2.2510486323738705
+        },
+        "five_view_ood": {
+          "mAA_30": 54.686666666666675,
+          "median_pointmap": 0.2531175803993409
+        }
+      }
+    },
+    {
+      "label": "DUSt3R (retrained)",
+      "result_file": "dust3r_retrained.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 56.12211221122114,
+          "median_pointmap": 0.21611579761964586
+        },
+        "two_view_ood": {
+          "mAA_30": 52.58888888888891,
+          "median_pointmap": 0.700364737728878
+        },
+        "five_view_indist": {
+          "mAA_30": 39.391666666666666,
+          "median_pointmap": 2.130633815744453
+        },
+        "five_view_ood": {
+          "mAA_30": 54.81222222222223,
+          "median_pointmap": 0.2742732968517787
+        }
+      }
+    },
+    {
+      "label": "MASt3R (512)",
+      "result_file": "mast3r_512.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 62.92079207920794,
+          "median_pointmap": 0.22869282740058833
+        },
+        "two_view_ood": {
+          "mAA_30": 51.64444444444444,
+          "median_pointmap": 0.5284016052217764
+        },
+        "five_view_indist": {
+          "mAA_30": 48.39666666666666,
+          "median_pointmap": 1.3330728154351252
+        },
+        "five_view_ood": {
+          "mAA_30": 58.02222222222223,
+          "median_pointmap": 0.2247056678073328
+        }
+      }
+    },
+    {
+      "label": "VGGT (224)",
+      "result_file": "vggt_224.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 40.519801980198025,
+          "median_pointmap": 0.6204682786038451
+        },
+        "two_view_ood": {
+          "mAA_30": 47.355555555555554,
+          "median_pointmap": 1.7663602660714706
+        },
+        "five_view_indist": {
+          "mAA_30": 33.21750000000001,
+          "median_pointmap": 1.535731056601119
+        },
+        "five_view_ood": {
+          "mAA_30": 47.12777777777777,
+          "median_pointmap": 0.5343139259998051
+        }
+      }
+    },
+    {
+      "label": "VGGT (518)",
+      "result_file": "vggt_518.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 63.71287128712873,
+          "median_pointmap": 0.2564650680118823
+        },
+        "two_view_ood": {
+          "mAA_30": 81.33333333333333,
+          "median_pointmap": 0.328667431772184
+        },
+        "five_view_indist": {
+          "mAA_30": 56.52083333333332,
+          "median_pointmap": 1.2221455778544277
+        },
+        "five_view_ood": {
+          "mAA_30": 81.14333333333333,
+          "median_pointmap": 0.0987591804349465
+        }
+      }
+    },
+    {
+      "label": "Pi3 (224)",
+      "result_file": "pi3_224.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 60.651815181518174,
+          "median_pointmap": 0.2988685931823595
+        },
+        "two_view_ood": {
+          "mAA_30": 71.1,
+          "median_pointmap": 0.43262097119287807
+        },
+        "five_view_indist": {
+          "mAA_30": 56.860833333333325,
+          "median_pointmap": 1.2335616991306755
+        },
+        "five_view_ood": {
+          "mAA_30": 73.45666666666666,
+          "median_pointmap": 0.14262657266664452
+        }
+      }
+    },
+    {
+      "label": "Pi3 (518)",
+      "result_file": "pi3_518.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 64.47194719471949,
+          "median_pointmap": 0.23215580249644263
+        },
+        "two_view_ood": {
+          "mAA_30": 80.59999999999998,
+          "median_pointmap": 0.31849509995295294
+        },
+        "five_view_indist": {
+          "mAA_30": 60.27999999999999,
+          "median_pointmap": 0.8286725132167634
+        },
+        "five_view_ood": {
+          "mAA_30": 81.42444444444446,
+          "median_pointmap": 0.09597818556057723
+        }
+      }
+    },
+    {
+      "label": "Click3R w/o prompts",
+      "result_file": "click3r_k0.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 55.29166666666665,
+          "median_pointmap": 0.24420858566119968
+        },
+        "two_view_ood": {
+          "mAA_30": 50.78888888888889,
+          "median_pointmap": 0.781062991385131
+        },
+        "five_view_indist": {
+          "mAA_30": 38.75999999999999,
+          "median_pointmap": 2.1206493750937425
+        },
+        "five_view_ood": {
+          "mAA_30": 54.74888888888889,
+          "median_pointmap": 0.3103481855286311
+        }
+      }
+    },
+    {
+      "label": "Click3R (1 prompt)",
+      "result_file": "click3r_k1.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 57.45833333333334,
+          "median_pointmap": 0.21808461620115624
+        },
+        "two_view_ood": {
+          "mAA_30": 56.6111111111111,
+          "median_pointmap": 0.688948175208769
+        },
+        "five_view_indist": {
+          "mAA_30": 45.037499999999994,
+          "median_pointmap": 1.8825127858359456
+        },
+        "five_view_ood": {
+          "mAA_30": 56.6788888888889,
+          "median_pointmap": 0.2682146344745072
+        }
+      }
+    },
+    {
+      "label": "Click3R (4 prompts)",
+      "result_file": "click3r_k4.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 61.283333333333324,
+          "median_pointmap": 0.19629129176155763
+        },
+        "two_view_ood": {
+          "mAA_30": 60.37777777777777,
+          "median_pointmap": 0.6832220322344249
+        },
+        "five_view_indist": {
+          "mAA_30": 48.576666666666654,
+          "median_pointmap": 1.583732084076268
+        },
+        "five_view_ood": {
+          "mAA_30": 58.61555555555557,
+          "median_pointmap": 0.26290941807601265
+        }
+      }
+    },
+    {
+      "label": "Click3R (8 prompts)",
+      "result_file": "click3r_k8.json",
+      "cells": {
+        "two_view_indist": {
+          "mAA_30": 61.8,
+          "median_pointmap": 0.18621966363016806
+        },
+        "two_view_ood": {
+          "mAA_30": 62.43333333333335,
+          "median_pointmap": 0.6861510300431283
+        },
+        "five_view_indist": {
+          "mAA_30": 49.33833333333334,
+          "median_pointmap": 1.524568462221972
+        },
+        "five_view_ood": {
+          "mAA_30": 60.035555555555575,
+          "median_pointmap": 0.2543034522058427
+        }
+      }
+    }
+  ]
+}

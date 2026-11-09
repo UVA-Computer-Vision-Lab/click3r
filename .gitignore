@@ -1,0 +1,43 @@
+# Environments and downloaded dependencies
+.venv/
+segment-anything/
+mast3r/
+vggt/
+Pi3/
+
+# Weights, datasets, generated outputs, and author release notes
+/checkpoints/
+/data/
+/datasets/
+/DATA/
+/artifacts/
+/outputs/
+/results/
+/experiments/
+/interactive_output/
+/logs/
+/wandb/
+/.gradio/
+*.log
+
+# Python, editor, and build artifacts
+__pycache__/
+*.pyc
+# Gradio generates this component stub when importing the demo.
+/click3r/demo/display.pyi
+*.so
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.vscode/
+.idea/
+.DS_Store
+
+# Local worktrees
+/.release/
+
+# Historical experiment snapshots retained locally for author review
+/extras/experiments/archive/
