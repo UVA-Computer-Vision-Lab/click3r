@@ -8,7 +8,7 @@
 [![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20OnlineDemo-276cb4.svg)](https://huggingface.co/spaces/uva-cv-lab/Click3R)
 [![Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-d96902.svg)](https://huggingface.co/uva-cv-lab/Click3R)
 [![Hard3DBench](https://img.shields.io/badge/%F0%9F%A4%97%20Hard3DBench-276cb4.svg)](https://huggingface.co/datasets/uva-cv-lab/Hard3DBench)
-![arXiv](https://img.shields.io/badge/Arxiv-coming%20soon-b5212f.svg?logo=arxiv)
+[![arXiv](https://img.shields.io/badge/arXiv-2611.12875-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2611.12875)
 
 </div>
 
